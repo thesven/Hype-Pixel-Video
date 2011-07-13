@@ -1,0 +1,5 @@
+#Tue Jul 12 22:54:15 MDT 2011
+com.powerflasher.fdt.core.apparat.disabled.launchers=
+com.powerflasher.fdt.core.apparat.features=Dump o\=${swfLocation}/dump abc swf uml\n|Reducer q \= .5|TDSI o ${swfLocation}/Main.swf -f true -a true -e true -m true|
+eclipse.preferences.version=1
+useProjectSettings=true

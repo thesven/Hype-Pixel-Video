@@ -1,0 +1,501 @@
+Abc:
+  16 method(s), 14 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      1      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    66 string(s):    
+      "null"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas;ICanvas.as"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:isCapturing/get"      
+      "Boolean"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:transparent/get"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:fillColor/get"      
+      "int"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasBlendMode/get"      
+      "String"      
+      "value"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasBlendMode/set"      
+      "void"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasColorTransform/get"      
+      "flash.geom"      
+      "ColorTransform"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasColorTransform/set"      
+      "target"      
+      "continuous"      
+      "type"      
+      "interval"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:startCapture"      
+      "enter_frame"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:stopCapture"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:capture"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:clear"      
+      "filter"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:applyFilter"      
+      "flash.filters"      
+      "BitmapFilter"      
+      "transform"      
+      "hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:colorTransform"      
+      "hype.framework.canvas:ICanvas/ICanvas"      
+      "IEncodable"      
+      "hype.framework.canvas"      
+      "hype.framework.canvas:ICanvas"      
+      "isCapturing"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as"      
+      "pos"      
+      "243"      
+      "transparent"      
+      "281"      
+      "fillColor"      
+      "319"      
+      "canvasBlendMode"      
+      "354"      
+      "395"      
+      "canvasColorTransform"      
+      "446"      
+      "500"      
+      "startCapture"      
+      "563"      
+      "stopCapture"      
+      "675"      
+      "capture"      
+      "709"      
+      "clear"      
+      "759"      
+      "applyFilter"      
+      "784"      
+      "colorTransform"      
+      "834"      
+      "ICanvas"      
+      "199"      
+    6 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(22,'flash.filters)      
+      AbcNamespace(22,'hype.framework.canvas)      
+      AbcNamespace(8,'hype.framework.canvas:ICanvas)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])      
+    21 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))      
+      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
+      AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))      
+      AbcQName('isCapturing,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('transparent,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('fillColor,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('canvasBlendMode,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('canvasColorTransform,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('startCapture,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('stopCapture,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('capture,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('clear,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('applyFilter,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('colorTransform,AbcNamespace(8,'hype.framework.canvas:ICanvas))      
+      AbcQName('ICanvas,AbcNamespace(22,'hype.framework.canvas))      
+      AbcMultiname('ICanvas,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='243,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='281,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='319,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='354,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='395,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='446,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='500,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='563,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='675,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='709,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='759,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='784,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='834,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+    ['__go_to_definition_help('pos='199,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              10 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas;ICanvas.as)                
+                        +0|-0  DebugLine(8)                
+                        +1|-0  FindPropStrict(AbcMultiname('ICanvas,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ICanvas,AbcNamespace(22,'hype.framework.canvas))]])                
+                        +0|-2  InitProperty(AbcQName('ICanvas,AbcNamespace(22,'hype.framework.canvas)))                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('ICanvas,AbcNamespace(22,'hype.framework.canvas))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_definition_help('pos='199,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('ICanvas,AbcNamespace(22,'hype.framework.canvas))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+                AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))                
+              Method:              
+                Name: hype.framework.canvas:ICanvas/ICanvas                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Getter:                
+                  Name: AbcQName('isCapturing,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='243,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:isCapturing/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Getter:                
+                  Name: AbcQName('transparent,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='281,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:transparent/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Getter:                
+                  Name: AbcQName('fillColor,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='319,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:fillColor/get                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Getter:                
+                  Name: AbcQName('canvasBlendMode,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='354,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasBlendMode/get                    
+                    Return Type: AbcQName('String,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Setter:                
+                  Name: AbcQName('canvasBlendMode,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='395,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasBlendMode/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: value                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                Trait Getter:                
+                  Name: AbcQName('canvasColorTransform,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='446,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasColorTransform/get                    
+                    Return Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Setter:                
+                  Name: AbcQName('canvasColorTransform,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='500,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:canvasColorTransform/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: value                        
+                        Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('startCapture,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='563,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:startCapture                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: target                        
+                        Type: AbcQName('null,AbcNamespace(0,'null))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: continuous                        
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: false                        
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'enter_frame                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                Trait Method:                
+                  Name: AbcQName('stopCapture,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='675,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:stopCapture                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Method:                
+                  Name: AbcQName('capture,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='709,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:capture                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: continuous                        
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: true                        
+                Trait Method:                
+                  Name: AbcQName('clear,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='759,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:clear                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                Trait Method:                
+                  Name: AbcQName('applyFilter,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='784,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:applyFilter                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: filter                        
+                        Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('colorTransform,AbcNamespace(8,'hype.framework.canvas:ICanvas))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='834,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/ICanvas.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas:ICanvas/hype.framework.canvas:ICanvas:colorTransform                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: transform                        
+                        Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                        
+                        Optional: false                        

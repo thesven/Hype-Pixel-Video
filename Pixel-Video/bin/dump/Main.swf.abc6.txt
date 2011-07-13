@@ -1,0 +1,1008 @@
+Abc:
+  11 method(s), 14 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    91 string(s):    
+      "null"      
+      "hype.framework.interactive:HotKey"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as"      
+      "owner"      
+      "_owner"      
+      "KeyboardEvent"      
+      "flash.events"      
+      "KEY_DOWN"      
+      "onKeyDown"      
+      "addEventListener"      
+      "KEY_UP"      
+      "onKeyUp"      
+      "Dictionary"      
+      "flash.utils"      
+      "_comboTable"      
+      "Object"      
+      "_keyCodeTable"      
+      "_charCodeTable"      
+      "hype.framework.interactive:HotKey/HotKey"      
+      "flash.display"      
+      "InteractiveObject"      
+      "removeEventListener"      
+      "hype.framework.interactive:HotKey/destroy"      
+      "void"      
+      "Array"      
+      "callback"      
+      "key"      
+      "rest"      
+      "max"      
+      "i"      
+      "keyList"      
+      "length"      
+      "HotKey.as$24"      
+      "hype.framework.interactive"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "parseKey"      
+      "push"      
+      "hype.framework.interactive:HotKey/addHotKey"      
+      "Function"      
+      "hype.framework.interactive:HotKey/removeHotKey"      
+      "Boolean"      
+      "code"      
+      "hype.framework.interactive:HotKey/isKeyDown"      
+      "uint"      
+      "char"      
+      "toLowerCase"      
+      "charCodeAt"      
+      "hype.framework.interactive:HotKey/isCharDown"      
+      "String"      
+      "KeyData"      
+      "event"      
+      "comboList"      
+      "numKeys"      
+      "found"      
+      "data"      
+      "keyCode"      
+      "f"      
+      "charCode"      
+      "isKeyCode"      
+      "hype.framework.interactive:HotKey/protected:onKeyDown"      
+      "hype.framework.interactive:HotKey/protected:onKeyUp"      
+      "int"      
+      "Error"      
+      "Bad keycode/character"      
+      "hype.framework.interactive:HotKey/protected:parseKey"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as"      
+      "pos"      
+      "236"      
+      "278"      
+      "318"      
+      "356"      
+      "destroy"      
+      "1024"      
+      "addHotKey"      
+      "1500"      
+      "removeHotKey"      
+      "1925"      
+      "isKeyDown"      
+      "2327"      
+      "isCharDown"      
+      "2617"      
+      "2749"      
+      "3553"      
+      "3699"      
+      "HotKey"      
+      "__go_to_ctor_definition_help"      
+      "541"      
+      "211"      
+    13 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.interactive:HotKey)      
+      AbcNamespace(24,'hype.framework.interactive:HotKey)      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(5,'HotKey.as$24)      
+      AbcNamespace(22,'hype.framework.interactive)      
+      AbcNamespace(23,'hype.framework.interactive)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(26,'hype.framework.interactive:HotKey)      
+      AbcNamespace(26,'Object)      
+    3 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.interactive)])      
+    41 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('KEY_DOWN,AbcNamespace(22,'))      
+      AbcQName('onKeyDown,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('KEY_UP,AbcNamespace(22,'))      
+      AbcQName('onKeyUp,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
+      AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('removeEventListener,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)]))      
+      AbcQName('parseKey,AbcNamespace(24,'hype.framework.interactive:HotKey))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('toLowerCase,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('charCodeAt,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))      
+      AbcQName('keyCode,AbcNamespace(22,'))      
+      AbcQName('charCode,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('isKeyCode,AbcNamespace(22,'))      
+      AbcQName('code,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('Error,AbcNamespace(22,'))      
+      AbcQName('destroy,AbcNamespace(22,'))      
+      AbcQName('addHotKey,AbcNamespace(22,'))      
+      AbcQName('removeHotKey,AbcNamespace(22,'))      
+      AbcQName('isKeyDown,AbcNamespace(22,'))      
+      AbcQName('isCharDown,AbcNamespace(22,'))      
+      AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))      
+      AbcMultiname('HotKey,AbcNSSet([AbcNamespace(22,'hype.framework.interactive)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='236,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='278,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='356,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='1024,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='1500,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='1925,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='2327,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='2617,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='2749,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='3553,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='3699,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_ctor_definition_help('pos='541,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+    ['__go_to_definition_help('pos='211,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                
+                        +0|-0  DebugLine(9)                
+                        +1|-0  FindPropStrict(AbcMultiname('HotKey,AbcNSSet([AbcNamespace(22,'hype.framework.interactive)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='541,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]            
+            ['__go_to_definition_help('pos='211,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.interactive:HotKey)              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.interactive:HotKey/HotKey                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: owner                    
+                    Type: AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 6                  
+                  Locals: 2                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 6                    
+                    scopeStack:   1                    
+                    localCount:   2                    
+                    0 exception(s):                    
+                    55 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                      
+                              +0|-0  DebugLine(21)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'owner,0,21)                      
+                              +0|-0  DebugLine(21)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(22)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +0|-0  DebugLine(23)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +1|-0  FindPropStrict(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onKeyDown,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +1|-0  PushFalse()                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushTrue()                      
+                              +1|-6  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),5)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(24)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +1|-0  FindPropStrict(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onKeyUp,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +1|-0  PushFalse()                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushTrue()                      
+                              +1|-6  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),5)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(26)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
+                              +1|-1  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),0)                      
+                              +0|-2  InitProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                      
+                              +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                      
+                              +0|-2  InitProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +0|-0  DebugLine(28)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                      
+                              +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                      
+                              +0|-2  InitProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                      
+                              +0|-0  DebugLine(29)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Index: 0                  
+                  Type: AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='236,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Index: 0                  
+                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='278,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Index: 0                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Index: 0                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='356,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                Trait Method:                
+                  Name: AbcQName('destroy,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1024,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/destroy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        38 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(35)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(36)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  FindPropStrict(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KEY_DOWN,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onKeyDown,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(37)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_owner,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  FindPropStrict(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('KEY_UP,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onKeyUp,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(39)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +0|-0  DebugLine(40)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +0|-0  DebugLine(41)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +0|-0  DebugLine(42)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('addHotKey,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1500,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/addHotKey                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: true                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: callback                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: key                        
+                        Type: AbcQName('null,AbcNamespace(0,'null))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 7                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   7                        
+                        0 exception(s):                        
+                        65 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(51)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  Debug(1,'callback,0,51)                          
+                                  +0|-0  Debug(1,'key,1,51)                          
+                                  +0|-0  Debug(1,'rest,2,51)                          
+                                  +0|-0  Debug(1,'max,3,52)                          
+                                  +0|-0  Debug(1,'i,4,53)                          
+                                  +0|-0  Debug(1,'keyList,5,54)                          
+                                  +0|-0  DebugLine(52)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushString('length)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(56)                          
+                                  +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +1|-1  ConstructProp(AbcQName('Array,AbcNamespace(22,')),0)                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(57)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  CallProperty(AbcQName('parseKey,AbcNamespace(24,'hype.framework.interactive:HotKey)),1)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(59)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(60)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-2  CallProperty(AbcQName('parseKey,AbcNamespace(24,'hype.framework.interactive:HotKey)),1)                          
+                                  +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(59)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-1  Increment()                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(5)                          
+                          L0:     +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(64)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('removeHotKey,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1925,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/removeHotKey                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: callback                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        24 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(71)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'callback,0,71)                          
+                                  +0|-0  DebugLine(72)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(73)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(74)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                          L0:     +0|-0  DebugLine(76)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('isKeyDown,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2327,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/isKeyDown                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: code                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        13 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(87)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'code,0,87)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-2  Equals()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('isCharDown,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2617,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/isCharDown                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: char                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        16 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'char,0,98)                          
+                                  +0|-0  DebugLine(99)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  CallProperty(AbcQName('toLowerCase,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  CallProperty(AbcQName('charCodeAt,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-2  Equals()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('onKeyDown,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2749,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/protected:onKeyDown                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 10                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   10                        
+                        0 exception(s):                        
+                        148 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(102)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)))                          
+                                  +0|-1  SetLocal(6)                          
+                                  +1|-0  PushUndefined()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(7)                          
+                                  +0|-0  Debug(1,'event,0,102)                          
+                                  +0|-0  Debug(1,'comboList,1,103)                          
+                                  +0|-0  Debug(1,'i,2,104)                          
+                                  +0|-0  Debug(1,'numKeys,3,105)                          
+                                  +0|-0  Debug(1,'found,4,106)                          
+                                  +0|-0  Debug(1,'data,5,107)                          
+                                  +0|-0  DebugLine(109)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('keyCode,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  Debug(1,'f,6,113)                          
+                                  +0|-0  DebugLine(110)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('keyCode,AbcNamespace(22,')))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(111)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('charCode,AbcNamespace(22,')))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(113)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(8)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(9)                          
+                                  +0|-0  Jump(L1)                          
+                          L8:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(9)                          
+                                  +1|-0  GetLocal(8)                          
+                                  +1|-2  NextName()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(7)                          
+                                  +0|-0  DebugLine(114)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_comboTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(115)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(117)                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(118)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L2)                          
+                          L7:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(119)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)))                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(121)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-1  GetProperty(AbcQName('isKeyCode,AbcNamespace(22,')))                          
+                                  +0|-1  IfFalse(L3)                          
+                                  +0|-0  DebugLine(122)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-1  GetProperty(AbcQName('code,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  IfEqual(L4)                          
+                                  +0|-0  DebugLine(123)                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(124)                          
+                                  +0|-0  Jump(L5)                          
+                          L4:     +0|-0  Jump(L6)                          
+                          L3:     +0|-0  DebugLine(127)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-1  GetProperty(AbcQName('code,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  IfEqual(L6)                          
+                                  +0|-0  DebugLine(128)                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(129)                          
+                                  +0|-0  Jump(L5)                          
+                          L6:     +0|-0  DebugLine(118)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  Increment()                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L2:     +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  IfLessThan(L7)                          
+                          L5:     +0|-0  DebugLine(134)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(135)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-0  GetGlobalScope()                          
+                                  +1|-2  Call(0)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(113)                          
+                                  +1|-0  HasNext2(9,8)                          
+                                  +0|-1  IfTrue(L8)                          
+                                  +0|-0  Kill(9)                          
+                                  +0|-0  Kill(8)                          
+                          L0:     +0|-0  DebugLine(139)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onKeyUp,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3553,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/protected:onKeyUp                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('KeyboardEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        21 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(141)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,141)                          
+                                  +0|-0  DebugLine(142)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_keyCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('keyCode,AbcNamespace(22,')))                          
+                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(143)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_charCodeTable,AbcNamespace(24,'hype.framework.interactive:HotKey)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('charCode,AbcNamespace(22,')))                          
+                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.interactive:HotKey),AbcNamespace(24,'hype.framework.interactive:HotKey),AbcNamespace(22,'),AbcNamespace(5,'HotKey.as$24),AbcNamespace(22,'hype.framework.interactive),AbcNamespace(23,'hype.framework.interactive),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.framework.interactive:HotKey),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(144)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('parseKey,AbcNamespace(24,'hype.framework.interactive:HotKey))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3699,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/HotKey.as)]                    
+                  Method:                  
+                    Name: hype.framework.interactive:HotKey/protected:parseKey                    
+                    Return Type: AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: key                        
+                        Type: AbcQName('null,AbcNamespace(0,'null))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        41 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;HotKey.as)                          
+                                  +0|-0  DebugLine(146)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'key,0,146)                          
+                                  +0|-0  DebugLine(147)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-2  IsTypeLate()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(148)                          
+                                  +1|-0  FindPropStrict(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)))                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-3  ConstructProp(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)),2)                          
+                                  +0|-1  ReturnValue()                          
+                          L0:     +0|-0  DebugLine(150)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  FindPropStrict(AbcQName('String,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('String,AbcNamespace(22,')))                          
+                                  +1|-2  IsTypeLate()                          
+                                  +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(151)                          
+                                  +1|-0  FindPropStrict(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)))                          
+                                  +1|-0  FindPropStrict(AbcQName('String,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('String,AbcNamespace(22,')),1)                          
+                                  +1|-1  CallProperty(AbcQName('toLowerCase,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  CallProperty(AbcQName('charCodeAt,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +1|-0  PushFalse()                          
+                                  +1|-3  ConstructProp(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)),2)                          
+                                  +0|-1  ReturnValue()                          
+                          L1:     +0|-0  DebugLine(155)                          
+                                  +1|-0  FindPropStrict(AbcQName('Error,AbcNamespace(22,')))                          
+                                  +1|-0  PushString('Bad keycode/character)                          
+                                  +1|-2  ConstructProp(AbcQName('Error,AbcNamespace(22,')),1)                          
+                                  +0|-1  Throw()                          

@@ -1,0 +1,332 @@
+Abc:
+  6 method(s), 6 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    30 string(s):    
+      "null"      
+      "hype.framework.rhythm:SimpleRhythm"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as"      
+      "callback"      
+      "_callback"      
+      "hype.framework.rhythm:SimpleRhythm/SimpleRhythm"      
+      "Function"      
+      "method"      
+      "hype.framework.rhythm:SimpleRhythm/callback/set"      
+      "void"      
+      "hype.framework.rhythm:SimpleRhythm/callback/get"      
+      "hype.framework.rhythm:SimpleRhythm/run"      
+      "IRhythm"      
+      "hype.framework.rhythm"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as"      
+      "pos"      
+      "240"      
+      "539"      
+      "624"      
+      "run"      
+      "692"      
+      "SimpleRhythm"      
+      "AbstractRhythm"      
+      "Object"      
+      "__go_to_ctor_definition_help"      
+      "377"      
+      "169"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(24,'hype.framework.rhythm:SimpleRhythm)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])      
+    11 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcMultiname('IRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
+      AbcQName('callback,AbcNamespace(22,'))      
+      AbcQName('run,AbcNamespace(22,'))      
+      AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcMultiname('SimpleRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
+      AbcQName('Object,AbcNamespace(22,'))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='240,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+    ['__go_to_definition_help('pos='539,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+    ['__go_to_definition_help('pos='624,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+    ['__go_to_definition_help('pos='692,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+    ['__go_to_ctor_definition_help('pos='377,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+    ['__go_to_definition_help('pos='169,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 4            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   3              
+              localCount:   1              
+              0 exception(s):              
+              20 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                
+                        +0|-0  DebugLine(7)                
+                        +1|-0  FindPropStrict(AbcMultiname('SimpleRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +1|-1  GetProperty(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +1|-1  GetProperty(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='377,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]            
+            ['__go_to_definition_help('pos='169,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))              
+              Base: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.rhythm:SimpleRhythm)              
+              Interfaces:               
+                AbcMultiname('IRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))                
+              Method:              
+                Name: hype.framework.rhythm:SimpleRhythm/SimpleRhythm                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: callback                    
+                    Type: AbcQName('Function,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 2                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   2                    
+                    0 exception(s):                    
+                    14 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                      
+                              +0|-0  DebugLine(15)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'callback,0,15)                      
+                              +0|-0  DebugLine(16)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm)))                      
+                              +0|-0  DebugLine(18)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(19)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='240,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]                    
+                Trait Setter:                
+                  Name: AbcQName('callback,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='539,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:SimpleRhythm/callback/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: method                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                          
+                                  +0|-0  DebugLine(24)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'method,0,24)                          
+                                  +0|-0  DebugLine(25)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm)))                          
+                                  +0|-0  DebugLine(26)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('callback,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='624,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:SimpleRhythm/callback/get                    
+                    Return Type: AbcQName('Function,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                          
+                                  +0|-0  DebugLine(28)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(29)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('run,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='692,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/SimpleRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:SimpleRhythm/run                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;SimpleRhythm.as)                          
+                                  +0|-0  DebugLine(32)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(33)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('_callback,AbcNamespace(5,'hype.framework.rhythm:SimpleRhythm)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(34)                          
+                                  +0|-0  ReturnVoid()                          

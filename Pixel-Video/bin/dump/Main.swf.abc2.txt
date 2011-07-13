@@ -1,0 +1,182 @@
+Abc:
+  3 method(s), 1 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    17 string(s):    
+      "null"      
+      "CircleAsset"      
+      ""      
+      "flash.display"      
+      "MovieClip"      
+      "Object"      
+      "EventDispatcher"      
+      "flash.events"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+      "Sprite"      
+      "__go_to_definition_help"      
+      "file"      
+      "/workspaces/AndersonRanch2011/Work2011/lib_assets/"      
+      "pos"      
+      "0"      
+    6 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'CircleAsset)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(24,'CircleAsset)      
+      AbcNamespace(22,'flash.events)      
+    1 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+    9 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('CircleAsset,AbcNamespace(22,'))      
+      AbcQName('MovieClip,AbcNamespace(22,'flash.display))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='0,'file='/workspaces/AndersonRanch2011/Work2011/lib_assets/)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 9            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   8              
+              localCount:   1              
+              0 exception(s):              
+              36 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  GetProperty(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('MovieClip,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('MovieClip,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('MovieClip,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('MovieClip,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('CircleAsset,AbcNamespace(22,'))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('CircleAsset,AbcNamespace(22,')))                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('CircleAsset,AbcNamespace(22,'))          
+          Index: 1          
+          Metadata:          
+            ['__go_to_definition_help('pos='0,'file='/workspaces/AndersonRanch2011/Work2011/lib_assets/)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('CircleAsset,AbcNamespace(22,'))              
+              Base: AbcQName('MovieClip,AbcNamespace(22,'flash.display))              
+              Is Sealed: false              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'CircleAsset)              
+              Interfaces:               
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 10                  
+                  MaxScopeDepth: 11                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    5 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  ReturnVoid()                      

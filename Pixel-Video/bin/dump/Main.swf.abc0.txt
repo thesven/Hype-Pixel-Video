@@ -1,0 +1,902 @@
+Abc:
+  8 method(s), 18 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    12 integer(s):    
+      0      
+      10347012      
+      9359620      
+      7782148      
+      8238095      
+      5939210      
+      4490506      
+      3304454      
+      1925381      
+      3305249      
+      2056995      
+      1856802      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    116 string(s):    
+      "null"      
+      "Main"      
+      ""      
+      "/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as"      
+      "ColorTransform"      
+      "flash.geom"      
+      "colorTransform"      
+      "addEventListener"      
+      "Event"      
+      "flash.events"      
+      "ADDED_TO_STAGE"      
+      "init"      
+      "Main/Main"      
+      "e"      
+      "removeEventListener"      
+      "WebCamFeed"      
+      "com.andersonranch.project.webcam"      
+      "stage"      
+      "stageWidth"      
+      "stageHeight"      
+      "cam"      
+      "addChild"      
+      "visible"      
+      "Sprite"      
+      "flash.display"      
+      "objContainer"      
+      "GridLayout"      
+      "hype.extended.layout"      
+      "objLayout"      
+      "ColorPool"      
+      "hype.extended.color"      
+      "colorPool"      
+      "ObjectPool"      
+      "hype.framework.core"      
+      "CircleAsset"      
+      "objPool"      
+      "onPoolRequest"      
+      "onRequestObject"      
+      "requestAll"      
+      "BitmapCanvas"      
+      "hype.framework.display"      
+      "bmc"      
+      "startCapture"      
+      "HotKey"      
+      "hype.framework.interactive"      
+      "hotKey"      
+      "swapState"      
+      "s"      
+      "addHotKey"      
+      "SimpleRhythm"      
+      "hype.framework.rhythm"      
+      "startPixelCheck"      
+      "checkRhythm"      
+      "TimeType"      
+      "TIME"      
+      "start"      
+      "isRunning"      
+      "Main/private:init"      
+      "void"      
+      "clip"      
+      "applyLayout"      
+      "colorChildren"      
+      "alpha"      
+      "Main/private:onPoolRequest"      
+      "MovieClip"      
+      "r"      
+      "takeSnapshot"      
+      "activeSet"      
+      "checkPointOnBitmap"      
+      "forEach"      
+      "Main/private:startPixelCheck"      
+      "0x"      
+      "x"      
+      "y"      
+      "getColorAtPoint"      
+      "toString"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "0xffffff"      
+      "Main/private:checkPointOnBitmap"      
+      "stop"      
+      "Main/private:swapState"      
+      "__go_to_definition_help"      
+      "pos"      
+      "617"      
+      "650"      
+      "685"      
+      "719"      
+      "754"      
+      "790"      
+      "830"      
+      "859"      
+      "894"      
+      "Boolean"      
+      "987"      
+      "1121"      
+      "2295"      
+      "2486"      
+      "2662"      
+      "2872"      
+      "Object"      
+      "EventDispatcher"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+      "SWF"      
+      "backgroundColor"      
+      "#000000"      
+      "frameRate"      
+      "30"      
+      "width"      
+      "640"      
+      "height"      
+      "480"      
+      "__go_to_ctor_definition_help"      
+      "1035"      
+      "577"      
+    15 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'Main)      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,'com.andersonranch.project.webcam)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'hype.extended.layout)      
+      AbcNamespace(22,'hype.extended.color)      
+      AbcNamespace(22,'hype.framework.core)      
+      AbcNamespace(22,'hype.framework.display)      
+      AbcNamespace(22,'hype.framework.interactive)      
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'Main)      
+    1 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+    63 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))      
+      AbcQName('colorTransform,AbcNamespace(5,'Main))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('ADDED_TO_STAGE,AbcNamespace(22,'))      
+      AbcQName('init,AbcNamespace(5,'Main))      
+      AbcQName('removeEventListener,AbcNamespace(22,'))      
+      AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))      
+      AbcQName('stage,AbcNamespace(22,'))      
+      AbcQName('stageWidth,AbcNamespace(22,'))      
+      AbcQName('stageHeight,AbcNamespace(22,'))      
+      AbcQName('cam,AbcNamespace(5,'Main))      
+      AbcQName('addChild,AbcNamespace(22,'))      
+      AbcQName('visible,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('objContainer,AbcNamespace(5,'Main))      
+      AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))      
+      AbcQName('objLayout,AbcNamespace(5,'Main))      
+      AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))      
+      AbcQName('colorPool,AbcNamespace(5,'Main))      
+      AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('CircleAsset,AbcNamespace(22,'))      
+      AbcQName('objPool,AbcNamespace(5,'Main))      
+      AbcQName('onPoolRequest,AbcNamespace(5,'Main))      
+      AbcQName('onRequestObject,AbcNamespace(22,'))      
+      AbcQName('requestAll,AbcNamespace(22,'))      
+      AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))      
+      AbcQName('bmc,AbcNamespace(5,'Main))      
+      AbcQName('startCapture,AbcNamespace(22,'))      
+      AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))      
+      AbcQName('hotKey,AbcNamespace(5,'Main))      
+      AbcQName('swapState,AbcNamespace(5,'Main))      
+      AbcQName('addHotKey,AbcNamespace(22,'))      
+      AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('startPixelCheck,AbcNamespace(5,'Main))      
+      AbcQName('checkRhythm,AbcNamespace(5,'Main))      
+      AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('TIME,AbcNamespace(22,'))      
+      AbcQName('start,AbcNamespace(22,'))      
+      AbcQName('isRunning,AbcNamespace(5,'Main))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('applyLayout,AbcNamespace(22,'))      
+      AbcQName('colorChildren,AbcNamespace(22,'))      
+      AbcQName('alpha,AbcNamespace(22,'))      
+      AbcQName('MovieClip,AbcNamespace(22,'flash.display))      
+      AbcQName('takeSnapshot,AbcNamespace(22,'))      
+      AbcQName('activeSet,AbcNamespace(22,'))      
+      AbcQName('checkPointOnBitmap,AbcNamespace(5,'Main))      
+      AbcQName('forEach,AbcNamespace(22,'))      
+      AbcQName('colorTransform,AbcNamespace(22,'))      
+      AbcQName('x,AbcNamespace(22,'))      
+      AbcQName('y,AbcNamespace(22,'))      
+      AbcQName('getColorAtPoint,AbcNamespace(22,'))      
+      AbcQName('toString,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('stop,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('Main,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='617)]    
+    ['__go_to_definition_help('pos='650)]    
+    ['__go_to_definition_help('pos='685)]    
+    ['__go_to_definition_help('pos='719)]    
+    ['__go_to_definition_help('pos='754)]    
+    ['__go_to_definition_help('pos='790)]    
+    ['__go_to_definition_help('pos='830)]    
+    ['__go_to_definition_help('pos='859)]    
+    ['__go_to_definition_help('pos='894)]    
+    ['__go_to_definition_help('pos='987)]    
+    ['__go_to_definition_help('pos='1121)]    
+    ['__go_to_definition_help('pos='2295)]    
+    ['__go_to_definition_help('pos='2486)]    
+    ['__go_to_definition_help('pos='2662)]    
+    ['__go_to_definition_help('pos='2872)]    
+    ['SWF('frameRate='30,'backgroundColor='#000000,'height='480,'width='640)]    
+    ['__go_to_ctor_definition_help('pos='1035)]    
+    ['__go_to_definition_help('pos='577)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 8            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   7              
+              localCount:   1              
+              0 exception(s):              
+              36 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                
+                        +0|-0  DebugLine(20)                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  GetProperty(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('Main,AbcNamespace(22,'))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('Main,AbcNamespace(22,')))                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                
+                        +0|-0  DebugLine(18)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('Main,AbcNamespace(22,'))          
+          Index: 1          
+          Metadata:          
+            ['SWF('frameRate='30,'backgroundColor='#000000,'height='480,'width='640)]            
+            ['__go_to_ctor_definition_help('pos='1035)]            
+            ['__go_to_definition_help('pos='577)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('Main,AbcNamespace(22,'))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'Main)              
+              Interfaces:               
+              Method:              
+                Name: Main/Main                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 10                  
+                  Locals: 1                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 10                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    31 operation(s):                    
+                              +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                      
+                              +0|-0  DebugLine(37)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  DebugLine(33)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ColorTransform,AbcNamespace(22,'flash.geom)))                      
+                              +1|-0  PushByte(1)                      
+                              +1|-0  PushByte(1)                      
+                              +1|-0  PushByte(1)                      
+                              +1|-0  PushByte(1)                      
+                              +1|-0  PushByte(-10)                      
+                              +1|-0  PushByte(-1)                      
+                              +1|-0  PushByte(-10)                      
+                              +1|-0  PushByte(-10)                      
+                              +1|-9  ConstructProp(AbcQName('ColorTransform,AbcNamespace(22,'flash.geom)),8)                      
+                              +0|-2  InitProperty(AbcQName('colorTransform,AbcNamespace(5,'Main)))                      
+                              +0|-0  DebugLine(38)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(39)                      
+                              +1|-0  FindPropStrict(AbcQName('addEventListener,AbcNamespace(22,')))                      
+                              +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('ADDED_TO_STAGE,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('init,AbcNamespace(5,'Main)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(40)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('cam,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='617)]                    
+                Trait Slot:                
+                  Name: AbcQName('objContainer,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='650)]                    
+                Trait Slot:                
+                  Name: AbcQName('objPool,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='685)]                    
+                Trait Slot:                
+                  Name: AbcQName('colorPool,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='719)]                    
+                Trait Slot:                
+                  Name: AbcQName('objLayout,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='754)]                    
+                Trait Slot:                
+                  Name: AbcQName('checkRhythm,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='790)]                    
+                Trait Slot:                
+                  Name: AbcQName('hotKey,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='830)]                    
+                Trait Slot:                
+                  Name: AbcQName('bmc,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='859)]                    
+                Trait Slot:                
+                  Name: AbcQName('colorTransform,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='894)]                    
+                Trait Slot:                
+                  Name: AbcQName('isRunning,AbcNamespace(5,'Main))                  
+                  Index: 0                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Value: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='987)]                    
+                Trait Method:                
+                  Name: AbcQName('init,AbcNamespace(5,'Main))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1121)]                    
+                  Method:                  
+                    Name: Main/private:init                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: e                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 13                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 13                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        160 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                          
+                                  +0|-0  DebugLine(42)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'e,0,42)                          
+                                  +0|-0  DebugLine(44)                          
+                                  +1|-0  FindPropStrict(AbcQName('removeEventListener,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ADDED_TO_STAGE,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('init,AbcNamespace(5,'Main)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam)))                          
+                                  +1|-0  FindPropStrict(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stageWidth,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stageHeight,AbcNamespace(22,')))                          
+                                  +1|-3  ConstructProp(AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam)),2)                          
+                                  +0|-2  InitProperty(AbcQName('cam,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(47)                          
+                                  +1|-0  FindPropStrict(AbcQName('addChild,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'Main)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(48)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'Main)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  SetProperty(AbcQName('visible,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(50)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                          
+                                  +1|-1  ConstructProp(AbcQName('Sprite,AbcNamespace(22,'flash.display)),0)                          
+                                  +0|-2  InitProperty(AbcQName('objContainer,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(51)                          
+                                  +1|-0  FindPropStrict(AbcQName('addChild,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objContainer,AbcNamespace(5,'Main)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(52)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objContainer,AbcNamespace(5,'Main)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  SetProperty(AbcQName('visible,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(54)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout)))                          
+                                  +1|-0  PushByte(5)                          
+                                  +1|-0  PushByte(5)                          
+                                  +1|-0  PushByte(10)                          
+                                  +1|-0  PushByte(10)                          
+                                  +1|-0  PushByte(64)                          
+                                  +1|-6  ConstructProp(AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout)),5)                          
+                                  +0|-2  InitProperty(AbcQName('objLayout,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(57)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color)))                          
+                                  +1|-0  PushInt(10347012)                          
+                                  +1|-0  PushInt(9359620)                          
+                                  +1|-0  PushInt(7782148)                          
+                                  +1|-0  PushInt(8238095)                          
+                                  +1|-0  PushInt(5939210)                          
+                                  +1|-0  PushInt(4490506)                          
+                                  +1|-0  PushInt(3304454)                          
+                                  +1|-0  PushInt(1925381)                          
+                                  +1|-0  PushInt(3305249)                          
+                                  +1|-0  PushInt(2056995)                          
+                                  +1|-0  PushInt(1856802)                          
+                                  +1|-12  ConstructProp(AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color)),11)                          
+                                  +0|-2  InitProperty(AbcQName('colorPool,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(59)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-0  FindPropStrict(AbcQName('CircleAsset,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('CircleAsset,AbcNamespace(22,')))                          
+                                  +1|-1  NewArray(1)                          
+                                  +1|-0  PushShort(3072)                          
+                                  +1|-3  ConstructProp(AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core)),2)                          
+                                  +0|-2  InitProperty(AbcQName('objPool,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(60)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objPool,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onPoolRequest,AbcNamespace(5,'Main)))                          
+                                  +0|-2  SetProperty(AbcQName('onRequestObject,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(61)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objPool,AbcNamespace(5,'Main)))                          
+                                  +1|-1  CallProperty(AbcQName('requestAll,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                          
+                                  +1|-0  FindPropStrict(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stageWidth,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stageHeight,AbcNamespace(22,')))                          
+                                  +1|-3  ConstructProp(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)),2)                          
+                                  +0|-2  InitProperty(AbcQName('bmc,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(64)                          
+                                  +1|-0  FindPropStrict(AbcQName('addChild,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('bmc,AbcNamespace(5,'Main)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(65)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('bmc,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objContainer,AbcNamespace(5,'Main)))                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-3  CallProperty(AbcQName('startCapture,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(67)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive)))                          
+                                  +1|-0  FindPropStrict(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                          
+                                  +1|-2  ConstructProp(AbcQName('HotKey,AbcNamespace(22,'hype.framework.interactive)),1)                          
+                                  +0|-2  InitProperty(AbcQName('hotKey,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(68)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('hotKey,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('swapState,AbcNamespace(5,'Main)))                          
+                                  +1|-0  PushString('s)                          
+                                  +1|-3  CallProperty(AbcQName('addHotKey,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(70)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('startPixelCheck,AbcNamespace(5,'Main)))                          
+                                  +1|-2  ConstructProp(AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm)),1)                          
+                                  +0|-2  InitProperty(AbcQName('checkRhythm,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(71)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('checkRhythm,AbcNamespace(5,'Main)))                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TIME,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(65)                          
+                                  +1|-3  CallProperty(AbcQName('start,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(73)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  InitProperty(AbcQName('isRunning,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(75)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onPoolRequest,AbcNamespace(5,'Main))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2295)]                    
+                  Method:                  
+                    Name: Main/private:onPoolRequest                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: clip                        
+                        Type: AbcQName('MovieClip,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        29 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'clip,0,77)                          
+                                  +0|-0  DebugLine(79)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objLayout,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('applyLayout,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(80)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('colorPool,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('colorChildren,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  SetProperty(AbcQName('alpha,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objContainer,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(85)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('startPixelCheck,AbcNamespace(5,'Main))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2486)]                    
+                  Method:                  
+                    Name: Main/private:startPixelCheck                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: r                        
+                        Type: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        27 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                          
+                                  +0|-0  DebugLine(87)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'r,0,87)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'Main)))                          
+                                  +1|-1  CallProperty(AbcQName('takeSnapshot,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(89)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('objPool,AbcNamespace(5,'Main)))                          
+                                  +1|-1  GetProperty(AbcQName('activeSet,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('checkPointOnBitmap,AbcNamespace(5,'Main)))                          
+                                  +1|-2  CallProperty(AbcQName('forEach,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(90)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('bmc,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('colorTransform,AbcNamespace(5,'Main)))                          
+                                  +1|-2  CallProperty(AbcQName('colorTransform,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(91)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('checkPointOnBitmap,AbcNamespace(5,'Main))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2662)]                    
+                  Method:                  
+                    Name: Main/private:checkPointOnBitmap                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: clip                        
+                        Type: AbcQName('MovieClip,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        30 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                          
+                                  +0|-0  DebugLine(93)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'clip,0,93)                          
+                                  +1|-0  PushString('0x)                          
+                                  +0|-0  DebugLine(95)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'Main)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('x,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('y,AbcNamespace(22,')))                          
+                                  +1|-3  CallProperty(AbcQName('getColorAtPoint,AbcNamespace(22,')),2)                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  CallProperty(AbcQName('toString,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +1|-2  Add()                          
+                                  +1|-0  PushString('0xffffff)                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(96)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushByte(1)                          
+                                  +0|-2  SetProperty(AbcQName('alpha,AbcNamespace(22,')))                          
+                                  +0|-0  Jump(L1)                          
+                          L0:     +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  SetProperty(AbcQName('alpha,AbcNamespace(22,')))                          
+                          L1:     +0|-0  DebugLine(101)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('swapState,AbcNamespace(5,'Main))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2872)]                    
+                  Method:                  
+                    Name: Main/private:swapState                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        28 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;;Main.as)                          
+                                  +0|-0  DebugLine(103)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(105)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(5,'Main)))                          
+                                  +1|-1  Not()                          
+                                  +0|-2  InitProperty(AbcQName('isRunning,AbcNamespace(5,'Main)))                          
+                                  +0|-0  DebugLine(107)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(5,'Main)))                          
+                                  +1|-1  Not()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(108)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('checkRhythm,AbcNamespace(5,'Main)))                          
+                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Jump(L1)                          
+                          L0:     +0|-0  DebugLine(110)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('checkRhythm,AbcNamespace(5,'Main)))                          
+                                  +1|-1  CallProperty(AbcQName('start,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(113)                          
+                                  +0|-0  ReturnVoid()                          

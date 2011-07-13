@@ -1,0 +1,662 @@
+Abc:
+  8 method(s), 9 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      1      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    67 string(s):    
+      "null"      
+      "hype.extended.color:ColorPool"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as"      
+      "rest"      
+      "max"      
+      "i"      
+      "length"      
+      "ColorPool.as$45"      
+      "hype.extended.color"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "Object"      
+      "reset"      
+      "isNaN"      
+      "addColor"      
+      "hype.extended.color:ColorPool/ColorPool"      
+      "color"      
+      "count"      
+      "_colorTable"      
+      "_colorList"      
+      "push"      
+      "hype.extended.color:ColorPool/addColor"      
+      "void"      
+      "uint"      
+      "hype.extended.color:ColorPool/hasColor"      
+      "Boolean"      
+      "Array"      
+      "hype.extended.color:ColorPool/reset"      
+      "flash.display"      
+      "DisplayObject"      
+      "sprite"      
+      "child"      
+      "rgb"      
+      "numColors"      
+      "numChildren"      
+      "getChildAt"      
+      "InteractiveObject"      
+      "Math"      
+      "random"      
+      "floor"      
+      "transform"      
+      "ColorTransform"      
+      "flash.geom"      
+      "colorTransform"      
+      "hype.extended.color:ColorPool/colorChildren"      
+      "Sprite"      
+      "hype.extended.color:ColorPool/getColor"      
+      "IColorist"      
+      "hype.framework.color"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as"      
+      "pos"      
+      "346"      
+      "380"      
+      "885"      
+      "hasColor"      
+      "1229"      
+      "1385"      
+      "colorChildren"      
+      "1677"      
+      "getColor"      
+      "2261"      
+      "ColorPool"      
+      "__go_to_ctor_definition_help"      
+      "514"      
+      "294"      
+    13 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.extended.color:ColorPool)      
+      AbcNamespace(5,'ColorPool.as$45)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'hype.extended.color)      
+      AbcNamespace(23,'hype.extended.color)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'hype.extended.color:ColorPool)      
+      AbcNamespace(26,'hype.extended.color:ColorPool)      
+      AbcNamespace(26,'Object)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(22,'hype.framework.color)      
+    3 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.color)])      
+    30 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)]))      
+      AbcQName('reset,AbcNamespace(22,'))      
+      AbcQName('isNaN,AbcNamespace(22,'))      
+      AbcQName('addColor,AbcNamespace(22,'))      
+      AbcQName('_colorTable,AbcNamespace(24,'hype.extended.color:ColorPool))      
+      AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('numChildren,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('getChildAt,AbcNamespace(22,'))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('Math,AbcNamespace(22,'))      
+      AbcQName('random,AbcNamespace(22,'))      
+      AbcQName('floor,AbcNamespace(22,'))      
+      AbcQName('transform,AbcNamespace(22,'))      
+      AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))      
+      AbcQName('colorTransform,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)]))      
+      AbcQName('hasColor,AbcNamespace(22,'))      
+      AbcQName('colorChildren,AbcNamespace(22,'))      
+      AbcQName('getColor,AbcNamespace(22,'))      
+      AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='346,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='380,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='885,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='1229,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='1385,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='1677,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='2261,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_ctor_definition_help('pos='514,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+    ['__go_to_definition_help('pos='294,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                
+                        +0|-0  DebugLine(12)                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))          
+          Index: 1          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='514,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]            
+            ['__go_to_definition_help('pos='294,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('ColorPool,AbcNamespace(22,'hype.extended.color))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.extended.color:ColorPool)              
+              Interfaces:               
+                AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)]))                
+              Method:              
+                Name: hype.extended.color:ColorPool/ColorPool                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: true                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 3                  
+                  Locals: 4                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 3                    
+                    scopeStack:   1                    
+                    localCount:   4                    
+                    0 exception(s):                    
+                    54 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                      
+                              +0|-0  DebugLine(22)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  PushByte(0)                      
+                              +1|-1  ConvertUInt()                      
+                              +0|-1  SetLocal(3)                      
+                              +0|-0  Debug(1,'rest,0,22)                      
+                              +0|-0  DebugLine(22)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  Debug(1,'max,1,23)                      
+                              +0|-0  Debug(1,'i,2,24)                      
+                              +0|-0  DebugLine(23)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  PushString('length)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                      
+                              +1|-1  ConvertUInt()                      
+                              +0|-1  SetLocal(2)                      
+                              +0|-0  DebugLine(25)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  CallProperty(AbcQName('reset,AbcNamespace(22,')),0)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-1  ConvertUInt()                      
+                              +0|-1  SetLocal(3)                      
+                              +0|-0  Jump(L0)                      
+                      L2:     +0|-0  Label()                      
+                              +0|-0  DebugLine(28)                      
+                              +1|-0  FindPropStrict(AbcQName('isNaN,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                      
+                              +1|-2  CallProperty(AbcQName('isNaN,AbcNamespace(22,')),1)                      
+                              +1|-1  Not()                      
+                              +0|-1  IfFalse(L1)                      
+                              +0|-0  DebugLine(29)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                      
+                              +1|-2  CallProperty(AbcQName('addColor,AbcNamespace(22,')),1)                      
+                              +0|-1  Pop()                      
+                      L1:     +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-1  Increment()                      
+                              +1|-1  ConvertUInt()                      
+                              +0|-1  SetLocal(3)                      
+                      L0:     +1|-0  GetLocal(3)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  IfLessThan(L2)                      
+                              +0|-0  DebugLine(32)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool))                  
+                  Index: 0                  
+                  Type: AbcQName('Array,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='346,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_colorTable,AbcNamespace(24,'hype.extended.color:ColorPool))                  
+                  Index: 0                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='380,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                Trait Method:                
+                  Name: AbcQName('addColor,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='885,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                  Method:                  
+                    Name: hype.extended.color:ColorPool/addColor                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: color                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: count                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        38 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                          
+                                  +0|-0  DebugLine(40)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'color,0,40)                          
+                                  +0|-0  Debug(1,'count,1,40)                          
+                                  +0|-0  Debug(1,'i,2,41)                          
+                                  +0|-0  DebugLine(43)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorTable,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(45)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(45)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  Increment()                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L0:     +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(48)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('hasColor,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1229,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                  Method:                  
+                    Name: hype.extended.color:ColorPool/hasColor                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: color                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        13 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                          
+                                  +0|-0  DebugLine(57)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'color,0,57)                          
+                                  +0|-0  DebugLine(58)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorTable,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-2  Equals()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('reset,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1385,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                  Method:                  
+                    Name: hype.extended.color:ColorPool/reset                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        16 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                          
+                                  +0|-0  DebugLine(64)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(65)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +1|-1  ConstructProp(AbcQName('Array,AbcNamespace(22,')),0)                          
+                                  +0|-2  InitProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +0|-0  DebugLine(66)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                          
+                                  +0|-2  InitProperty(AbcQName('_colorTable,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +0|-0  DebugLine(67)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('colorChildren,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1677,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                  Method:                  
+                    Name: hype.extended.color:ColorPool/colorChildren                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: sprite                        
+                        Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 10                      
+                      Locals: 7                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 10                        
+                        scopeStack:   1                        
+                        localCount:   7                        
+                        0 exception(s):                        
+                        94 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                          
+                                  +0|-0  DebugLine(74)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  Debug(1,'sprite,0,74)                          
+                                  +0|-0  Debug(1,'max,1,75)                          
+                                  +0|-0  Debug(1,'i,2,76)                          
+                                  +0|-0  Debug(1,'child,3,77)                          
+                                  +0|-0  Debug(1,'rgb,4,78)                          
+                                  +0|-0  Debug(1,'numColors,5,79)                          
+                                  +0|-0  DebugLine(75)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('numChildren,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(79)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L0)                          
+                          L2:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(82)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  CallProperty(AbcQName('getChildAt,AbcNamespace(22,')),1)                          
+                                  +1|-1  Coerce(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                          
+                                  +1|-1  GetProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                          
+                                  +1|-2  IsTypeLate()                          
+                                  +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(84)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('random,AbcNamespace(22,')),0)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('floor,AbcNamespace(22,')),1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(85)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('transform,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('ColorTransform,AbcNamespace(22,'flash.geom)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushByte(1)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-9  ConstructProp(AbcQName('ColorTransform,AbcNamespace(22,'flash.geom)),8)                          
+                                  +0|-2  SetProperty(AbcQName('colorTransform,AbcNamespace(22,')))                          
+                          L1:     +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  Increment()                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L0:     +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfLessThan(L2)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('getColor,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2261,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/color/ColorPool.as)]                    
+                  Method:                  
+                    Name: hype.extended.color:ColorPool/getColor                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        19 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/color;ColorPool.as)                          
+                                  +0|-0  DebugLine(95)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(96)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('random,AbcNamespace(22,')),0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_colorList,AbcNamespace(24,'hype.extended.color:ColorPool)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('floor,AbcNamespace(22,')),1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.color:ColorPool),AbcNamespace(5,'ColorPool.as$45),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.color),AbcNamespace(23,'hype.extended.color),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.color:ColorPool),AbcNamespace(26,'hype.extended.color:ColorPool),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  ReturnValue()                          

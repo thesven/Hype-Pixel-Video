@@ -1,0 +1,209 @@
+Abc:
+  3 method(s), 5 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    21 string(s):    
+      "null"      
+      "hype.framework.core:ObjectNode"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectNode.as"      
+      "obj"      
+      "next"      
+      "prev"      
+      "hype.framework.core:ObjectNode/ObjectNode"      
+      "Object"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as"      
+      "pos"      
+      "100"      
+      "hype.framework.core"      
+      "ObjectNode"      
+      "125"      
+      "155"      
+      "__go_to_ctor_definition_help"      
+      "193"      
+      "74"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.core:ObjectNode)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'hype.framework.core)      
+      AbcNamespace(24,'hype.framework.core:ObjectNode)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.core)])      
+    7 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('obj,AbcNamespace(22,'))      
+      AbcQName('next,AbcNamespace(22,'))      
+      AbcQName('prev,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))      
+      AbcMultiname('ObjectNode,AbcNSSet([AbcNamespace(22,'hype.framework.core)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='100,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]    
+    ['__go_to_definition_help('pos='125,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]    
+    ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]    
+    ['__go_to_ctor_definition_help('pos='193,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]    
+    ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectNode.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('ObjectNode,AbcNSSet([AbcNamespace(22,'hype.framework.core)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectNode.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='193,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]            
+            ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: true              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.core:ObjectNode)              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.core:ObjectNode/ObjectNode                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: obj                    
+                    Type: AbcQName('Object,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 2                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   2                    
+                    0 exception(s):                    
+                    22 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectNode.as)                      
+                              +0|-0  DebugLine(11)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'obj,0,11)                      
+                              +0|-0  DebugLine(11)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(12)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('obj,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(13)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  PushNull()                      
+                              +0|-2  InitProperty(AbcQName('next,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(14)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  PushNull()                      
+                              +0|-2  InitProperty(AbcQName('prev,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(15)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('obj,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='100,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('next,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='125,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('prev,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectNode.as)]                    

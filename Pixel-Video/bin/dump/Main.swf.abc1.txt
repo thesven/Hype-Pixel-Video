@@ -1,0 +1,1004 @@
+Abc:
+  12 method(s), 19 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      1      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    90 string(s):    
+      "null"      
+      "hype.framework.core:ObjectPool"      
+      ""      
+      "obj"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as"      
+      "void"      
+      "Object"      
+      "ObjectPool$0"      
+      "content"      
+      "max"      
+      "Class"      
+      "_classList"      
+      "Array"      
+      "Error"      
+      "Bad argument passed to ObjectPool. First argument must be class or array of classes"      
+      "_max"      
+      "_count"      
+      "ObjectSet"      
+      "hype.framework.core"      
+      "_activeSet"      
+      "_inactiveSet"      
+      "onReleaseObject"      
+      "onRequestObject"      
+      "onCreateObject"      
+      "uint"      
+      "hype.framework.core:ObjectPool/ObjectPool"      
+      "hype.framework.core:ObjectPool/activeSet/get"      
+      "hype.framework.core:ObjectPool/isFull/get"      
+      "Boolean"      
+      "destroy"      
+      "hype.framework.core:ObjectPool/destroy"      
+      "objectClass"      
+      "numTimes"      
+      "i"      
+      "push"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "hype.framework.core:ObjectPool/addClass"      
+      "length"      
+      "pull"      
+      "insert"      
+      "makeRandomObject"      
+      "hype.framework.core:ObjectPool/request"      
+      "request"      
+      "hype.framework.core:ObjectPool/requestAll"      
+      "object"      
+      "remove"      
+      "autoClean"      
+      "AbstractBehavior"      
+      "hype.framework.behavior"      
+      "removeBehaviorsFromObject"      
+      "AbstractTrigger"      
+      "hype.framework.trigger"      
+      "removeTriggersFromObject"      
+      "hype.framework.core:ObjectPool/release"      
+      "int"      
+      "Math"      
+      "random"      
+      "ObjectPool.as$3"      
+      "hype.framework.core:ObjectPool/protected:makeRandomObject"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as"      
+      "pos"      
+      "224"      
+      "258"      
+      "285"      
+      "314"      
+      "352"      
+      "552"      
+      "Function"      
+      "655"      
+      "770"      
+      "891"      
+      "activeSet"      
+      "1700"      
+      "isFull"      
+      "1836"      
+      "1973"      
+      "addClass"      
+      "2373"      
+      "2682"      
+      "requestAll"      
+      "3168"      
+      "release"      
+      "3436"      
+      "3792"      
+      "ObjectPool"      
+      "__go_to_ctor_definition_help"      
+      "1141"      
+      "194"      
+    12 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.core:ObjectPool)      
+      AbcNamespace(22,')      
+      AbcNamespace(24,'hype.framework.core:ObjectPool)      
+      AbcNamespace(22,'hype.framework.core)      
+      AbcNamespace(23,'hype.framework.core)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(22,'hype.framework.behavior)      
+      AbcNamespace(22,'hype.framework.trigger)      
+      AbcNamespace(5,'ObjectPool.as$3)      
+      AbcNamespace(26,'hype.framework.core:ObjectPool)      
+      AbcNamespace(26,'Object)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectPool),AbcNamespace(22,'),AbcNamespace(24,'hype.framework.core:ObjectPool),AbcNamespace(22,'hype.framework.core),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(5,'ObjectPool.as$3),AbcNamespace(26,'hype.framework.core:ObjectPool),AbcNamespace(26,'Object)])      
+    43 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('Class,AbcNamespace(22,'))      
+      AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('Error,AbcNamespace(22,'))      
+      AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('onReleaseObject,AbcNamespace(22,'))      
+      AbcQName('onRequestObject,AbcNamespace(22,'))      
+      AbcQName('onCreateObject,AbcNamespace(22,'))      
+      AbcQName('content,AbcNamespace(23,'hype.framework.core))      
+      AbcQName('max,AbcNamespace(23,'hype.framework.core))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('destroy,AbcNamespace(22,'))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('pull,AbcNamespace(22,'))      
+      AbcQName('insert,AbcNamespace(22,'))      
+      AbcQName('makeRandomObject,AbcNamespace(24,'hype.framework.core:ObjectPool))      
+      AbcQName('request,AbcNamespace(22,'))      
+      AbcQName('remove,AbcNamespace(22,'))      
+      AbcQName('autoClean,AbcNamespace(22,'))      
+      AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))      
+      AbcQName('removeBehaviorsFromObject,AbcNamespace(22,'))      
+      AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger))      
+      AbcQName('removeTriggersFromObject,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('Math,AbcNamespace(22,'))      
+      AbcQName('random,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectPool),AbcNamespace(22,'),AbcNamespace(24,'hype.framework.core:ObjectPool),AbcNamespace(22,'hype.framework.core),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(5,'ObjectPool.as$3),AbcNamespace(26,'hype.framework.core:ObjectPool),AbcNamespace(26,'Object)]))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('activeSet,AbcNamespace(22,'))      
+      AbcQName('isFull,AbcNamespace(22,'))      
+      AbcQName('addClass,AbcNamespace(22,'))      
+      AbcQName('requestAll,AbcNamespace(22,'))      
+      AbcQName('release,AbcNamespace(22,'))      
+      AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))      
+  Functions:  
+    Function:    
+      Name:       
+      Return Type: AbcQName('void,AbcNamespace(22,'))      
+      Needs Arguments: false      
+      Needs Rest: false      
+      Needs Activation: false      
+      Has Optional Parameters: false      
+      Ignore Rest: false      
+      Is Native: false      
+      DXNS: false      
+      Has Parameter Names: true      
+      Parameters:      
+        Parameter:         
+          Name: obj          
+          Type: AbcQName('Object,AbcNamespace(22,'))          
+          Optional: false          
+      Method Body:      
+        Max Stack: 0        
+        Locals: 2        
+        InitScopeDepth: 5        
+        MaxScopeDepth: 5        
+        Bytecode:        
+          operandStack: 0          
+          scopeStack:   0          
+          localCount:   2          
+          0 exception(s):          
+          4 operation(s):          
+                    +0|-0  Debug(1,'obj,0,56)            
+                    +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)            
+                    +0|-0  DebugLine(56)            
+                    +0|-0  ReturnVoid()            
+  Metadata:  
+    ['__go_to_definition_help('pos='224,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='258,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='285,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='314,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='352,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='552,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='655,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='770,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='891,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='1700,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='1836,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='1973,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='2373,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='2682,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='3168,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='3436,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='3792,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_ctor_definition_help('pos='1141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                
+                        +0|-0  DebugLine(8)                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))          
+          Index: 1          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='1141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]            
+            ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.core:ObjectPool)              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.core:ObjectPool/ObjectPool                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: true                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: content                    
+                    Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: max                    
+                    Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 5                  
+                  Locals: 5                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 7                  
+                  Traits:                  
+                    Trait Slot:                    
+                      Name: AbcQName('content,AbcNamespace(23,'hype.framework.core))                      
+                      Index: 1                      
+                      Type: AbcQName('null,AbcNamespace(0,'null))                      
+                    Trait Slot:                    
+                      Name: AbcQName('max,AbcNamespace(23,'hype.framework.core))                      
+                      Index: 2                      
+                      Type: AbcQName('uint,AbcNamespace(22,'))                      
+                  Bytecode:                  
+                    operandStack: 5                    
+                    scopeStack:   2                    
+                    localCount:   5                    
+                    0 exception(s):                    
+                    96 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                      
+                              +0|-0  DebugLine(41)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  NewActivation()                      
+                              +2|-1  Dup()                      
+                              +0|-1  SetLocal(3)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'ObjectPool$0,2,41)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  SetSlot(1)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  SetSlot(2)                      
+                              +0|-0  Debug(1,'content,0,41)                      
+                              +0|-0  Debug(1,'max,1,41)                      
+                              +0|-0  DebugLine(41)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(43)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-1  GetSlot(1)                      
+                              +1|-0  FindPropStrict(AbcQName('Class,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Class,AbcNamespace(22,')))                      
+                              +1|-2  IsTypeLate()                      
+                              +0|-1  IfFalse(L0)                      
+                              +0|-0  DebugLine(44)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-1  GetSlot(1)                      
+                              +1|-0  FindPropStrict(AbcQName('Class,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Class,AbcNamespace(22,')))                      
+                              +1|-2  AsTypeLate()                      
+                              +1|-1  NewArray(1)                      
+                              +0|-2  InitProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  Jump(L1)                      
+                      L0:     +0|-0  DebugLine(45)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-1  GetSlot(1)                      
+                              +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-2  IsTypeLate()                      
+                              +0|-1  IfFalse(L2)                      
+                              +0|-0  DebugLine(46)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-1  GetSlot(1)                      
+                              +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-2  AsTypeLate()                      
+                              +0|-2  InitProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  Jump(L1)                      
+                      L2:     +0|-0  DebugLine(48)                      
+                              +1|-0  FindPropStrict(AbcQName('Error,AbcNamespace(22,')))                      
+                              +1|-0  PushString('Bad argument passed to ObjectPool. First argument must be class or array of classes)                      
+                              +1|-2  ConstructProp(AbcQName('Error,AbcNamespace(22,')),1)                      
+                              +0|-1  Throw()                      
+                      L1:     +0|-0  DebugLine(50)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetScopeObject(1)                      
+                              +1|-1  GetSlot(2)                      
+                              +0|-2  InitProperty(AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  DebugLine(51)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  PushByte(0)                      
+                              +0|-2  InitProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  DebugLine(53)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                      
+                              +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                      
+                              +0|-2  InitProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  DebugLine(54)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                      
+                              +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                      
+                              +0|-2  InitProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                      
+                              +0|-0  DebugLine(56)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  NewFunction([AbcMethod name: '])                      
+                              +2|-1  Dup()                      
+                              +0|-1  SetLocal(4)                      
+                              +0|-2  InitProperty(AbcQName('onReleaseObject,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(4)                      
+                              +0|-0  Kill(4)                      
+                              +2|-1  Dup()                      
+                              +0|-1  SetLocal(4)                      
+                              +0|-2  InitProperty(AbcQName('onRequestObject,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(4)                      
+                              +0|-0  Kill(4)                      
+                              +0|-2  InitProperty(AbcQName('onCreateObject,AbcNamespace(22,')))                      
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                      
+                              +0|-0  DebugLine(57)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Index: 0                  
+                  Type: AbcQName('Array,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='224,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='258,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='285,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Index: 0                  
+                  Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='314,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Index: 0                  
+                  Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='352,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('autoClean,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Value: true                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='552,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('onCreateObject,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='655,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('onRequestObject,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='770,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('onReleaseObject,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='891,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                Trait Getter:                
+                  Name: AbcQName('activeSet,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1700,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/activeSet/get                    
+                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(62)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('isFull,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1836,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/isFull/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(69)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(70)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-2  Equals()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('destroy,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1973,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/destroy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        44 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(76)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-0  DebugLine(78)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  CallProperty(AbcQName('destroy,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(79)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-0  DebugLine(80)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  CallProperty(AbcQName('destroy,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-0  DebugLine(82)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('onReleaseObject,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-0  Kill(1)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('onRequestObject,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-0  Kill(1)                          
+                                  +0|-2  InitProperty(AbcQName('onCreateObject,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(83)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('addClass,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2373,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/addClass                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: objectClass                        
+                        Type: AbcQName('Class,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: numTimes                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        31 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'objectClass,0,91)                          
+                                  +0|-0  Debug(1,'numTimes,1,91)                          
+                                  +0|-0  Debug(1,'i,2,92)                          
+                                  +0|-0  DebugLine(94)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(95)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(94)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  IncrementInt()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L0:     +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(97)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('request,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='2682,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/request                    
+                    Return Type: AbcQName('Object,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        79 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(105)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  Debug(1,'obj,0,106)                          
+                                  +0|-0  DebugLine(108)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  IfNotGreaterThan(L0)                          
+                                  +0|-0  DebugLine(109)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  CallProperty(AbcQName('pull,AbcNamespace(22,')),0)                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(110)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(111)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('onRequestObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(113)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-1  ReturnValue()                          
+                          L0:     +0|-0  DebugLine(114)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-2  IfNotLessThan(L1)                          
+                                  +0|-0  DebugLine(115)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('makeRandomObject,AbcNamespace(24,'hype.framework.core:ObjectPool)),0)                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(116)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  Increment()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-0  Kill(2)                          
+                                  +0|-0  DebugLine(117)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(118)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('onCreateObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(119)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('onRequestObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(121)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-1  ReturnValue()                          
+                          L1:     +0|-0  DebugLine(123)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('requestAll,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3168,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/requestAll                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        18 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(130)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(132)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('request,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(131)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(134)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('release,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3436,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/release                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: object                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        45 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(143)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'object,0,143)                          
+                                  +0|-0  DebugLine(144)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('remove,AbcNamespace(22,')),1)                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(145)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(147)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('autoClean,AbcNamespace(22,')))                          
+                                  +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(148)                          
+                                  +1|-0  FindPropStrict(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +1|-1  GetProperty(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('removeBehaviorsFromObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(149)                          
+                                  +1|-0  FindPropStrict(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-1  GetProperty(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('removeTriggersFromObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(151)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('onReleaseObject,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(153)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L2)                          
+                          L0:     +0|-0  DebugLine(155)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('makeRandomObject,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3792,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                  Method:                  
+                    Name: hype.framework.core:ObjectPool/protected:makeRandomObject                    
+                    Return Type: AbcQName('Object,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        24 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectPool.as)                          
+                                  +0|-0  DebugLine(159)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'i,0,160)                          
+                                  +0|-0  DebugLine(160)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('random,AbcNamespace(22,')),0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(161)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_classList,AbcNamespace(24,'hype.framework.core:ObjectPool)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectPool),AbcNamespace(22,'),AbcNamespace(24,'hype.framework.core:ObjectPool),AbcNamespace(22,'hype.framework.core),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(5,'ObjectPool.as$3),AbcNamespace(26,'hype.framework.core:ObjectPool),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Construct(0)                          
+                                  +0|-1  ReturnValue()                          

@@ -1,0 +1,64 @@
+Abc:
+  1 method(s), 0 metadata, 0 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    6 string(s):    
+      "null"      
+      "E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;mx_internal.as"      
+      ""      
+      "mx.core"      
+      "mx_internal"      
+      "http://www.adobe.com/2006/flex/mx/internal"      
+    3 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,'mx.core)      
+      AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)      
+    1 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+    2 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('mx_internal,AbcNamespace(22,'mx.core))      
+  Functions:  
+  Metadata:  
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 1            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 1              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              5 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;mx_internal.as)                
+                        +0|-0  DebugLine(12)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Const:        
+          Name: AbcQName('mx_internal,AbcNamespace(22,'mx.core))          
+          Index: 0          
+          Type: AbcQName('null,AbcNamespace(0,'null))          
+          Value: AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)          

@@ -1,0 +1,186 @@
+Abc:
+  5 method(s), 3 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    23 string(s):    
+      "null"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as"      
+      "sprite"      
+      "hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren"      
+      "void"      
+      "flash.display"      
+      "Sprite"      
+      "hype.framework.color:IColorist/hype.framework.color:IColorist:getColor"      
+      "uint"      
+      "hype.framework.color:IColorist/IColorist"      
+      "hype.framework.color:IColorist"      
+      "colorChildren"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as"      
+      "pos"      
+      "261"      
+      "getColor"      
+      "386"      
+      "hype.framework.color"      
+      "IColorist"      
+      "134"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(8,'hype.framework.color:IColorist)      
+      AbcNamespace(22,'hype.framework.color)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.color)])      
+    8 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))      
+      AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))      
+      AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))      
+      AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='261,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
+    ['__go_to_definition_help('pos='386,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
+    ['__go_to_definition_help('pos='134,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              10 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as)                
+                        +0|-0  DebugLine(7)                
+                        +1|-0  FindPropStrict(AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))]])                
+                        +0|-2  InitProperty(AbcQName('IColorist,AbcNamespace(22,'hype.framework.color)))                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_definition_help('pos='134,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 3                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.color:IColorist/IColorist                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='261,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]                    
+                  Method:                  
+                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: sprite                        
+                        Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='386,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]                    
+                  Method:                  
+                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:getColor                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    

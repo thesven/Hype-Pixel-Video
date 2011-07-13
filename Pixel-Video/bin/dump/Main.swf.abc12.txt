@@ -1,0 +1,589 @@
+Abc:
+  6 method(s), 12 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    71 string(s):    
+      "null"      
+      "com.andersonranch.project.webcam:WebCamFeed"      
+      ""      
+      "/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as"      
+      "camWidth"      
+      "camHeight"      
+      "_width"      
+      "_height"      
+      "init"      
+      "com.andersonranch.project.webcam:WebCamFeed/WebCamFeed"      
+      "int"      
+      "thresholdData"      
+      "video"      
+      "draw"      
+      "render"      
+      "com.andersonranch.project.webcam:WebCamFeed/takeSnapshot"      
+      "void"      
+      "xLoc"      
+      "yLoc"      
+      "getPixel"      
+      "com.andersonranch.project.webcam:WebCamFeed/getColorAtPoint"      
+      "uint"      
+      "Video"      
+      "flash.media"      
+      "Camera"      
+      "getCamera"      
+      "cam"      
+      "setMode"      
+      "attachCamera"      
+      "BitmapData"      
+      "flash.display"      
+      "bmd"      
+      "ThresholdBitmap"      
+      "com.quasimondo.bitmapdata"      
+      "smooth"      
+      "applyDespeckle"      
+      "thresholdValue"      
+      "adaptiveTolerance"      
+      "adaptiveRadius"      
+      "ADAPTIVE"      
+      "mode"      
+      "Bitmap"      
+      "bitmap"      
+      "addChild"      
+      "com.andersonranch.project.webcam:WebCamFeed/private:init"      
+      "__go_to_definition_help"      
+      "pos"      
+      "335"      
+      "361"      
+      "391"      
+      "417"      
+      "444"      
+      "473"      
+      "503"      
+      "takeSnapshot"      
+      "689"      
+      "getColorAtPoint"      
+      "812"      
+      "931"      
+      "com.andersonranch.project.webcam"      
+      "WebCamFeed"      
+      "Sprite"      
+      "Object"      
+      "EventDispatcher"      
+      "flash.events"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+      "__go_to_ctor_definition_help"      
+      "555"      
+      "290"      
+    9 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.media)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'com.quasimondo.bitmapdata)      
+      AbcNamespace(22,'com.andersonranch.project.webcam)      
+      AbcNamespace(24,'com.andersonranch.project.webcam:WebCamFeed)      
+      AbcNamespace(22,'flash.events)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'com.andersonranch.project.webcam)])      
+    41 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('init,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('video,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('draw,AbcNamespace(22,'))      
+      AbcQName('render,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('getPixel,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('Video,AbcNamespace(22,'flash.media))      
+      AbcQName('Camera,AbcNamespace(22,'flash.media))      
+      AbcQName('getCamera,AbcNamespace(22,'))      
+      AbcQName('cam,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('setMode,AbcNamespace(22,'))      
+      AbcQName('attachCamera,AbcNamespace(22,'))      
+      AbcQName('BitmapData,AbcNamespace(22,'flash.display))      
+      AbcQName('bmd,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata))      
+      AbcQName('smooth,AbcNamespace(22,'))      
+      AbcQName('applyDespeckle,AbcNamespace(22,'))      
+      AbcQName('thresholdValue,AbcNamespace(22,'))      
+      AbcQName('adaptiveTolerance,AbcNamespace(22,'))      
+      AbcQName('adaptiveRadius,AbcNamespace(22,'))      
+      AbcQName('ADAPTIVE,AbcNamespace(22,'))      
+      AbcQName('mode,AbcNamespace(22,'))      
+      AbcQName('Bitmap,AbcNamespace(22,'flash.display))      
+      AbcQName('bitmap,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))      
+      AbcQName('addChild,AbcNamespace(22,'))      
+      AbcQName('takeSnapshot,AbcNamespace(22,'))      
+      AbcQName('getColorAtPoint,AbcNamespace(22,'))      
+      AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcMultiname('WebCamFeed,AbcNSSet([AbcNamespace(22,'com.andersonranch.project.webcam)]))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='335)]    
+    ['__go_to_definition_help('pos='361)]    
+    ['__go_to_definition_help('pos='391)]    
+    ['__go_to_definition_help('pos='417)]    
+    ['__go_to_definition_help('pos='444)]    
+    ['__go_to_definition_help('pos='473)]    
+    ['__go_to_definition_help('pos='503)]    
+    ['__go_to_definition_help('pos='689)]    
+    ['__go_to_definition_help('pos='812)]    
+    ['__go_to_definition_help('pos='931)]    
+    ['__go_to_ctor_definition_help('pos='555)]    
+    ['__go_to_definition_help('pos='290)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 8            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   7              
+              localCount:   1              
+              0 exception(s):              
+              36 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                
+                        +0|-0  DebugLine(13)                
+                        +1|-0  FindPropStrict(AbcMultiname('WebCamFeed,AbcNSSet([AbcNamespace(22,'com.andersonranch.project.webcam)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  GetProperty(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam)))                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='555)]            
+            ['__go_to_definition_help('pos='290)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('WebCamFeed,AbcNamespace(22,'com.andersonranch.project.webcam))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'com.andersonranch.project.webcam:WebCamFeed)              
+              Interfaces:               
+              Method:              
+                Name: com.andersonranch.project.webcam:WebCamFeed/WebCamFeed                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: camWidth                    
+                    Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: camHeight                    
+                    Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 3                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   3                    
+                    0 exception(s):                    
+                    23 operation(s):                    
+                              +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                      
+                              +0|-0  DebugLine(24)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'camWidth,0,24)                      
+                              +0|-0  Debug(1,'camHeight,1,24)                      
+                              +0|-0  DebugLine(24)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(26)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  InitProperty(AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                      
+                              +0|-0  DebugLine(29)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  CallProperty(AbcQName('init,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)),0)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(31)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='335)]                    
+                Trait Slot:                
+                  Name: AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='361)]                    
+                Trait Slot:                
+                  Name: AbcQName('cam,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('Camera,AbcNamespace(22,'flash.media))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='391)]                    
+                Trait Slot:                
+                  Name: AbcQName('video,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('Video,AbcNamespace(22,'flash.media))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='417)]                    
+                Trait Slot:                
+                  Name: AbcQName('bitmap,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('Bitmap,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='444)]                    
+                Trait Slot:                
+                  Name: AbcQName('bmd,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('BitmapData,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='473)]                    
+                Trait Slot:                
+                  Name: AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Index: 0                  
+                  Type: AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='503)]                    
+                Trait Method:                
+                  Name: AbcQName('takeSnapshot,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='689)]                    
+                  Method:                  
+                    Name: com.andersonranch.project.webcam:WebCamFeed/takeSnapshot                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        20 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                          
+                                  +0|-0  DebugLine(33)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(35)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('video,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushNull()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-4  CallProperty(AbcQName('draw,AbcNamespace(22,')),3)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(36)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-1  CallProperty(AbcQName('render,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(38)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('getColorAtPoint,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='812)]                    
+                  Method:                  
+                    Name: com.andersonranch.project.webcam:WebCamFeed/getColorAtPoint                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: xLoc                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: yLoc                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        13 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                          
+                                  +0|-0  DebugLine(40)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'xLoc,0,40)                          
+                                  +0|-0  Debug(1,'yLoc,1,40)                          
+                                  +0|-0  DebugLine(42)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-3  CallProperty(AbcQName('getPixel,AbcNamespace(22,')),2)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('init,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='931)]                    
+                  Method:                  
+                    Name: com.andersonranch.project.webcam:WebCamFeed/private:init                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        105 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/src;com/andersonranch/project/webcam;WebCamFeed.as)                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(48)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Video,AbcNamespace(22,'flash.media)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-3  ConstructProp(AbcQName('Video,AbcNamespace(22,'flash.media)),2)                          
+                                  +0|-2  InitProperty(AbcQName('video,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +0|-0  DebugLine(49)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Camera,AbcNamespace(22,'flash.media)))                          
+                                  +1|-1  GetProperty(AbcQName('Camera,AbcNamespace(22,'flash.media)))                          
+                                  +1|-1  CallProperty(AbcQName('getCamera,AbcNamespace(22,')),0)                          
+                                  +0|-2  InitProperty(AbcQName('cam,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +0|-0  DebugLine(50)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-0  PushByte(30)                          
+                                  +1|-4  CallProperty(AbcQName('setMode,AbcNamespace(22,')),3)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(51)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('video,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('cam,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-2  CallProperty(AbcQName('attachCamera,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(53)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('BitmapData,AbcNamespace(22,'flash.display)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_width,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_height,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushTrue()                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-5  ConstructProp(AbcQName('BitmapData,AbcNamespace(22,'flash.display)),4)                          
+                                  +0|-2  InitProperty(AbcQName('bmd,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +0|-0  DebugLine(55)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('bmd,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-2  ConstructProp(AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata)),1)                          
+                                  +0|-2  InitProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +0|-0  DebugLine(56)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(1)                          
+                                  +0|-2  SetProperty(AbcQName('smooth,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(57)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  SetProperty(AbcQName('applyDespeckle,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(58)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(127)                          
+                                  +0|-2  SetProperty(AbcQName('thresholdValue,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(59)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(50)                          
+                                  +0|-2  SetProperty(AbcQName('adaptiveTolerance,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(60)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  PushByte(32)                          
+                                  +0|-2  SetProperty(AbcQName('adaptiveRadius,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(61)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-0  FindPropStrict(AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata)))                          
+                                  +1|-1  GetProperty(AbcQName('ThresholdBitmap,AbcNamespace(22,'com.quasimondo.bitmapdata)))                          
+                                  +1|-1  GetProperty(AbcQName('ADAPTIVE,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('mode,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('Bitmap,AbcNamespace(22,'flash.display)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('thresholdData,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-2  ConstructProp(AbcQName('Bitmap,AbcNamespace(22,'flash.display)),1)                          
+                                  +0|-2  InitProperty(AbcQName('bitmap,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +0|-0  DebugLine(64)                          
+                                  +1|-0  FindPropStrict(AbcQName('addChild,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('bitmap,AbcNamespace(5,'com.andersonranch.project.webcam:WebCamFeed)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(66)                          
+                                  +0|-0  ReturnVoid()                          

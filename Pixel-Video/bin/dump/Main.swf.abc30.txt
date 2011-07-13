@@ -1,0 +1,164 @@
+Abc:
+  4 method(s), 2 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    19 string(s):    
+      "null"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;IFilterScaler.as"      
+      "filter"      
+      "scale"      
+      "hype.framework.canvas.filter:IFilterScaler/hype.framework.canvas.filter:IFilterScaler:scale"      
+      "flash.filters"      
+      "BitmapFilter"      
+      "Number"      
+      "hype.framework.canvas.filter:IFilterScaler/IFilterScaler"      
+      "hype.framework.canvas.filter:IFilterScaler"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/IFilterScaler.as"      
+      "pos"      
+      "268"      
+      "hype.framework.canvas.filter"      
+      "IFilterScaler"      
+      "137"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,'flash.filters)      
+      AbcNamespace(22,')      
+      AbcNamespace(8,'hype.framework.canvas.filter:IFilterScaler)      
+      AbcNamespace(22,'hype.framework.canvas.filter)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])      
+    6 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
+      AbcQName('Number,AbcNamespace(22,'))      
+      AbcQName('scale,AbcNamespace(8,'hype.framework.canvas.filter:IFilterScaler))      
+      AbcQName('IFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))      
+      AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='268,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/IFilterScaler.as)]    
+    ['__go_to_definition_help('pos='137,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/IFilterScaler.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              10 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;IFilterScaler.as)                
+                        +0|-0  DebugLine(7)                
+                        +1|-0  FindPropStrict(AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))]])                
+                        +0|-2  InitProperty(AbcQName('IFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter)))                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('IFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_definition_help('pos='137,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/IFilterScaler.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 3                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('IFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.canvas.filter:IFilterScaler/IFilterScaler                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('scale,AbcNamespace(8,'hype.framework.canvas.filter:IFilterScaler))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='268,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/IFilterScaler.as)]                    
+                  Method:                  
+                    Name: hype.framework.canvas.filter:IFilterScaler/hype.framework.canvas.filter:IFilterScaler:scale                    
+                    Return Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: filter                        
+                        Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: scale                        
+                        Type: AbcQName('Number,AbcNamespace(22,'))                        
+                        Optional: false                        

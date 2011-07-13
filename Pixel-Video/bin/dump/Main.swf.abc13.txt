@@ -1,0 +1,416 @@
+Abc:
+  7 method(s), 7 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    2 integer(s):    
+      0      
+      1      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    44 string(s):    
+      "null"      
+      "hype.framework.rhythm:AbstractRhythm"      
+      "manager"      
+      ""      
+      "RhythmManager"      
+      "hype.framework.rhythm"      
+      "getManager"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as"      
+      "IRhythm"      
+      "addRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/AbstractRhythm"      
+      "type"      
+      "interval"      
+      "startRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/start"      
+      "Boolean"      
+      "String"      
+      "enter_frame"      
+      "uint"      
+      "stopRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/stop"      
+      "removeRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/destroy"      
+      "void"      
+      "getRhythmInfo"      
+      "isRunning"      
+      "hype.framework.rhythm:AbstractRhythm/isRunning/get"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as"      
+      "pos"      
+      "141"      
+      "start"      
+      "504"      
+      "stop"      
+      "685"      
+      "destroy"      
+      "800"      
+      "951"      
+      "AbstractRhythm"      
+      "Object"      
+      "__go_to_ctor_definition_help"      
+      "243"      
+      "104"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.rhythm:AbstractRhythm)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(24,'hype.framework.rhythm:AbstractRhythm)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])      
+    21 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('manager,AbcNamespace(22,'))      
+      AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('getManager,AbcNamespace(22,'))      
+      AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('addRhythm,AbcNamespace(22,'))      
+      AbcQName('startRhythm,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('stopRhythm,AbcNamespace(22,'))      
+      AbcQName('removeRhythm,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('getRhythmInfo,AbcNamespace(22,'))      
+      AbcQName('isRunning,AbcNamespace(22,'))      
+      AbcQName('start,AbcNamespace(22,'))      
+      AbcQName('stop,AbcNamespace(22,'))      
+      AbcQName('destroy,AbcNamespace(22,'))      
+      AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('AbstractRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_definition_help('pos='504,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_definition_help('pos='685,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_definition_help('pos='800,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_definition_help('pos='951,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_ctor_definition_help('pos='243,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+    ['__go_to_definition_help('pos='104,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('AbstractRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='243,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]            
+            ['__go_to_definition_help('pos='104,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]            
+          Type:          
+            Class:             
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('manager,AbcNamespace(22,'))                  
+                  Index: 1                  
+                  Type: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]                    
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    9 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'manager,0,7)                      
+                              +1|-0  FindProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-0  FindPropStrict(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  GetProperty(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  CallProperty(AbcQName('getManager,AbcNamespace(22,')),0)                      
+                              +0|-2  SetProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.rhythm:AbstractRhythm)              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.rhythm:AbstractRhythm/AbstractRhythm                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 3                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 3                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    18 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                      
+                              +0|-0  DebugLine(12)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  DebugLine(12)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(13)                      
+                              +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  GetProperty(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-2  AsTypeLate()                      
+                              +1|-2  CallProperty(AbcQName('addRhythm,AbcNamespace(22,')),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(14)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('start,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='504,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:AbstractRhythm/start                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'enter_frame                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 3                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        14 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(24)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'type,0,24)                          
+                                  +0|-0  Debug(1,'interval,1,24)                          
+                                  +0|-0  DebugLine(25)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-4  CallProperty(AbcQName('startRhythm,AbcNamespace(22,')),3)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('stop,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='685,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:AbstractRhythm/stop                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        10 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(31)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(32)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('stopRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('destroy,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='800,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:AbstractRhythm/destroy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        15 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(38)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(39)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-1  GetProperty(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-2  CallProperty(AbcQName('removeRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(40)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('isRunning,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='951,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:AbstractRhythm/isRunning/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(45)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('getRhythmInfo,AbcNamespace(22,')),1)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          

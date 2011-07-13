@@ -1,0 +1,204 @@
+Abc:
+  3 method(s), 4 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    21 string(s):    
+      "null"      
+      "hype.framework.core:Accessor"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as"      
+      "getter"      
+      "setter"      
+      "hype.framework.core:Accessor/Accessor"      
+      "void"      
+      "Function"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as"      
+      "pos"      
+      "98"      
+      "128"      
+      "hype.framework.core"      
+      "Accessor"      
+      "Object"      
+      "__go_to_ctor_definition_help"      
+      "166"      
+      "74"      
+    5 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.framework.core:Accessor)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'hype.framework.core)      
+      AbcNamespace(24,'hype.framework.core:Accessor)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.core)])      
+    8 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('getter,AbcNamespace(22,'))      
+      AbcQName('setter,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('Accessor,AbcNSSet([AbcNamespace(22,'hype.framework.core)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
+    ['__go_to_definition_help('pos='128,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
+    ['__go_to_ctor_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
+    ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 3            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   2              
+              localCount:   1              
+              0 exception(s):              
+              16 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('Accessor,AbcNSSet([AbcNamespace(22,'hype.framework.core)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('Accessor,AbcNamespace(22,'hype.framework.core)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]            
+            ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Is Sealed: true              
+              Is Final: true              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.core:Accessor)              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.core:Accessor/Accessor                
+                Return Type: AbcQName('void,AbcNamespace(22,'))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: getter                    
+                    Type: AbcQName('Function,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: setter                    
+                    Type: AbcQName('Function,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 3                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   3                    
+                    0 exception(s):                    
+                    19 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                      
+                              +0|-0  DebugLine(10)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'getter,0,10)                      
+                              +0|-0  Debug(1,'setter,1,10)                      
+                              +0|-0  DebugLine(10)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(11)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('getter,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(12)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  InitProperty(AbcQName('setter,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(13)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('getter,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('setter,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='128,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]                    

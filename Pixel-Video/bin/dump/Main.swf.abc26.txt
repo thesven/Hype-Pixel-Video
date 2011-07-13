@@ -1,0 +1,158 @@
+Abc:
+  4 method(s), 2 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    18 string(s):    
+      "null"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;ITrigger.as"      
+      "target"      
+      "hype.framework.trigger:ITrigger/hype.framework.trigger:ITrigger:run"      
+      "Boolean"      
+      "Object"      
+      "hype.framework.trigger:ITrigger/ITrigger"      
+      "hype.framework.trigger:ITrigger"      
+      "run"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as"      
+      "pos"      
+      "318"      
+      "hype.framework.trigger"      
+      "ITrigger"      
+      "105"      
+    4 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(22,')      
+      AbcNamespace(8,'hype.framework.trigger:ITrigger)      
+      AbcNamespace(22,'hype.framework.trigger)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])      
+    6 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger))      
+      AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))      
+      AbcMultiname('ITrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)]))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as)]    
+    ['__go_to_definition_help('pos='105,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 2            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   1              
+              localCount:   1              
+              0 exception(s):              
+              10 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;ITrigger.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('ITrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))]])                
+                        +0|-2  InitProperty(AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger)))                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))          
+          Index: 0          
+          Metadata:          
+            ['__go_to_definition_help('pos='105,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 0                  
+                  Locals: 1                  
+                  InitScopeDepth: 3                  
+                  MaxScopeDepth: 3                  
+                  Bytecode:                  
+                    operandStack: 0                    
+                    scopeStack:   0                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    1 operation(s):                    
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface true              
+              Nullable: true              
+              Interfaces:               
+              Method:              
+                Name: hype.framework.trigger:ITrigger/ITrigger                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+              Traits:              
+                Trait Method:                
+                  Name: AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:ITrigger/hype.framework.trigger:ITrigger:run                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: target                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        

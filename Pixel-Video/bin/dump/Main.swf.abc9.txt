@@ -1,0 +1,404 @@
+Abc:
+  4 method(s), 9 metadata, 1 type(s), 1 script(s)  
+  ConstantPool:  
+    1 integer(s):    
+      0      
+    1 uint(s):    
+      0      
+    1 double(s):    
+      NaN      
+    47 string(s):    
+      "null"      
+      "hype.extended.layout:GridLayout"      
+      ""      
+      "/Users/bhall/Documents/Lab/hype/src;hype/extended/layout;GridLayout.as"      
+      "x"      
+      "y"      
+      "xSpace"      
+      "ySpace"      
+      "columns"      
+      "_index"      
+      "_x"      
+      "_y"      
+      "_xSpace"      
+      "_ySpace"      
+      "_columns"      
+      "hype.extended.layout:GridLayout/GridLayout"      
+      "Number"      
+      "uint"      
+      "pt"      
+      "row"      
+      "col"      
+      "Point"      
+      "flash.geom"      
+      "Math"      
+      "floor"      
+      "hype.extended.layout:GridLayout/getNextPoint"      
+      "ILayout"      
+      "hype.framework.layout"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as"      
+      "pos"      
+      "278"      
+      "307"      
+      "334"      
+      "361"      
+      "393"      
+      "425"      
+      "getNextPoint"      
+      "964"      
+      "hype.extended.layout"      
+      "GridLayout"      
+      "AbstractLayout"      
+      "Object"      
+      "__go_to_ctor_definition_help"      
+      "762"      
+      "207"      
+    7 namespace(s):    
+      AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.extended.layout:GridLayout)      
+      AbcNamespace(24,'hype.extended.layout:GridLayout)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(22,'hype.framework.layout)      
+      AbcNamespace(22,'hype.extended.layout)      
+    2 namespaceset(s):    
+      AbcNSSet([AbcNamespace(0,'null)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.layout)])      
+    19 multiname(s):    
+      AbcQName('null,AbcNamespace(0,'null))      
+      AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('_x,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('_y,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('_xSpace,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('_ySpace,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('_columns,AbcNamespace(24,'hype.extended.layout:GridLayout))      
+      AbcQName('Number,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('Point,AbcNamespace(22,'flash.geom))      
+      AbcQName('Math,AbcNamespace(22,'))      
+      AbcQName('floor,AbcNamespace(22,'))      
+      AbcQName('x,AbcNamespace(22,'))      
+      AbcQName('y,AbcNamespace(22,'))      
+      AbcMultiname('ILayout,AbcNSSet([AbcNamespace(22,'hype.framework.layout)]))      
+      AbcQName('getNextPoint,AbcNamespace(22,'))      
+      AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))      
+      AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))      
+      AbcQName('Object,AbcNamespace(22,'))      
+  Functions:  
+  Metadata:  
+    ['__go_to_definition_help('pos='278,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='307,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='334,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='361,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='393,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='425,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='964,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_ctor_definition_help('pos='762,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+    ['__go_to_definition_help('pos='207,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]    
+  Scripts:  
+    Script:    
+      Init:      
+        Method:        
+          Name:           
+          Return Type: AbcQName('null,AbcNamespace(0,'null))          
+          Needs Arguments: false          
+          Needs Rest: false          
+          Needs Activation: false          
+          Has Optional Parameters: false          
+          Ignore Rest: false          
+          Is Native: false          
+          DXNS: false          
+          Has Parameter Names: false          
+          Parameters:          
+          Method Body:          
+            Max Stack: 2            
+            Locals: 1            
+            InitScopeDepth: 1            
+            MaxScopeDepth: 4            
+            Bytecode:            
+              operandStack: 2              
+              scopeStack:   3              
+              localCount:   1              
+              0 exception(s):              
+              20 operation(s):              
+                        +1|-0  GetLocal(0)                
+                        +0|-1  PushScope()                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/layout;GridLayout.as)                
+                        +0|-0  DebugLine(10)                
+                        +1|-0  GetScopeObject(0)                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout)))                
+                        +1|-1  GetProperty(AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout)))                
+                        +1|-1  GetProperty(AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/layout;GridLayout.as)                
+                        +0|-0  DebugLine(1)                
+                        +0|-0  ReturnVoid()                
+      Traits:      
+        Trait Class:        
+          Name: AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))          
+          Index: 1          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='762,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]            
+            ['__go_to_definition_help('pos='207,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('GridLayout,AbcNamespace(22,'hype.extended.layout))              
+              Base: AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.extended.layout:GridLayout)              
+              Interfaces:               
+                AbcMultiname('ILayout,AbcNSSet([AbcNamespace(22,'hype.framework.layout)]))                
+              Method:              
+                Name: hype.extended.layout:GridLayout/GridLayout                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: x                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: y                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: xSpace                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: ySpace                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: columns                    
+                    Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 2                  
+                  Locals: 6                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 2                    
+                    scopeStack:   1                    
+                    localCount:   6                    
+                    0 exception(s):                    
+                    38 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/layout;GridLayout.as)                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'x,0,27)                      
+                              +0|-0  Debug(1,'y,1,27)                      
+                              +0|-0  Debug(1,'xSpace,2,27)                      
+                              +0|-0  Debug(1,'ySpace,3,27)                      
+                              +0|-0  Debug(1,'columns,4,27)                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugLine(28)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  PushByte(0)                      
+                              +0|-2  InitProperty(AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(29)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_x,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(30)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  InitProperty(AbcQName('_y,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(31)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(3)                      
+                              +0|-2  InitProperty(AbcQName('_xSpace,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(32)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(4)                      
+                              +0|-2  InitProperty(AbcQName('_ySpace,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(33)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(5)                      
+                              +0|-2  InitProperty(AbcQName('_columns,AbcNamespace(24,'hype.extended.layout:GridLayout)))                      
+                              +0|-0  DebugLine(34)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='278,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_x,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='307,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_y,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='334,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_xSpace,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='361,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_ySpace,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='393,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Slot:                
+                  Name: AbcQName('_columns,AbcNamespace(24,'hype.extended.layout:GridLayout))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='425,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                Trait Method:                
+                  Name: AbcQName('getNextPoint,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='964,'file='/Users/bhall/Documents/Lab/hype/src/hype/extended/layout/GridLayout.as)]                    
+                  Method:                  
+                    Name: hype.extended.layout:GridLayout/getNextPoint                    
+                    Return Type: AbcQName('Point,AbcNamespace(22,'flash.geom))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 6                      
+                      InitScopeDepth: 5                      
+                      MaxScopeDepth: 6                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        66 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/layout;GridLayout.as)                          
+                                  +0|-0  DebugLine(36)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'pt,0,37)                          
+                                  +0|-0  Debug(1,'row,1,38)                          
+                                  +0|-0  Debug(1,'col,2,39)                          
+                                  +0|-0  DebugLine(37)                          
+                                  +1|-0  FindPropStrict(AbcQName('Point,AbcNamespace(22,'flash.geom)))                          
+                                  +1|-1  ConstructProp(AbcQName('Point,AbcNamespace(22,'flash.geom)),0)                          
+                                  +1|-1  Coerce(AbcQName('Point,AbcNamespace(22,'flash.geom)))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(38)                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_columns,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-2  Divide()                          
+                                  +1|-2  CallProperty(AbcQName('floor,AbcNamespace(22,')),1)                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(39)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_columns,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-2  Modulo()                          
+                                  +1|-1  ConvertUInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(41)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_x,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_xSpace,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +0|-2  SetProperty(AbcQName('x,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(42)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_y,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_ySpace,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +0|-2  SetProperty(AbcQName('y,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(44)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +1|-1  Increment()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  SetProperty(AbcQName('_index,AbcNamespace(24,'hype.extended.layout:GridLayout)))                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-1  ReturnValue()                          
