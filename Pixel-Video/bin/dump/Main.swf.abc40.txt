@@ -1,5 +1,5 @@
 Abc:
-  3 method(s), 4 metadata, 1 type(s), 1 script(s)  
+  3 method(s), 1 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
     1 integer(s):    
       0      
@@ -7,54 +7,29 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    23 string(s):    
+    9 string(s):    
       "null"      
-      "hype.framework.core:TimeType"      
-      "ENTER_FRAME"      
       ""      
-      "enter_frame"      
-      "EXIT_FRAME"      
-      "exit_frame"      
-      "TIME"      
-      "time"      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;TimeType.as"      
-      "hype.framework.core:TimeType/TimeType"      
-      "String"      
+      "E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;IFlexAsset.as"      
+      "mx.core:IFlexAsset/IFlexAsset"      
+      "mx.core"      
+      "IFlexAsset"      
       "__go_to_definition_help"      
-      "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as"      
       "pos"      
-      "194"      
-      "316"      
-      "427"      
-      "hype.framework.core"      
-      "TimeType"      
-      "Object"      
-      "99"      
-    5 namespace(s):    
+      "1330"      
+    2 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.core:TimeType)      
-      AbcNamespace(22,')      
-      AbcNamespace(22,'hype.framework.core)      
-      AbcNamespace(24,'hype.framework.core:TimeType)      
+      AbcNamespace(22,'mx.core)      
     2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.core)])      
-    8 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'mx.core)])      
+    3 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('ENTER_FRAME,AbcNamespace(22,'))      
-      AbcQName('EXIT_FRAME,AbcNamespace(22,'))      
-      AbcQName('TIME,AbcNamespace(22,'))      
-      AbcQName('String,AbcNamespace(22,'))      
-      AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))      
-      AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('TimeType,AbcNSSet([AbcNamespace(22,'hype.framework.core)]))      
+      AbcQName('IFlexAsset,AbcNamespace(22,'mx.core))      
+      AbcMultiname('IFlexAsset,AbcNSSet([AbcNamespace(22,'mx.core)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]    
-    ['__go_to_definition_help('pos='316,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]    
-    ['__go_to_definition_help('pos='427,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]    
-    ['__go_to_definition_help('pos='99,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]    
+    ['__go_to_definition_help('pos='1330)]    
   Scripts:  
     Script:    
       Init:      
@@ -74,59 +49,31 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 3            
+            MaxScopeDepth: 2            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   2              
+              scopeStack:   1              
               localCount:   1              
               0 exception(s):              
-              16 operation(s):              
+              10 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;TimeType.as)                
-                        +0|-0  DebugLine(6)                
-                        +1|-0  FindPropStrict(AbcMultiname('TimeType,AbcNSSet([AbcNamespace(22,'hype.framework.core)])))                
-                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +0|-1  PushScope()                
-                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))]])                
-                        +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;TimeType.as)                
-                        +0|-0  DebugLine(1)                
+                        +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;IFlexAsset.as)                
+                        +0|-0  DebugLine(35)                
+                        +1|-0  FindPropStrict(AbcMultiname('IFlexAsset,AbcNSSet([AbcNamespace(22,'mx.core)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IFlexAsset,AbcNamespace(22,'mx.core))]])                
+                        +0|-2  InitProperty(AbcQName('IFlexAsset,AbcNamespace(22,'mx.core)))                
+                        +0|-0  DebugLine(12)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))          
+          Name: AbcQName('IFlexAsset,AbcNamespace(22,'mx.core))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='99,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]            
+            ['__go_to_definition_help('pos='1330)]            
           Type:          
             Class:             
-              Traits:              
-                Trait Const:                
-                  Name: AbcQName('ENTER_FRAME,AbcNamespace(22,'))                  
-                  Index: 1                  
-                  Type: AbcQName('String,AbcNamespace(22,'))                  
-                  Value: 'enter_frame                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]                    
-                Trait Const:                
-                  Name: AbcQName('EXIT_FRAME,AbcNamespace(22,'))                  
-                  Index: 2                  
-                  Type: AbcQName('String,AbcNamespace(22,'))                  
-                  Value: 'exit_frame                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='316,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]                    
-                Trait Const:                
-                  Name: AbcQName('TIME,AbcNamespace(22,'))                  
-                  Index: 3                  
-                  Type: AbcQName('String,AbcNamespace(22,'))                  
-                  Value: 'time                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='427,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/TimeType.as)]                    
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -140,42 +87,26 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 2                  
+                  Max Stack: 0                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
-                  MaxScopeDepth: 4                  
+                  MaxScopeDepth: 3                  
                   Bytecode:                  
-                    operandStack: 2                    
-                    scopeStack:   1                    
+                    operandStack: 0                    
+                    scopeStack:   0                    
                     localCount:   1                    
                     0 exception(s):                    
-                    15 operation(s):                    
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  PushScope()                      
-                              +0|-0  Debug(1,'ENTER_FRAME,0,10)                      
-                              +1|-0  FindProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                      
-                              +1|-0  PushString('enter_frame)                      
-                              +0|-2  InitProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                      
-                              +0|-0  Debug(1,'EXIT_FRAME,1,15)                      
-                              +1|-0  FindProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                      
-                              +1|-0  PushString('exit_frame)                      
-                              +0|-2  InitProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                      
-                              +0|-0  Debug(1,'TIME,2,20)                      
-                              +1|-0  FindProperty(AbcQName('TIME,AbcNamespace(22,')))                      
-                              +1|-0  PushString('time)                      
-                              +0|-2  InitProperty(AbcQName('TIME,AbcNamespace(22,')))                      
+                    1 operation(s):                    
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))              
-              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Name: AbcQName('IFlexAsset,AbcNamespace(22,'mx.core))              
               Is Sealed: true              
               Is Final: false              
-              Is Interface false              
+              Is Interface true              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.core:TimeType)              
               Interfaces:               
               Method:              
-                Name: hype.framework.core:TimeType/TimeType                
+                Name: mx.core:IFlexAsset/IFlexAsset                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -186,21 +117,3 @@ Abc:
                 DXNS: false                
                 Has Parameter Names: false                
                 Parameters:                
-                Method Body:                
-                  Max Stack: 1                  
-                  Locals: 1                  
-                  InitScopeDepth: 4                  
-                  MaxScopeDepth: 5                  
-                  Bytecode:                  
-                    operandStack: 1                    
-                    scopeStack:   1                    
-                    localCount:   1                    
-                    0 exception(s):                    
-                    7 operation(s):                    
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  PushScope()                      
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;TimeType.as)                      
-                              +0|-0  DebugLine(23)                      
-                              +0|-0  ReturnVoid()                      

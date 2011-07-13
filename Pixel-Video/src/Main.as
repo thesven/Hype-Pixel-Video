@@ -1,5 +1,7 @@
 ﻿package 
 {
+	import hype.framework.canvas.encoder.PNGCanvasEncoder;
+	import hype.extended.util.ContextSaveImage;
 	import hype.extended.color.ColorPool;
 	import hype.extended.layout.GridLayout;
 	import hype.framework.core.ObjectPool;
@@ -29,6 +31,8 @@
 		private var checkRhythm:SimpleRhythm;
 		private var hotKey:HotKey;
 		private var bmc:BitmapCanvas;
+		
+		private var capture:ContextSaveImage;
 		
 		private var colorTransform:ColorTransform = new ColorTransform(1,1,1,1,-10,-1,-10,-10);
 		
@@ -66,6 +70,8 @@
 			
 			hotKey = new HotKey(stage);
 			hotKey.addHotKey(swapState, "s");
+			
+			capture = new ContextSaveImage(bmc, PNGCanvasEncoder);
 			
 			checkRhythm = new SimpleRhythm(startPixelCheck);
 			checkRhythm.start(TimeType.TIME, 65);

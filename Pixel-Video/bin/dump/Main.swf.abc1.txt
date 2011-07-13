@@ -192,25 +192,25 @@ Abc:
                     +0|-0  DebugLine(56)            
                     +0|-0  ReturnVoid()            
   Metadata:  
-    ['__go_to_definition_help('pos='224,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='258,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='285,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='314,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='352,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='552,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='655,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='770,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='891,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='1700,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='1836,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='1973,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='2373,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='2682,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='3168,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='3436,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='3792,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_ctor_definition_help('pos='1141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
-    ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='224)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='258)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='285)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='314)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='352)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='552)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='655)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='770)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='891)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1700)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1836)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1973)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='2373)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='2682)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3168)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3436)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3792)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1141)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='194)]    
   Scripts:  
     Script:    
       Init:      
@@ -258,8 +258,8 @@ Abc:
           Name: AbcQName('ObjectPool,AbcNamespace(22,'hype.framework.core))          
           Index: 1          
           Metadata:          
-            ['__go_to_ctor_definition_help('pos='1141,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]            
-            ['__go_to_definition_help('pos='194,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1141)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='194)]            
           Type:          
             Class:             
               Method:              
@@ -439,63 +439,63 @@ Abc:
                   Index: 0                  
                   Type: AbcQName('Array,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='224,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='224)]                    
                 Trait Slot:                
                   Name: AbcQName('_max,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
                   Index: 0                  
                   Type: AbcQName('uint,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='258,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='258)]                    
                 Trait Slot:                
                   Name: AbcQName('_count,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
                   Index: 0                  
                   Type: AbcQName('uint,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='285,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='285)]                    
                 Trait Slot:                
                   Name: AbcQName('_activeSet,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
                   Index: 0                  
                   Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='314,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='314)]                    
                 Trait Slot:                
                   Name: AbcQName('_inactiveSet,AbcNamespace(24,'hype.framework.core:ObjectPool))                  
                   Index: 0                  
                   Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='352,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='352)]                    
                 Trait Slot:                
                   Name: AbcQName('autoClean,AbcNamespace(22,'))                  
                   Index: 0                  
                   Type: AbcQName('Boolean,AbcNamespace(22,'))                  
                   Value: true                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='552,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='552)]                    
                 Trait Slot:                
                   Name: AbcQName('onCreateObject,AbcNamespace(22,'))                  
                   Index: 0                  
                   Type: AbcQName('Function,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='655,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='655)]                    
                 Trait Slot:                
                   Name: AbcQName('onRequestObject,AbcNamespace(22,'))                  
                   Index: 0                  
                   Type: AbcQName('Function,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='770,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='770)]                    
                 Trait Slot:                
                   Name: AbcQName('onReleaseObject,AbcNamespace(22,'))                  
                   Index: 0                  
                   Type: AbcQName('Function,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='891,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='891)]                    
                 Trait Getter:                
                   Name: AbcQName('activeSet,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='1700,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1700)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/activeSet/get                    
                     Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
@@ -533,7 +533,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='1836,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1836)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/isFull/get                    
                     Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
@@ -574,7 +574,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='1973,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='1973)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/destroy                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
@@ -648,7 +648,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='2373,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='2373)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/addClass                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
@@ -718,7 +718,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='2682,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='2682)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/request                    
                     Return Type: AbcQName('Object,AbcNamespace(22,'))                    
@@ -827,7 +827,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='3168,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3168)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/requestAll                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
@@ -875,7 +875,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='3436,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3436)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/release                    
                     Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
@@ -954,7 +954,7 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='3792,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectPool.as,'pos='3792)]                    
                   Method:                  
                     Name: hype.framework.core:ObjectPool/protected:makeRandomObject                    
                     Return Type: AbcQName('Object,AbcNamespace(22,'))                    

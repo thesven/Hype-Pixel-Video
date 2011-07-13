@@ -1,70 +1,241 @@
 Abc:
-  4 method(s), 2 metadata, 1 type(s), 1 script(s)  
+  21 method(s), 28 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    5 integer(s):    
       0      
+      0      
+      1024      
+      128      
+      1      
     1 uint(s):    
       0      
     1 double(s):    
       NaN      
-    28 string(s):    
+    126 string(s):    
       "null"      
-      "hype.framework.layout:AbstractLayout"      
+      "hype.framework.display:BitmapCanvas"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/layout;AbstractLayout.as"      
-      "object"      
-      "pt"      
-      "ILayout"      
-      "hype.framework.layout"      
-      "getNextPoint"      
-      "hype.framework.layout:ILayout"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as"      
+      "w"      
+      "h"      
+      "transparent"      
+      "fillColor"      
+      "matrix"      
+      "Matrix"      
       "flash.geom"      
-      "Point"      
+      "_matrix"      
+      "SimpleCanvas"      
+      "hype.framework.canvas"      
+      "_canvas"      
+      "_width"      
+      "_height"      
+      "Bitmap"      
+      "flash.display"      
+      "bitmapData"      
+      "_bitmap"      
+      "addChild"      
+      "hype.framework.display:BitmapCanvas/BitmapCanvas"      
+      "Number"      
+      "Boolean"      
+      "uint"      
+      "hype.framework.display:BitmapCanvas/bitmap/get"      
+      "rect"      
+      "hype.framework.display:BitmapCanvas/rect/get"      
+      "Rectangle"      
+      "isCapturing"      
+      "hype.framework.display:BitmapCanvas/isCapturing/get"      
+      "hype.framework.display:BitmapCanvas/transparent/get"      
+      "hype.framework.display:BitmapCanvas/fillColor/get"      
+      "int"      
+      "_largeCanvas"      
+      "hype.framework.display:BitmapCanvas/largeCanvas/get"      
+      "GridCanvas"      
+      "_canvasColorTransform"      
+      "hype.framework.display:BitmapCanvas/canvasColorTransform/get"      
+      "ColorTransform"      
+      "canvasColorTransform"      
+      "hype.framework.display:BitmapCanvas/canvasColorTransform/set"      
+      "void"      
+      "_canvasBlendMode"      
+      "hype.framework.display:BitmapCanvas/canvasBlendMode/get"      
+      "String"      
+      "canvasBlendMode"      
+      "hype.framework.display:BitmapCanvas/canvasBlendMode/set"      
+      "scaleFactor"      
+      "gridSize"      
+      "border"      
+      "Math"      
+      "ceil"      
+      "hype.framework.display:BitmapCanvas/setupLargeCanvas"      
+      "target"      
+      "continuous"      
+      "type"      
+      "interval"      
+      "startCapture"      
+      "hype.framework.display:BitmapCanvas/startCapture"      
+      "enter_frame"      
+      "stopCapture"      
+      "hype.framework.display:BitmapCanvas/stopCapture"      
+      "capture"      
+      "hype.framework.display:BitmapCanvas/capture"      
+      "clear"      
+      "hype.framework.display:BitmapCanvas/clear"      
+      "filter"      
+      "applyFilter"      
+      "hype.framework.display:BitmapCanvas/applyFilter"      
+      "flash.filters"      
+      "BitmapFilter"      
+      "transform"      
+      "colorTransform"      
+      "hype.framework.display:BitmapCanvas/colorTransform"      
       "x"      
       "y"      
-      "hype.framework.layout:AbstractLayout/applyLayout"      
-      "void"      
-      "flash.display"      
-      "DisplayObject"      
-      "hype.framework.layout:AbstractLayout/AbstractLayout"      
-      "applyLayout"      
+      "getPixel32"      
+      "hype.framework.display:BitmapCanvas/getPixel32"      
+      "ICanvas"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/layout/AbstractLayout.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as"      
       "pos"      
-      "351"      
-      "AbstractLayout"      
+      "513"      
+      "551"      
+      "592"      
+      "624"      
+      "665"      
+      "719"      
+      "750"      
+      "782"      
+      "bitmap"      
+      "1649"      
+      "1766"      
+      "1904"      
+      "2039"      
+      "2165"      
+      "largeCanvas"      
+      "2314"      
+      "2459"      
+      "2561"      
+      "2912"      
+      "2996"      
+      "setupLargeCanvas"      
+      "3242"      
+      "4184"      
+      "4510"      
+      "4787"      
+      "5033"      
+      "5147"      
+      "5310"      
+      "5493"      
+      "hype.framework.display"      
+      "BitmapCanvas"      
+      "Sprite"      
       "Object"      
-      "174"      
-    8 namespace(s):    
+      "EventDispatcher"      
+      "flash.events"      
+      "DisplayObject"      
+      "InteractiveObject"      
+      "DisplayObjectContainer"      
+      "__go_to_ctor_definition_help"      
+      "1152"      
+      "447"      
+    10 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.layout:AbstractLayout)      
-      AbcNamespace(22,'hype.framework.layout)      
-      AbcNamespace(8,'hype.framework.layout:ILayout)      
+      AbcNamespace(5,'hype.framework.display:BitmapCanvas)      
       AbcNamespace(22,'flash.geom)      
-      AbcNamespace(22,')      
+      AbcNamespace(24,'hype.framework.display:BitmapCanvas)      
+      AbcNamespace(22,'hype.framework.canvas)      
       AbcNamespace(22,'flash.display)      
-      AbcNamespace(24,'hype.framework.layout:AbstractLayout)      
-    2 namespaceset(s):    
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.filters)      
+      AbcNamespace(22,'hype.framework.display)      
+      AbcNamespace(22,'flash.events)      
+    3 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.layout)])      
-    12 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.display)])      
+    52 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('ILayout,AbcNamespace(22,'hype.framework.layout))      
-      AbcQName('getNextPoint,AbcNamespace(8,'hype.framework.layout:ILayout))      
-      AbcQName('Point,AbcNamespace(22,'flash.geom))      
-      AbcQName('x,AbcNamespace(22,'))      
-      AbcQName('y,AbcNamespace(22,'))      
+      AbcQName('Matrix,AbcNamespace(22,'flash.geom))      
+      AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('SimpleCanvas,AbcNamespace(22,'hype.framework.canvas))      
+      AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('_width,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('_height,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('Bitmap,AbcNamespace(22,'flash.display))      
+      AbcQName('bitmapData,AbcNamespace(22,'))      
+      AbcQName('_bitmap,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('addChild,AbcNamespace(22,'))      
+      AbcQName('Number,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('rect,AbcNamespace(22,'))      
+      AbcQName('Rectangle,AbcNamespace(22,'flash.geom))      
+      AbcQName('isCapturing,AbcNamespace(22,'))      
+      AbcQName('transparent,AbcNamespace(22,'))      
+      AbcQName('fillColor,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('GridCanvas,AbcNamespace(22,'hype.framework.canvas))      
+      AbcQName('_canvasColorTransform,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))      
+      AbcQName('canvasColorTransform,AbcNamespace(22,'))      
       AbcQName('void,AbcNamespace(22,'))      
-      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
-      AbcQName('applyLayout,AbcNamespace(22,'))      
-      AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))      
+      AbcQName('_canvasBlendMode,AbcNamespace(24,'hype.framework.display:BitmapCanvas))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('canvasBlendMode,AbcNamespace(22,'))      
+      AbcQName('Math,AbcNamespace(22,'))      
+      AbcQName('ceil,AbcNamespace(22,'))      
+      AbcQName('scaleFactor,AbcNamespace(22,'))      
+      AbcQName('startCapture,AbcNamespace(22,'))      
+      AbcQName('stopCapture,AbcNamespace(22,'))      
+      AbcQName('capture,AbcNamespace(22,'))      
+      AbcQName('clear,AbcNamespace(22,'))      
+      AbcQName('applyFilter,AbcNamespace(22,'))      
+      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
+      AbcQName('colorTransform,AbcNamespace(22,'))      
+      AbcQName('getPixel32,AbcNamespace(22,'))      
+      AbcMultiname('ICanvas,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))      
+      AbcQName('bitmap,AbcNamespace(22,'))      
+      AbcQName('largeCanvas,AbcNamespace(22,'))      
+      AbcQName('setupLargeCanvas,AbcNamespace(22,'))      
+      AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcMultiname('BitmapCanvas,AbcNSSet([AbcNamespace(22,'hype.framework.display)]))      
       AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('AbstractLayout,AbcNSSet([AbcNamespace(22,'hype.framework.layout)]))      
+      AbcQName('EventDispatcher,AbcNamespace(22,'flash.events))      
+      AbcQName('DisplayObject,AbcNamespace(22,'flash.display))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='351,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/layout/AbstractLayout.as)]    
-    ['__go_to_definition_help('pos='174,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/layout/AbstractLayout.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='513)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='551)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='592)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='624)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='665)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='719)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='750)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='782)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1649)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1766)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1904)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2039)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2165)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2314)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2459)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2561)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2912)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2996)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='3242)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4184)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4510)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4787)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5033)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5147)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5310)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5493)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1152)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='447)]    
   Scripts:  
     Script:    
       Init:      
@@ -84,35 +255,56 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 3            
+            MaxScopeDepth: 8            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   2              
+              scopeStack:   7              
               localCount:   1              
               0 exception(s):              
-              16 operation(s):              
+              36 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/layout;AbstractLayout.as)                
-                        +0|-0  DebugLine(8)                
-                        +1|-0  FindPropStrict(AbcMultiname('AbstractLayout,AbcNSSet([AbcNamespace(22,'hype.framework.layout)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                
+                        +0|-0  DebugLine(16)                
+                        +1|-0  FindPropStrict(AbcMultiname('BitmapCanvas,AbcNSSet([AbcNamespace(22,'hype.framework.display)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
-                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))]])                
+                        +1|-0  FindPropStrict(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +1|-1  GetProperty(AbcQName('EventDispatcher,AbcNamespace(22,'flash.events)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('InteractiveObject,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('DisplayObjectContainer,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  GetProperty(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/layout;AbstractLayout.as)                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))          
+          Name: AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='174,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/layout/AbstractLayout.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1152)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='447)]            
           Type:          
             Class:             
               Method:              
@@ -130,8 +322,8 @@ Abc:
                 Method Body:                
                   Max Stack: 1                  
                   Locals: 1                  
-                  InitScopeDepth: 3                  
-                  MaxScopeDepth: 4                  
+                  InitScopeDepth: 8                  
+                  MaxScopeDepth: 9                  
                   Bytecode:                  
                     operandStack: 1                    
                     scopeStack:   1                    
@@ -142,54 +334,450 @@ Abc:
                               +0|-1  PushScope()                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('AbstractLayout,AbcNamespace(22,'hype.framework.layout))              
-              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Name: AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))              
+              Base: AbcQName('Sprite,AbcNamespace(22,'flash.display))              
               Is Sealed: true              
               Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.layout:AbstractLayout)              
+              Protected Namespace: AbcNamespace(24,'hype.framework.display:BitmapCanvas)              
               Interfaces:               
+                AbcMultiname('ICanvas,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))                
               Method:              
-                Name: hype.framework.layout:AbstractLayout/AbstractLayout                
+                Name: hype.framework.display:BitmapCanvas/BitmapCanvas                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
                 Needs Activation: false                
-                Has Optional Parameters: false                
+                Has Optional Parameters: true                
                 Ignore Rest: false                
                 Is Native: false                
                 DXNS: false                
-                Has Parameter Names: false                
+                Has Parameter Names: true                
                 Parameters:                
+                  Parameter:                   
+                    Name: w                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: h                    
+                    Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: transparent                    
+                    Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Optional: true                    
+                    Default: true                    
+                  Parameter:                   
+                    Name: fillColor                    
+                    Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Optional: true                    
+                    Default: 0                    
+                  Parameter:                   
+                    Name: matrix                    
+                    Type: AbcQName('Matrix,AbcNamespace(22,'flash.geom))                    
+                    Optional: true                    
+                    Default: null                    
                 Method Body:                
-                  Max Stack: 1                  
-                  Locals: 1                  
-                  InitScopeDepth: 4                  
-                  MaxScopeDepth: 5                  
+                  Max Stack: 7                  
+                  Locals: 6                  
+                  InitScopeDepth: 9                  
+                  MaxScopeDepth: 10                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 7                    
                     scopeStack:   1                    
-                    localCount:   1                    
+                    localCount:   6                    
                     0 exception(s):                    
-                    7 operation(s):                    
+                    61 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                      
+                              +0|-0  DebugLine(36)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'w,0,36)                      
+                              +0|-0  Debug(1,'h,1,36)                      
+                              +0|-0  Debug(1,'transparent,2,36)                      
+                              +0|-0  Debug(1,'fillColor,3,36)                      
+                              +0|-0  Debug(1,'matrix,4,36)                      
+                              +0|-0  DebugLine(36)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/layout;AbstractLayout.as)                      
-                              +0|-0  DebugLine(24)                      
+                              +0|-0  DebugLine(37)                      
+                              +1|-0  GetLocal(5)                      
+                              +1|-0  PushNull()                      
+                              +0|-2  IfNotEqual(L0)                      
+                              +0|-0  DebugLine(38)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Matrix,AbcNamespace(22,'flash.geom)))                      
+                              +1|-1  ConstructProp(AbcQName('Matrix,AbcNamespace(22,'flash.geom)),0)                      
+                              +0|-2  InitProperty(AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +0|-0  Jump(L1)                      
+                      L0:     +0|-0  DebugLine(40)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(5)                      
+                              +0|-2  InitProperty(AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                      L1:     +0|-0  DebugLine(43)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('SimpleCanvas,AbcNamespace(22,'hype.framework.canvas)))                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(2)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-0  GetLocal(4)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +1|-6  ConstructProp(AbcQName('SimpleCanvas,AbcNamespace(22,'hype.framework.canvas)),5)                      
+                              +0|-2  InitProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +0|-0  DebugLine(45)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_width,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +0|-0  DebugLine(46)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  InitProperty(AbcQName('_height,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +0|-0  DebugLine(48)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Bitmap,AbcNamespace(22,'flash.display)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +1|-1  GetProperty(AbcQName('bitmapData,AbcNamespace(22,')))                      
+                              +1|-2  ConstructProp(AbcQName('Bitmap,AbcNamespace(22,'flash.display)),1)                      
+                              +0|-2  InitProperty(AbcQName('_bitmap,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +0|-0  DebugLine(49)                      
+                              +1|-0  FindPropStrict(AbcQName('addChild,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_bitmap,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                      
+                              +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(50)                      
                               +0|-0  ReturnVoid()                      
               Traits:              
-                Trait Method:                
-                  Name: AbcQName('applyLayout,AbcNamespace(22,'))                  
+                Trait Slot:                
+                  Name: AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('SimpleCanvas,AbcNamespace(22,'hype.framework.canvas))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='513)]                    
+                Trait Slot:                
+                  Name: AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('GridCanvas,AbcNamespace(22,'hype.framework.canvas))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='551)]                    
+                Trait Slot:                
+                  Name: AbcQName('_bitmap,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('Bitmap,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='592)]                    
+                Trait Slot:                
+                  Name: AbcQName('_canvasBlendMode,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('String,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='624)]                    
+                Trait Slot:                
+                  Name: AbcQName('_canvasColorTransform,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='665)]                    
+                Trait Slot:                
+                  Name: AbcQName('_width,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='719)]                    
+                Trait Slot:                
+                  Name: AbcQName('_height,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='750)]                    
+                Trait Slot:                
+                  Name: AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas))                  
+                  Index: 0                  
+                  Type: AbcQName('Matrix,AbcNamespace(22,'flash.geom))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='782)]                    
+                Trait Getter:                
+                  Name: AbcQName('bitmap,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='351,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/layout/AbstractLayout.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1649)]                    
                   Method:                  
-                    Name: hype.framework.layout:AbstractLayout/applyLayout                    
+                    Name: hype.framework.display:BitmapCanvas/bitmap/get                    
+                    Return Type: AbcQName('Bitmap,AbcNamespace(22,'flash.display))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(55)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(56)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_bitmap,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('rect,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1766)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/rect/get                    
+                    Return Type: AbcQName('Rectangle,AbcNamespace(22,'flash.geom))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(62)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('isCapturing,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='1904)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/isCapturing/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(69)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(70)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('isCapturing,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('transparent,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2039)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/transparent/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(76)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('transparent,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('fillColor,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2165)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/fillColor/get                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(84)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('fillColor,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('largeCanvas,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2314)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/largeCanvas/get                    
+                    Return Type: AbcQName('GridCanvas,AbcNamespace(22,'hype.framework.canvas))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(90)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('canvasColorTransform,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2459)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/canvasColorTransform/get                    
+                    Return Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(97)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasColorTransform,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('canvasColorTransform,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2561)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/canvasColorTransform/set                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
@@ -201,42 +789,655 @@ Abc:
                     Has Parameter Names: true                    
                     Parameters:                    
                       Parameter:                       
-                        Name: object                        
-                        Type: AbcQName('DisplayObject,AbcNamespace(22,'flash.display))                        
+                        Name: canvasColorTransform                        
+                        Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                        
                         Optional: false                        
                     Method Body:                    
                       Max Stack: 2                      
-                      Locals: 3                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
                       Bytecode:                      
                         operandStack: 2                        
                         scopeStack:   1                        
-                        localCount:   3                        
+                        localCount:   2                        
                         0 exception(s):                        
-                        25 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/layout;AbstractLayout.as)                          
-                                  +0|-0  DebugLine(15)                          
+                        26 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(101)                          
                                   +1|-0  GetLocal(0)                          
                                   +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'object,0,15)                          
-                                  +0|-0  Debug(1,'pt,1,16)                          
-                                  +0|-0  DebugLine(16)                          
-                                  +1|-0  FindPropStrict(AbcQName('ILayout,AbcNamespace(22,'hype.framework.layout)))                          
+                                  +0|-0  Debug(1,'canvasColorTransform,0,101)                          
+                                  +0|-0  DebugLine(102)                          
                                   +1|-0  GetLocal(0)                          
-                                  +1|-2  CallProperty(AbcQName('ILayout,AbcNamespace(22,'hype.framework.layout)),1)                          
-                                  +1|-1  CallProperty(AbcQName('getNextPoint,AbcNamespace(8,'hype.framework.layout:ILayout)),0)                          
-                                  +1|-1  Coerce(AbcQName('Point,AbcNamespace(22,'flash.geom)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(18)                          
                                   +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('x,AbcNamespace(22,')))                          
-                                  +0|-2  SetProperty(AbcQName('x,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(19)                          
+                                  +0|-2  InitProperty(AbcQName('_canvasColorTransform,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-0  DebugLine(103)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
                                   +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('y,AbcNamespace(22,')))                          
-                                  +0|-2  SetProperty(AbcQName('y,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(20)                          
+                                  +0|-2  SetProperty(AbcQName('canvasColorTransform,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(105)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(106)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetProperty(AbcQName('canvasColorTransform,AbcNamespace(22,')))                          
+                          L0:     +0|-0  DebugLine(108)                          
                                   +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('canvasBlendMode,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2912)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/canvasBlendMode/get                    
+                    Return Type: AbcQName('String,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(113)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(114)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasBlendMode,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('canvasBlendMode,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='2996)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/canvasBlendMode/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: canvasBlendMode                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        26 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(117)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'canvasBlendMode,0,117)                          
+                                  +0|-0  DebugLine(118)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_canvasBlendMode,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-0  DebugLine(119)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetProperty(AbcQName('canvasBlendMode,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(121)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(122)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetProperty(AbcQName('canvasBlendMode,AbcNamespace(22,')))                          
+                          L0:     +0|-0  DebugLine(124)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('setupLargeCanvas,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='3242)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/setupLargeCanvas                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: scaleFactor                        
+                        Type: AbcQName('Number,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: matrix                        
+                        Type: AbcQName('Matrix,AbcNamespace(22,'flash.geom))                        
+                        Optional: true                        
+                        Default: null                        
+                      Parameter:                       
+                        Name: gridSize                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1024                        
+                      Parameter:                       
+                        Name: border                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 128                        
+                    Method Body:                    
+                      Max Stack: 9                      
+                      Locals: 5                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 9                        
+                        scopeStack:   1                        
+                        localCount:   5                        
+                        0 exception(s):                        
+                        59 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(127)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'scaleFactor,0,127)                          
+                                  +0|-0  Debug(1,'matrix,1,127)                          
+                                  +0|-0  Debug(1,'gridSize,2,127)                          
+                                  +0|-0  Debug(1,'border,3,127)                          
+                                  +0|-0  DebugLine(128)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(129)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_matrix,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  Coerce(AbcQName('Matrix,AbcNamespace(22,'flash.geom)))                          
+                                  +0|-1  SetLocal(2)                          
+                          L0:     +0|-0  DebugLine(132)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('GridCanvas,AbcNamespace(22,'hype.framework.canvas)))                          
+                                  +0|-0  DebugLine(132)                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_width,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('ceil,AbcNamespace(22,')),1)                          
+                                  +0|-0  DebugLine(133)                          
+                                  +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_height,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('ceil,AbcNamespace(22,')),1)                          
+                                  +0|-0  DebugLine(134)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('transparent,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(135)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  GetProperty(AbcQName('fillColor,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(136)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-0  DebugLine(137)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-0  DebugLine(138)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-8  ConstructProp(AbcQName('GridCanvas,AbcNamespace(22,'hype.framework.canvas)),7)                          
+                                  +0|-2  InitProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +0|-0  DebugLine(139)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  SetProperty(AbcQName('scaleFactor,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(140)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('startCapture,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4184)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/startCapture                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: target                        
+                        Type: AbcQName('null,AbcNamespace(0,'null))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: continuous                        
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: false                        
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'enter_frame                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 5                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   5                        
+                        0 exception(s):                        
+                        31 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(156)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'target,0,156)                          
+                                  +0|-0  Debug(1,'continuous,1,156)                          
+                                  +0|-0  Debug(1,'type,2,156)                          
+                                  +0|-0  Debug(1,'interval,3,156)                          
+                                  +0|-0  DebugLine(157)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(158)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-5  CallProperty(AbcQName('startCapture,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(161)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-5  CallProperty(AbcQName('startCapture,AbcNamespace(22,')),4)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('stopCapture,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4510)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/stopCapture                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        19 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(167)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(168)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(169)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  CallProperty(AbcQName('stopCapture,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(172)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  CallProperty(AbcQName('stopCapture,AbcNamespace(22,')),0)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('capture,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='4787)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/capture                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: continuous                        
+                        Type: AbcQName('Boolean,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: true                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        24 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(180)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'continuous,0,180)                          
+                                  +0|-0  DebugLine(181)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('capture,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(182)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(183)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('capture,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(185)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('clear,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5033)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/clear                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        21 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(190)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(191)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(192)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(193)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(195)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('applyFilter,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5147)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/applyFilter                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: filter                        
+                        Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        24 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(197)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'filter,0,197)                          
+                                  +0|-0  DebugLine(198)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(199)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(200)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(202)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('colorTransform,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5310)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/colorTransform                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: transform                        
+                        Type: AbcQName('ColorTransform,AbcNamespace(22,'flash.geom))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        24 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(204)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'transform,0,204)                          
+                                  +0|-0  DebugLine(205)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('colorTransform,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(206)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(207)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_largeCanvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('colorTransform,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(209)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('getPixel32,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/display/BitmapCanvas.as,'pos='5493)]                    
+                  Method:                  
+                    Name: hype.framework.display:BitmapCanvas/getPixel32                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: x                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: y                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 9                      
+                      MaxScopeDepth: 10                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        13 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/display;BitmapCanvas.as)                          
+                                  +0|-0  DebugLine(211)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'x,0,211)                          
+                                  +0|-0  Debug(1,'y,1,211)                          
+                                  +0|-0  DebugLine(212)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvas,AbcNamespace(24,'hype.framework.display:BitmapCanvas)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-3  CallProperty(AbcQName('getPixel32,AbcNamespace(22,')),2)                          
+                                  +0|-1  ReturnValue()                          

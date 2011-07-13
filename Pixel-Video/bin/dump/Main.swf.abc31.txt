@@ -7,60 +7,44 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    26 string(s):    
+    18 string(s):    
       "null"      
-      "hype.framework.canvas.filter:GlowFilterScaler"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;GlowFilterScaler.as"      
-      "filter"      
-      "scale"      
-      "glowFilter"      
-      "clone"      
-      "GlowFilter"      
-      "flash.filters"      
-      "blurX"      
-      "blurY"      
-      "hype.framework.canvas.filter:GlowFilterScaler/scale"      
-      "BitmapFilter"      
-      "Number"      
-      "hype.framework.canvas.filter:GlowFilterScaler/GlowFilterScaler"      
-      "IFilterScaler"      
-      "hype.framework.canvas.filter"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;ITrigger.as"      
+      "target"      
+      "hype.framework.trigger:ITrigger/hype.framework.trigger:ITrigger:run"      
+      "Boolean"      
+      "Object"      
+      "hype.framework.trigger:ITrigger/ITrigger"      
+      "hype.framework.trigger:ITrigger"      
+      "run"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/GlowFilterScaler.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as"      
       "pos"      
-      "217"      
-      "GlowFilterScaler"      
-      "Object"      
-      "155"      
-    6 namespace(s):    
+      "318"      
+      "hype.framework.trigger"      
+      "ITrigger"      
+      "105"      
+    4 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.canvas.filter:GlowFilterScaler)      
       AbcNamespace(22,')      
-      AbcNamespace(22,'flash.filters)      
-      AbcNamespace(22,'hype.framework.canvas.filter)      
-      AbcNamespace(24,'hype.framework.canvas.filter:GlowFilterScaler)      
+      AbcNamespace(8,'hype.framework.trigger:ITrigger)      
+      AbcNamespace(22,'hype.framework.trigger)      
     2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])      
-    12 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])      
+    6 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('clone,AbcNamespace(22,'))      
-      AbcQName('GlowFilter,AbcNamespace(22,'flash.filters))      
-      AbcQName('blurX,AbcNamespace(22,'))      
-      AbcQName('blurY,AbcNamespace(22,'))      
-      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
-      AbcQName('Number,AbcNamespace(22,'))      
-      AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))      
-      AbcQName('scale,AbcNamespace(22,'))      
-      AbcQName('GlowFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
       AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('GlowFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))      
+      AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger))      
+      AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))      
+      AbcMultiname('ITrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='217,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/GlowFilterScaler.as)]    
-    ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/GlowFilterScaler.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as,'pos='318)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as,'pos='105)]    
   Scripts:  
     Script:    
       Init:      
@@ -80,35 +64,29 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 3            
+            MaxScopeDepth: 2            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   2              
+              scopeStack:   1              
               localCount:   1              
               0 exception(s):              
-              16 operation(s):              
+              10 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;GlowFilterScaler.as)                
-                        +0|-0  DebugLine(8)                
-                        +1|-0  FindPropStrict(AbcMultiname('GlowFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])))                
-                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +0|-1  PushScope()                
-                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('GlowFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))]])                
-                        +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('GlowFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;GlowFilterScaler.as)                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;ITrigger.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('ITrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])))                
+                        +1|-0  PushNull()                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))]])                
+                        +0|-2  InitProperty(AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger)))                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('GlowFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))          
+          Name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/GlowFilterScaler.as)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as,'pos='105)]            
           Type:          
             Class:             
               Method:              
@@ -124,31 +102,26 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 1                  
+                  Max Stack: 0                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
-                  MaxScopeDepth: 4                  
+                  MaxScopeDepth: 3                  
                   Bytecode:                  
-                    operandStack: 1                    
-                    scopeStack:   1                    
+                    operandStack: 0                    
+                    scopeStack:   0                    
                     localCount:   1                    
                     0 exception(s):                    
-                    3 operation(s):                    
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  PushScope()                      
+                    1 operation(s):                    
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('GlowFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))              
-              Base: AbcQName('Object,AbcNamespace(22,'))              
+              Name: AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))              
               Is Sealed: true              
               Is Final: false              
-              Is Interface false              
+              Is Interface true              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.canvas.filter:GlowFilterScaler)              
               Interfaces:               
-                AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))                
               Method:              
-                Name: hype.framework.canvas.filter:GlowFilterScaler/GlowFilterScaler                
+                Name: hype.framework.trigger:ITrigger/ITrigger                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -159,35 +132,17 @@ Abc:
                 DXNS: false                
                 Has Parameter Names: false                
                 Parameters:                
-                Method Body:                
-                  Max Stack: 1                  
-                  Locals: 1                  
-                  InitScopeDepth: 4                  
-                  MaxScopeDepth: 5                  
-                  Bytecode:                  
-                    operandStack: 1                    
-                    scopeStack:   1                    
-                    localCount:   1                    
-                    0 exception(s):                    
-                    7 operation(s):                    
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  PushScope()                      
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;GlowFilterScaler.as)                      
-                              +0|-0  DebugLine(19)                      
-                              +0|-0  ReturnVoid()                      
               Traits:              
                 Trait Method:                
-                  Name: AbcQName('scale,AbcNamespace(22,'))                  
+                  Name: AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='217,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/GlowFilterScaler.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/ITrigger.as,'pos='318)]                    
                   Method:                  
-                    Name: hype.framework.canvas.filter:GlowFilterScaler/scale                    
-                    Return Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                    
+                    Name: hype.framework.trigger:ITrigger/hype.framework.trigger:ITrigger:run                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
@@ -198,53 +153,6 @@ Abc:
                     Has Parameter Names: true                    
                     Parameters:                    
                       Parameter:                       
-                        Name: filter                        
-                        Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                        
+                        Name: target                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
                         Optional: false                        
-                      Parameter:                       
-                        Name: scale                        
-                        Type: AbcQName('Number,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        32 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;GlowFilterScaler.as)                          
-                                  +0|-0  DebugLine(9)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'filter,0,9)                          
-                                  +0|-0  Debug(1,'scale,1,9)                          
-                                  +0|-0  Debug(1,'glowFilter,2,10)                          
-                                  +0|-0  DebugLine(10)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  CallProperty(AbcQName('clone,AbcNamespace(22,')),0)                          
-                                  +1|-0  FindPropStrict(AbcQName('GlowFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +1|-1  GetProperty(AbcQName('GlowFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +1|-2  AsTypeLate()                          
-                                  +1|-1  Coerce(AbcQName('GlowFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(12)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  Multiply()                          
-                                  +0|-2  SetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(13)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('blurY,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  Multiply()                          
-                                  +0|-2  SetProperty(AbcQName('blurY,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(15)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          

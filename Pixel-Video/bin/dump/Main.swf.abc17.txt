@@ -1,165 +1,98 @@
 Abc:
-  16 method(s), 19 metadata, 1 type(s), 1 script(s)  
+  7 method(s), 7 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    2 integer(s):    
       0      
+      1      
     1 uint(s):    
       0      
     1 double(s):    
       NaN      
-    83 string(s):    
+    44 string(s):    
       "null"      
-      "hype.framework.core:ObjectSet"      
+      "hype.framework.rhythm:AbstractRhythm"      
+      "manager"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as"      
-      "Dictionary"      
-      "flash.utils"      
-      "_table"      
-      "_length"      
-      "hype.framework.core:ObjectSet/ObjectSet"      
-      "hype.framework.core:ObjectSet/length/get"      
-      "int"      
-      "node"      
-      "s"      
-      "_head"      
-      "hype.framework.core"      
-      "ObjectNode"      
-      "ObjectSet"      
-      "obj"      
-      "insert"      
-      "next"      
-      "hype.framework.core:ObjectSet/clone"      
-      "Object"      
-      "nextNode"      
-      "prev"      
-      "ObjectSet.as$7"      
-      "http://adobe.com/AS3/2006/builtin"      
-      "_tail"      
-      "hype.framework.core:ObjectSet/destroy"      
-      "void"      
-      "hype.framework.core:ObjectSet/insert"      
+      "RhythmManager"      
+      "hype.framework.rhythm"      
+      "getManager"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as"      
+      "IRhythm"      
+      "addRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/AbstractRhythm"      
+      "type"      
+      "interval"      
+      "startRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/start"      
       "Boolean"      
-      "hype.framework.core:ObjectSet/remove"      
-      "oldNode"      
-      "hype.framework.core:ObjectSet/pull"      
-      "f"      
-      "hype.framework.core:ObjectSet/forEach"      
-      "Function"      
-      "hype.framework.core:ObjectSet/filter"      
-      "object"      
-      "hype.framework.core:ObjectSet/contains"      
-      "input"      
-      "result"      
-      "contains"      
-      "hype.framework.core:ObjectSet/isSubset"      
-      "output"      
-      "clone"      
-      "hype.framework.core:ObjectSet/union"      
-      "hype.framework.core:ObjectSet/intersection"      
-      "hype.framework.core:ObjectSet/complement"      
+      "String"      
+      "enter_frame"      
+      "uint"      
+      "stopRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/stop"      
+      "removeRhythm"      
+      "hype.framework.rhythm:AbstractRhythm/destroy"      
+      "void"      
+      "getRhythmInfo"      
+      "isRunning"      
+      "hype.framework.rhythm:AbstractRhythm/isRunning/get"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as"      
       "pos"      
-      "238"      
-      "270"      
-      "302"      
-      "335"      
-      "length"      
-      "537"      
-      "677"      
+      "141"      
+      "start"      
+      "504"      
+      "stop"      
+      "685"      
       "destroy"      
-      "919"      
-      "1412"      
-      "remove"      
-      "1970"      
-      "pull"      
-      "2676"      
-      "forEach"      
-      "3238"      
-      "filter"      
-      "3677"      
-      "4089"      
-      "isSubset"      
-      "4358"      
-      "union"      
-      "4840"      
-      "intersection"      
-      "5366"      
-      "complement"      
-      "5890"      
+      "800"      
+      "951"      
+      "AbstractRhythm"      
+      "Object"      
       "__go_to_ctor_definition_help"      
-      "398"      
-      "209"      
-    11 namespace(s):    
+      "243"      
+      "104"      
+    5 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.core:ObjectSet)      
-      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(5,'hype.framework.rhythm:AbstractRhythm)      
       AbcNamespace(22,')      
-      AbcNamespace(22,'hype.framework.core)      
-      AbcNamespace(5,'ObjectSet.as$7)      
-      AbcNamespace(23,'hype.framework.core)      
-      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
-      AbcNamespace(24,'hype.framework.core:ObjectSet)      
-      AbcNamespace(26,'hype.framework.core:ObjectSet)      
-      AbcNamespace(26,'Object)      
-    3 namespaceset(s):    
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(24,'hype.framework.rhythm:AbstractRhythm)      
+    2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.core)])      
-    31 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])      
+    21 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
-      AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet))      
-      AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet))      
-      AbcQName('int,AbcNamespace(22,'))      
-      AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet))      
-      AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))      
-      AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))      
-      AbcQName('obj,AbcNamespace(22,'))      
-      AbcQName('insert,AbcNamespace(22,'))      
-      AbcQName('next,AbcNamespace(22,'))      
-      AbcQName('Object,AbcNamespace(22,'))      
-      AbcQName('prev,AbcNamespace(22,'))      
-      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)]))      
-      AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet))      
-      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('manager,AbcNamespace(22,'))      
+      AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('getManager,AbcNamespace(22,'))      
+      AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('addRhythm,AbcNamespace(22,'))      
+      AbcQName('startRhythm,AbcNamespace(22,'))      
       AbcQName('Boolean,AbcNamespace(22,'))      
-      AbcQName('Function,AbcNamespace(22,'))      
-      AbcQName('contains,AbcNamespace(22,'))      
-      AbcQName('clone,AbcNamespace(22,'))      
-      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('stopRhythm,AbcNamespace(22,'))      
+      AbcQName('removeRhythm,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('getRhythmInfo,AbcNamespace(22,'))      
+      AbcQName('isRunning,AbcNamespace(22,'))      
+      AbcQName('start,AbcNamespace(22,'))      
+      AbcQName('stop,AbcNamespace(22,'))      
       AbcQName('destroy,AbcNamespace(22,'))      
-      AbcQName('remove,AbcNamespace(22,'))      
-      AbcQName('pull,AbcNamespace(22,'))      
-      AbcQName('forEach,AbcNamespace(22,'))      
-      AbcQName('filter,AbcNamespace(22,'))      
-      AbcQName('isSubset,AbcNamespace(22,'))      
-      AbcQName('union,AbcNamespace(22,'))      
-      AbcQName('intersection,AbcNamespace(22,'))      
-      AbcQName('complement,AbcNamespace(22,'))      
-      AbcMultiname('ObjectSet,AbcNSSet([AbcNamespace(22,'hype.framework.core)]))      
+      AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('AbstractRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='238,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='270,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='302,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='335,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='537,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='677,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='919,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='1412,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='1970,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='2676,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='3238,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='3677,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='4089,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='4358,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='4840,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='5366,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='5890,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_ctor_definition_help('pos='398,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
-    ['__go_to_definition_help('pos='209,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='141)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='504)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='685)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='800)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='951)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='243)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='104)]    
   Scripts:  
     Script:    
       Init:      
@@ -188,29 +121,36 @@ Abc:
               16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                
-                        +0|-0  DebugLine(9)                
-                        +1|-0  FindPropStrict(AbcMultiname('ObjectSet,AbcNSSet([AbcNamespace(22,'hype.framework.core)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                
+                        +0|-0  DebugLine(6)                
+                        +1|-0  FindPropStrict(AbcMultiname('AbstractRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))]])                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                
+                        +0|-2  InitProperty(AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))          
+          Name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))          
           Index: 0          
           Metadata:          
-            ['__go_to_ctor_definition_help('pos='398,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]            
-            ['__go_to_definition_help('pos='209,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='243)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='104)]            
           Type:          
             Class:             
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('manager,AbcNamespace(22,'))                  
+                  Index: 1                  
+                  Type: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='141)]                    
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -224,30 +164,36 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 1                  
+                  Max Stack: 2                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
                   MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 2                    
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    3 operation(s):                    
+                    9 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'manager,0,7)                      
+                              +1|-0  FindProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-0  FindPropStrict(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  GetProperty(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  CallProperty(AbcQName('getManager,AbcNamespace(22,')),0)                      
+                              +0|-2  SetProperty(AbcQName('manager,AbcNamespace(22,')))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))              
+              Name: AbcQName('AbstractRhythm,AbcNamespace(22,'hype.framework.rhythm))              
               Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
-              Is Final: true              
+              Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.core:ObjectSet)              
+              Protected Namespace: AbcNamespace(24,'hype.framework.rhythm:AbstractRhythm)              
               Interfaces:               
               Method:              
-                Name: hype.framework.core:ObjectSet/ObjectSet                
+                Name: hype.framework.rhythm:AbstractRhythm/AbstractRhythm                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -268,99 +214,90 @@ Abc:
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    19 operation(s):                    
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                      
-                              +0|-0  DebugLine(19)                      
+                    18 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                      
+                              +0|-0  DebugLine(12)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
-                              +0|-0  DebugLine(19)                      
+                              +0|-0  DebugLine(12)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugLine(20)                      
+                              +0|-0  DebugLine(13)                      
+                              +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                      
                               +1|-0  GetLocal(0)                      
-                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
-                              +1|-0  PushTrue()                      
-                              +1|-2  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),1)                      
-                              +0|-2  InitProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                      
-                              +0|-0  DebugLine(21)                      
-                              +1|-0  GetLocal(0)                      
-                              +1|-0  PushByte(0)                      
-                              +0|-2  InitProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                      
-                              +0|-0  DebugLine(22)                      
+                              +1|-0  FindPropStrict(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  GetProperty(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-2  AsTypeLate()                      
+                              +1|-2  CallProperty(AbcQName('addRhythm,AbcNamespace(22,')),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(14)                      
                               +0|-0  ReturnVoid()                      
               Traits:              
-                Trait Slot:                
-                  Name: AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet))                  
-                  Index: 0                  
-                  Type: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='238,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                Trait Slot:                
-                  Name: AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet))                  
-                  Index: 0                  
-                  Type: AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core))                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='270,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                Trait Slot:                
-                  Name: AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet))                  
-                  Index: 0                  
-                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='302,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                Trait Slot:                
-                  Name: AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet))                  
-                  Index: 0                  
-                  Type: AbcQName('int,AbcNamespace(22,'))                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='335,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                Trait Getter:                
-                  Name: AbcQName('length,AbcNamespace(22,'))                  
+                Trait Method:                
+                  Name: AbcQName('start,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='537,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='504)]                    
                   Method:                  
-                    Name: hype.framework.core:ObjectSet/length/get                    
-                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Name: hype.framework.rhythm:AbstractRhythm/start                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
-                    Has Optional Parameters: false                    
+                    Has Optional Parameters: true                    
                     Ignore Rest: false                    
                     Is Native: false                    
                     DXNS: false                    
-                    Has Parameter Names: false                    
+                    Has Parameter Names: true                    
                     Parameters:                    
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'enter_frame                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
                     Method Body:                    
-                      Max Stack: 1                      
-                      Locals: 1                      
+                      Max Stack: 4                      
+                      Locals: 3                      
                       InitScopeDepth: 4                      
                       MaxScopeDepth: 5                      
                       Bytecode:                      
-                        operandStack: 1                        
+                        operandStack: 4                        
                         scopeStack:   1                        
-                        localCount:   1                        
+                        localCount:   3                        
                         0 exception(s):                        
-                        8 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(27)                          
+                        14 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(24)                          
                                   +1|-0  GetLocal(0)                          
                                   +0|-1  PushScope()                          
-                                  +0|-0  DebugLine(28)                          
+                                  +0|-0  Debug(1,'type,0,24)                          
+                                  +0|-0  Debug(1,'interval,1,24)                          
+                                  +0|-0  DebugLine(25)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
                                   +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-4  CallProperty(AbcQName('startRhythm,AbcNamespace(22,')),3)                          
                                   +0|-1  ReturnValue()                          
                 Trait Method:                
-                  Name: AbcQName('clone,AbcNamespace(22,'))                  
+                  Name: AbcQName('stop,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='677,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='685)]                    
                   Method:                  
-                    Name: hype.framework.core:ObjectSet/clone                    
-                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
+                    Name: hype.framework.rhythm:AbstractRhythm/stop                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
@@ -372,50 +309,24 @@ Abc:
                     Parameters:                    
                     Method Body:                    
                       Max Stack: 2                      
-                      Locals: 3                      
+                      Locals: 1                      
                       InitScopeDepth: 4                      
                       MaxScopeDepth: 5                      
                       Bytecode:                      
                         operandStack: 2                        
                         scopeStack:   1                        
-                        localCount:   3                        
+                        localCount:   1                        
                         0 exception(s):                        
-                        36 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(36)                          
+                        10 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(31)                          
                                   +1|-0  GetLocal(0)                          
                                   +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'node,0,37)                          
-                                  +0|-0  Debug(1,'s,1,38)                          
-                                  +0|-0  DebugLine(37)                          
+                                  +0|-0  DebugLine(32)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
                                   +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +0|-0  DebugLine(38)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                          
-                                  +1|-1  Coerce(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  Jump(L0)                          
-                          L1:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(41)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
-                                  +0|-1  Pop()                          
-                                  +0|-0  DebugLine(42)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(1)                          
-                          L0:     +0|-0  DebugLine(40)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L1)                          
-                                  +0|-0  DebugLine(45)                          
-                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  CallProperty(AbcQName('stopRhythm,AbcNamespace(22,')),1)                          
                                   +0|-1  ReturnValue()                          
                 Trait Method:                
                   Name: AbcQName('destroy,AbcNamespace(22,'))                  
@@ -423,9 +334,9 @@ Abc:
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='919,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='800)]                    
                   Method:                  
-                    Name: hype.framework.core:ObjectSet/destroy                    
+                    Name: hype.framework.rhythm:AbstractRhythm/destroy                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
@@ -438,346 +349,40 @@ Abc:
                     Parameters:                    
                     Method Body:                    
                       Max Stack: 3                      
-                      Locals: 4                      
+                      Locals: 1                      
                       InitScopeDepth: 4                      
                       MaxScopeDepth: 5                      
                       Bytecode:                      
                         operandStack: 3                        
                         scopeStack:   1                        
-                        localCount:   4                        
+                        localCount:   1                        
                         0 exception(s):                        
-                        76 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(51)                          
+                        15 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(38)                          
                                   +1|-0  GetLocal(0)                          
                                   +0|-1  PushScope()                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Debug(1,'node,0,52)                          
-                                  +0|-0  Debug(1,'nextNode,1,53)                          
-                                  +0|-0  Debug(1,'obj,2,54)                          
-                                  +0|-0  DebugLine(52)                          
+                                  +0|-0  DebugLine(39)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
                                   +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +0|-0  Jump(L0)                          
-                          L1:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(57)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(58)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(59)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(60)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(61)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(62)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(63)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-1  GetProperty(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-2  CallProperty(AbcQName('removeRhythm,AbcNamespace(22,')),1)                          
                                   +0|-1  Pop()                          
-                                  +0|-0  DebugLine(65)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(1)                          
-                          L0:     +0|-0  DebugLine(56)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L1)                          
-                                  +0|-0  DebugLine(68)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  PushByte(0)                          
-                                  +0|-2  InitProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  DebugLine(69)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  InitProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  DebugLine(70)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  InitProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  DebugLine(71)                          
+                                  +0|-0  DebugLine(40)                          
                                   +0|-0  ReturnVoid()                          
-                Trait Method:                
-                  Name: AbcQName('insert,AbcNamespace(22,'))                  
+                Trait Getter:                
+                  Name: AbcQName('isRunning,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='1412,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/AbstractRhythm.as,'pos='951)]                    
                   Method:                  
-                    Name: hype.framework.core:ObjectSet/insert                    
+                    Name: hype.framework.rhythm:AbstractRhythm/isRunning/get                    
                     Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: obj                        
-                        Type: AbcQName('Object,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 4                      
-                      Locals: 5                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 4                        
-                        scopeStack:   1                        
-                        localCount:   5                        
-                        0 exception(s):                        
-                        74 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(78)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'obj,0,78)                          
-                                  +0|-0  Debug(1,'node,1,79)                          
-                                  +0|-0  DebugLine(79)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  ConstructProp(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)),1)                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(81)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfNotEqual(L0)                          
-                                  +0|-0  DebugLine(83)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(85)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfNotEqual(L1)                          
-                                  +0|-0  DebugLine(86)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +2|-1  Dup()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-2  InitProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-2  InitProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  Jump(L2)                          
-                          L1:     +0|-0  DebugLine(88)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(89)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(90)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +0|-2  InitProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                          L2:     +0|-0  DebugLine(93)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +2|-1  Dup()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  IncrementInt()                          
-                                  +0|-1  SetLocal(4)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(4)                          
-                                  +0|-2  SetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  Kill(4)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-0  DebugLine(95)                          
-                                  +1|-0  PushTrue()                          
-                                  +0|-1  ReturnValue()                          
-                                  +0|-0  Jump(L3)                          
-                          L0:     +0|-0  DebugLine(97)                          
-                                  +1|-0  PushFalse()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('remove,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='1970,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/remove                    
-                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: obj                        
-                        Type: AbcQName('Object,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 5                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   5                        
-                        0 exception(s):                        
-                        103 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(108)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'obj,0,108)                          
-                                  +0|-0  Debug(1,'node,1,109)                          
-                                  +0|-0  DebugLine(109)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +1|-2  CallProperty(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)),1)                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(111)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfNotEqual(L0)                          
-                                  +0|-0  DebugLine(112)                          
-                                  +1|-0  PushFalse()                          
-                                  +0|-1  ReturnValue()                          
-                          L0:     +0|-0  DebugLine(115)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-2  IfNotEqual(L1)                          
-                                  +0|-0  DebugLine(116)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-2  InitProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                          L1:     +0|-0  DebugLine(119)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-2  IfNotEqual(L2)                          
-                                  +0|-0  DebugLine(120)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-2  InitProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                          L2:     +0|-0  DebugLine(123)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfFalse(L3)                          
-                                  +0|-0  DebugLine(124)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                          L3:     +0|-0  DebugLine(127)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfFalse(L4)                          
-                                  +0|-0  DebugLine(128)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                          L4:     +0|-0  DebugLine(131)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(132)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(133)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(134)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(135)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-1  Pop()                          
-                                  +0|-0  DebugLine(136)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +2|-1  Dup()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  DecrementInt()                          
-                                  +0|-1  SetLocal(4)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(4)                          
-                                  +0|-2  SetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  Kill(4)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-0  DebugLine(138)                          
-                                  +1|-0  PushTrue()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('pull,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='2676,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/pull                    
-                    Return Type: AbcQName('Object,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
@@ -788,602 +393,24 @@ Abc:
                     Has Parameter Names: false                    
                     Parameters:                    
                     Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 5                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   5                        
-                        0 exception(s):                        
-                        87 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(147)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  Debug(1,'obj,0,148)                          
-                                  +0|-0  Debug(1,'oldNode,1,149)                          
-                                  +0|-0  DebugLine(151)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfEqual(L0)                          
-                                  +0|-0  DebugLine(152)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(153)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +0|-0  DebugLine(154)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-2  InitProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  DebugLine(156)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfEqual(L1)                          
-                                  +0|-0  DebugLine(157)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_tail,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                          L1:     +0|-0  DebugLine(160)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(161)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(162)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(163)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(164)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +0|-1  Pop()                          
-                                  +0|-0  DebugLine(165)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +2|-1  Dup()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  DecrementInt()                          
-                                  +0|-1  SetLocal(4)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(4)                          
-                                  +0|-2  SetProperty(AbcQName('_length,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +0|-0  Kill(4)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-0  DebugLine(167)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +0|-1  ReturnValue()                          
-                                  +0|-0  Jump(L2)                          
-                          L0:     +0|-0  DebugLine(169)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('forEach,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='3238,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/forEach                    
-                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: f                        
-                        Type: AbcQName('Function,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 3                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   3                        
-                        0 exception(s):                        
-                        31 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(178)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'f,0,178)                          
-                                  +0|-0  Debug(1,'node,1,179)                          
-                                  +0|-0  DebugLine(179)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  Jump(L0)                          
-                          L1:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(182)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetGlobalScope()                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-3  Call(1)                          
-                                  +0|-1  Pop()                          
-                                  +0|-0  DebugLine(183)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(181)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L1)                          
-                                  +0|-0  DebugLine(185)                          
-                                  +0|-0  ReturnVoid()                          
-                Trait Method:                
-                  Name: AbcQName('filter,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='3677,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/filter                    
-                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: f                        
-                        Type: AbcQName('Function,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        45 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(197)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'f,0,197)                          
-                                  +0|-0  Debug(1,'node,1,198)                          
-                                  +0|-0  Debug(1,'s,2,199)                          
-                                  +0|-0  DebugLine(198)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(199)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                          
-                                  +1|-1  Coerce(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Jump(L0)                          
-                          L2:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(202)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetGlobalScope()                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-3  Call(1)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(203)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
-                                  +0|-1  Pop()                          
-                          L1:     +0|-0  DebugLine(205)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(201)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L2)                          
-                                  +0|-0  DebugLine(208)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('contains,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='4089,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/contains                    
-                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: object                        
-                        Type: AbcQName('Object,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
                       Max Stack: 2                      
-                      Locals: 2                      
+                      Locals: 1                      
                       InitScopeDepth: 4                      
                       MaxScopeDepth: 5                      
                       Bytecode:                      
                         operandStack: 2                        
                         scopeStack:   1                        
-                        localCount:   2                        
+                        localCount:   1                        
                         0 exception(s):                        
-                        14 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(218)                          
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;AbstractRhythm.as)                          
+                                  +0|-0  DebugLine(45)                          
                                   +1|-0  GetLocal(0)                          
                                   +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'object,0,218)                          
-                                  +0|-0  DebugLine(219)                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
                                   +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.core:ObjectSet),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.core),AbcNamespace(5,'ObjectSet.as$7),AbcNamespace(23,'hype.framework.core),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.core:ObjectSet),AbcNamespace(26,'hype.framework.core:ObjectSet),AbcNamespace(26,'Object)])))                          
-                                  +1|-0  PushNull()                          
-                                  +1|-2  Equals()                          
-                                  +1|-1  Not()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('isSubset,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='4358,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/isSubset                    
-                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: input                        
-                        Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        43 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(229)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'input,0,229)                          
-                                  +0|-0  Debug(1,'node,1,230)                          
-                                  +0|-0  Debug(1,'result,2,231)                          
-                                  +0|-0  DebugLine(230)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(231)                          
-                                  +1|-0  PushTrue()                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Jump(L0)                          
-                          L3:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(234)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('contains,AbcNamespace(22,')),1)                          
-                                  +1|-1  Not()                          
-                                  +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(235)                          
-                                  +1|-0  PushFalse()                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(236)                          
-                                  +0|-0  Jump(L2)                          
-                          L1:     +0|-0  DebugLine(238)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(233)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L3)                          
-                          L2:     +0|-0  DebugLine(241)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('union,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='4840,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/union                    
-                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: input                        
-                        Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        44 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(252)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'input,0,252)                          
-                                  +0|-0  Debug(1,'node,1,253)                          
-                                  +0|-0  Debug(1,'output,2,254)                          
-                                  +0|-0  DebugLine(253)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(254)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  CallProperty(AbcQName('clone,AbcNamespace(22,')),0)                          
-                                  +1|-1  Coerce(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Jump(L0)                          
-                          L2:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(257)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('contains,AbcNamespace(22,')),1)                          
-                                  +1|-1  Not()                          
-                                  +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(258)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
-                                  +0|-1  Pop()                          
-                          L1:     +0|-0  DebugLine(260)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(256)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L2)                          
-                                  +0|-0  DebugLine(263)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('intersection,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='5366,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/intersection                    
-                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: input                        
-                        Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        43 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(274)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'input,0,274)                          
-                                  +0|-0  Debug(1,'node,1,275)                          
-                                  +0|-0  Debug(1,'output,2,276)                          
-                                  +0|-0  DebugLine(275)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(276)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                          
-                                  +1|-1  Coerce(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Jump(L0)                          
-                          L2:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(279)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('contains,AbcNamespace(22,')),1)                          
-                                  +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(280)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
-                                  +0|-1  Pop()                          
-                          L1:     +0|-0  DebugLine(282)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(278)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L2)                          
-                                  +0|-0  DebugLine(285)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('complement,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='5890,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/ObjectSet.as)]                    
-                  Method:                  
-                    Name: hype.framework.core:ObjectSet/complement                    
-                    Return Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: input                        
-                        Type: AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        44 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;ObjectSet.as)                          
-                                  +0|-0  DebugLine(296)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'input,0,296)                          
-                                  +0|-0  Debug(1,'node,1,297)                          
-                                  +0|-0  Debug(1,'output,2,298)                          
-                                  +0|-0  DebugLine(297)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +1|-1  GetProperty(AbcQName('_head,AbcNamespace(5,'hype.framework.core:ObjectSet)))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(298)                          
-                                  +1|-0  FindPropStrict(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +1|-1  ConstructProp(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)),0)                          
-                                  +1|-1  Coerce(AbcQName('ObjectSet,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  Jump(L0)                          
-                          L2:     +0|-0  Label()                          
-                                  +0|-0  DebugLine(301)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('contains,AbcNamespace(22,')),1)                          
-                                  +1|-1  Not()                          
-                                  +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(302)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('obj,AbcNamespace(22,')))                          
-                                  +1|-2  CallProperty(AbcQName('insert,AbcNamespace(22,')),1)                          
-                                  +0|-1  Pop()                          
-                          L1:     +0|-0  DebugLine(304)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
-                                  +1|-1  Coerce(AbcQName('ObjectNode,AbcNamespace(22,'hype.framework.core)))                          
-                                  +0|-1  SetLocal(2)                          
-                          L0:     +0|-0  DebugLine(300)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfTrue(L2)                          
-                                  +0|-0  DebugLine(307)                          
-                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  CallProperty(AbcQName('getRhythmInfo,AbcNamespace(22,')),1)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
                                   +0|-1  ReturnValue()                          

@@ -1,5 +1,5 @@
 Abc:
-  5 method(s), 3 metadata, 1 type(s), 1 script(s)  
+  5 method(s), 5 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
     1 integer(s):    
       0      
@@ -7,52 +7,74 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    23 string(s):    
+    34 string(s):    
       "null"      
+      "hype.framework.canvas.encoder:AbstractCanvasEncoder"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas;IEncodable.as"      
-      "hype.framework.canvas:IEncodable/hype.framework.canvas:IEncodable:rect/get"      
-      "flash.geom"      
-      "Rectangle"      
-      "x"      
-      "y"      
-      "hype.framework.canvas:IEncodable/hype.framework.canvas:IEncodable:getPixel32"      
-      "int"      
-      "hype.framework.canvas:IEncodable/IEncodable"      
-      "hype.framework.canvas:IEncodable"      
-      "rect"      
-      "__go_to_definition_help"      
-      "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as"      
-      "pos"      
-      "137"      
-      "getPixel32"      
-      "166"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as"      
+      "canvas"      
+      "crop"      
+      "hype.framework.canvas.encoder:AbstractCanvasEncoder/encode"      
+      "void"      
       "hype.framework.canvas"      
       "IEncodable"      
-      "109"      
-    5 namespace(s):    
+      "flash.geom"      
+      "Rectangle"      
+      "null"      
+      "hype.framework.canvas.encoder:AbstractCanvasEncoder/fileExtension/get"      
+      "String"      
+      "hype.framework.canvas.encoder:AbstractCanvasEncoder/AbstractCanvasEncoder"      
+      "ICanvasEncoder"      
+      "hype.framework.canvas.encoder"      
+      "onEncodeProgress"      
+      "Function"      
+      "__go_to_definition_help"      
+      "file"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as"      
+      "pos"      
+      "393"      
+      "onEncodeComplete"      
+      "516"      
+      "encode"      
+      "764"      
+      "fileExtension"      
+      "853"      
+      "AbstractCanvasEncoder"      
+      "Object"      
+      "251"      
+    7 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(5,'hype.framework.canvas.encoder:AbstractCanvasEncoder)      
       AbcNamespace(22,')      
-      AbcNamespace(8,'hype.framework.canvas:IEncodable)      
       AbcNamespace(22,'hype.framework.canvas)      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(22,'hype.framework.canvas.encoder)      
+      AbcNamespace(24,'hype.framework.canvas.encoder:AbstractCanvasEncoder)      
     2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])      
-    7 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'hype.framework.canvas.encoder)])      
+    14 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('Rectangle,AbcNamespace(22,'flash.geom))      
-      AbcQName('int,AbcNamespace(22,'))      
-      AbcQName('rect,AbcNamespace(8,'hype.framework.canvas:IEncodable))      
-      AbcQName('getPixel32,AbcNamespace(8,'hype.framework.canvas:IEncodable))      
+      AbcQName('void,AbcNamespace(22,'))      
       AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))      
-      AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))      
+      AbcQName('Rectangle,AbcNamespace(22,'flash.geom))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcMultiname('ICanvasEncoder,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.encoder)]))      
+      AbcQName('onEncodeProgress,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('onEncodeComplete,AbcNamespace(22,'))      
+      AbcQName('encode,AbcNamespace(22,'))      
+      AbcQName('fileExtension,AbcNamespace(22,'))      
+      AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('AbstractCanvasEncoder,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.encoder)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='137,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]    
-    ['__go_to_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]    
-    ['__go_to_definition_help('pos='109,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='393)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='516)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='764)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='853)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='251)]    
   Scripts:  
     Script:    
       Init:      
@@ -72,29 +94,35 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 2            
+            MaxScopeDepth: 3            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   1              
+              scopeStack:   2              
               localCount:   1              
               0 exception(s):              
-              10 operation(s):              
+              16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas;IEncodable.as)                
-                        +0|-0  DebugLine(7)                
-                        +1|-0  FindPropStrict(AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])))                
-                        +1|-0  PushNull()                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))]])                
-                        +0|-2  InitProperty(AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as)                
+                        +0|-0  DebugLine(9)                
+                        +1|-0  FindPropStrict(AbcMultiname('AbstractCanvasEncoder,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.encoder)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))          
+          Name: AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='109,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='251)]            
           Type:          
             Class:             
               Method:              
@@ -110,26 +138,31 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 0                  
+                  Max Stack: 1                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
-                  MaxScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 0                    
-                    scopeStack:   0                    
+                    operandStack: 1                    
+                    scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    1 operation(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))              
+              Name: AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
               Is Final: false              
-              Is Interface true              
+              Is Interface false              
               Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.framework.canvas.encoder:AbstractCanvasEncoder)              
               Interfaces:               
+                AbcMultiname('ICanvasEncoder,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.encoder)]))                
               Method:              
-                Name: hype.framework.canvas:IEncodable/IEncodable                
+                Name: hype.framework.canvas.encoder:AbstractCanvasEncoder/AbstractCanvasEncoder                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -140,17 +173,94 @@ Abc:
                 DXNS: false                
                 Has Parameter Names: false                
                 Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    7 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as)                      
+                              +0|-0  DebugLine(35)                      
+                              +0|-0  ReturnVoid()                      
               Traits:              
-                Trait Getter:                
-                  Name: AbcQName('rect,AbcNamespace(8,'hype.framework.canvas:IEncodable))                  
+                Trait Slot:                
+                  Name: AbcQName('onEncodeProgress,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='393)]                    
+                Trait Slot:                
+                  Name: AbcQName('onEncodeComplete,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='516)]                    
+                Trait Method:                
+                  Name: AbcQName('encode,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='137,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='764)]                    
                   Method:                  
-                    Name: hype.framework.canvas:IEncodable/hype.framework.canvas:IEncodable:rect/get                    
-                    Return Type: AbcQName('Rectangle,AbcNamespace(22,'flash.geom))                    
+                    Name: hype.framework.canvas.encoder:AbstractCanvasEncoder/encode                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: canvas                        
+                        Type: AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: crop                        
+                        Type: AbcQName('Rectangle,AbcNamespace(22,'flash.geom))                        
+                        Optional: true                        
+                        Default: null                        
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 3                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as)                          
+                                  +0|-0  DebugLine(26)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'canvas,0,26)                          
+                                  +0|-0  Debug(1,'crop,1,26)                          
+                                  +0|-0  DebugLine(28)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('fileExtension,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/encoder/AbstractCanvasEncoder.as,'pos='853)]                    
+                  Method:                  
+                    Name: hype.framework.canvas.encoder:AbstractCanvasEncoder/fileExtension/get                    
+                    Return Type: AbcQName('String,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
@@ -160,30 +270,21 @@ Abc:
                     DXNS: false                    
                     Has Parameter Names: false                    
                     Parameters:                    
-                Trait Method:                
-                  Name: AbcQName('getPixel32,AbcNamespace(8,'hype.framework.canvas:IEncodable))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/IEncodable.as)]                    
-                  Method:                  
-                    Name: hype.framework.canvas:IEncodable/hype.framework.canvas:IEncodable:getPixel32                    
-                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: x                        
-                        Type: AbcQName('int,AbcNamespace(22,'))                        
-                        Optional: false                        
-                      Parameter:                       
-                        Name: y                        
-                        Type: AbcQName('int,AbcNamespace(22,'))                        
-                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        7 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/encoder;AbstractCanvasEncoder.as)                          
+                                  +0|-0  DebugLine(30)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushString('null)                          
+                                  +0|-0  DebugLine(31)                          
+                                  +0|-1  ReturnValue()                          

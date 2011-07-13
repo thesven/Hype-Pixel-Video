@@ -1,58 +1,149 @@
 Abc:
-  3 method(s), 4 metadata, 1 type(s), 1 script(s)  
+  10 method(s), 12 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    2 integer(s):    
       0      
+      1      
     1 uint(s):    
       0      
     1 double(s):    
       NaN      
-    21 string(s):    
+    71 string(s):    
       "null"      
-      "hype.framework.interactive:KeyData"      
+      "hype.framework.trigger:AbstractTrigger"      
+      "manager"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;KeyData.as"      
-      "code"      
-      "isKeyCode"      
-      "hype.framework.interactive:KeyData/KeyData"      
-      "int"      
+      "RhythmManager"      
+      "hype.framework.rhythm"      
+      "getManager"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as"      
+      "object"      
+      "list"      
+      "max"      
+      "i"      
+      "AbstractTrigger"      
+      "hype.framework.trigger"      
+      "getRhythmsOfType"      
+      "Array"      
+      "length"      
+      "AbstractTrigger.as$20"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "Object"      
+      "target"      
+      "removeRhythm"      
+      "hype.framework.trigger:AbstractTrigger/removeTriggersFromObject"      
+      "void"      
+      "method"      
+      "_method"      
+      "_target"      
+      "runTrigger"      
+      "addRhythm"      
+      "hype.framework.trigger:AbstractTrigger/AbstractTrigger"      
+      "Function"      
+      "ITrigger"      
+      "run"      
+      "hype.framework.trigger:ITrigger"      
+      "hype.framework.trigger:AbstractTrigger/runTrigger"      
+      "type"      
+      "interval"      
+      "startRhythm"      
+      "hype.framework.trigger:AbstractTrigger/start"      
       "Boolean"      
+      "String"      
+      "enter_frame"      
+      "uint"      
+      "stopRhythm"      
+      "hype.framework.trigger:AbstractTrigger/stop"      
+      "hype.framework.trigger:AbstractTrigger/destroy"      
+      "getRhythmInfo"      
+      "isRunning"      
+      "hype.framework.trigger:AbstractTrigger/isRunning/get"      
+      "hype.framework.trigger:AbstractTrigger/target/get"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as"      
       "pos"      
-      "98"      
-      "121"      
-      "hype.framework.interactive"      
-      "KeyData"      
-      "Object"      
+      "181"      
+      "removeTriggersFromObject"      
+      "747"      
+      "250"      
+      "282"      
+      "1133"      
+      "start"      
+      "1426"      
+      "stop"      
+      "1606"      
+      "destroy"      
+      "1721"      
+      "1897"      
+      "2046"      
       "__go_to_ctor_definition_help"      
-      "161"      
-      "75"      
-    5 namespace(s):    
+      "453"      
+      "144"      
+    12 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.interactive:KeyData)      
+      AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)      
       AbcNamespace(22,')      
-      AbcNamespace(22,'hype.framework.interactive)      
-      AbcNamespace(24,'hype.framework.interactive:KeyData)      
-    2 namespaceset(s):    
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(22,'hype.framework.trigger)      
+      AbcNamespace(5,'AbstractTrigger.as$20)      
+      AbcNamespace(23,'hype.framework.trigger)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'hype.framework.trigger:AbstractTrigger)      
+      AbcNamespace(26,'hype.framework.trigger:AbstractTrigger)      
+      AbcNamespace(26,'Object)      
+      AbcNamespace(8,'hype.framework.trigger:ITrigger)      
+    3 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.interactive)])      
-    8 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'hype.framework.trigger:AbstractTrigger),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.trigger),AbcNamespace(5,'AbstractTrigger.as$20),AbcNamespace(23,'hype.framework.trigger),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])      
+    32 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('code,AbcNamespace(22,'))      
-      AbcQName('isKeyCode,AbcNamespace(22,'))      
-      AbcQName('int,AbcNamespace(22,'))      
-      AbcQName('Boolean,AbcNamespace(22,'))      
-      AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))      
+      AbcQName('manager,AbcNamespace(22,'))      
+      AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('getManager,AbcNamespace(22,'))      
+      AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger))      
+      AbcQName('getRhythmsOfType,AbcNamespace(22,'))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.trigger:AbstractTrigger),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.trigger),AbcNamespace(5,'AbstractTrigger.as$20),AbcNamespace(23,'hype.framework.trigger),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'Object)]))      
+      AbcQName('target,AbcNamespace(22,'))      
+      AbcQName('removeRhythm,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
       AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('KeyData,AbcNSSet([AbcNamespace(22,'hype.framework.interactive)]))      
+      AbcQName('_method,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger))      
+      AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger))      
+      AbcQName('runTrigger,AbcNamespace(22,'))      
+      AbcQName('addRhythm,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger))      
+      AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger))      
+      AbcQName('startRhythm,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('stopRhythm,AbcNamespace(22,'))      
+      AbcQName('getRhythmInfo,AbcNamespace(22,'))      
+      AbcQName('isRunning,AbcNamespace(22,'))      
+      AbcQName('removeTriggersFromObject,AbcNamespace(22,'))      
+      AbcQName('start,AbcNamespace(22,'))      
+      AbcQName('stop,AbcNamespace(22,'))      
+      AbcQName('destroy,AbcNamespace(22,'))      
+      AbcMultiname('AbstractTrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]    
-    ['__go_to_definition_help('pos='121,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]    
-    ['__go_to_ctor_definition_help('pos='161,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]    
-    ['__go_to_definition_help('pos='75,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='181)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='747)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='250)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='282)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1133)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1426)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1606)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1721)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1897)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='2046)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='453)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='144)]    
   Scripts:  
     Script:    
       Init:      
@@ -81,29 +172,127 @@ Abc:
               16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;KeyData.as)                
-                        +0|-0  DebugLine(6)                
-                        +1|-0  FindPropStrict(AbcMultiname('KeyData,AbcNSSet([AbcNamespace(22,'hype.framework.interactive)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                
+                        +0|-0  DebugLine(7)                
+                        +1|-0  FindPropStrict(AbcMultiname('AbstractTrigger,AbcNSSet([AbcNamespace(22,'hype.framework.trigger)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))]])                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;KeyData.as)                
+                        +0|-2  InitProperty(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))          
+          Name: AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger))          
           Index: 0          
           Metadata:          
-            ['__go_to_ctor_definition_help('pos='161,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]            
-            ['__go_to_definition_help('pos='75,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='453)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='144)]            
           Type:          
             Class:             
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('manager,AbcNamespace(22,'))                  
+                  Index: 1                  
+                  Type: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='181)]                    
+                Trait Method:                
+                  Name: AbcQName('removeTriggersFromObject,AbcNamespace(22,'))                  
+                  Disp Id: 3                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='747)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/removeTriggersFromObject                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: object                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 5                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   5                        
+                        0 exception(s):                        
+                        57 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(30)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Debug(1,'object,0,30)                          
+                                  +0|-0  Debug(1,'list,1,31)                          
+                                  +0|-0  Debug(1,'max,2,32)                          
+                                  +0|-0  Debug(1,'i,3,33)                          
+                                  +0|-0  DebugLine(31)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-1  GetProperty(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-2  CallProperty(AbcQName('getRhythmsOfType,AbcNamespace(22,')),1)                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(32)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(35)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Jump(L0)                          
+                          L2:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(36)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.trigger:AbstractTrigger),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.trigger),AbcNamespace(5,'AbstractTrigger.as$20),AbcNamespace(23,'hype.framework.trigger),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-1  GetProperty(AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(37)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.trigger:AbstractTrigger),AbcNamespace(22,'),AbcNamespace(22,'hype.framework.trigger),AbcNamespace(5,'AbstractTrigger.as$20),AbcNamespace(23,'hype.framework.trigger),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'hype.framework.trigger:AbstractTrigger),AbcNamespace(26,'Object)])))                          
+                                  +1|-2  CallProperty(AbcQName('removeRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(35)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  IncrementInt()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(4)                          
+                          L0:     +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  IfLessThan(L2)                          
+                                  +0|-0  DebugLine(41)                          
+                                  +0|-0  ReturnVoid()                          
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -117,30 +306,36 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 1                  
+                  Max Stack: 2                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
                   MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 2                    
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    3 operation(s):                    
+                    9 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'manager,0,8)                      
+                              +1|-0  FindProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-0  FindPropStrict(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  GetProperty(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-1  CallProperty(AbcQName('getManager,AbcNamespace(22,')),0)                      
+                              +0|-2  SetProperty(AbcQName('manager,AbcNamespace(22,')))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('KeyData,AbcNamespace(22,'hype.framework.interactive))              
+              Name: AbcQName('AbstractTrigger,AbcNamespace(22,'hype.framework.trigger))              
               Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
               Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.interactive:KeyData)              
+              Protected Namespace: AbcNamespace(24,'hype.framework.trigger:AbstractTrigger)              
               Interfaces:               
               Method:              
-                Name: hype.framework.interactive:KeyData/KeyData                
+                Name: hype.framework.trigger:AbstractTrigger/AbstractTrigger                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -152,53 +347,335 @@ Abc:
                 Has Parameter Names: true                
                 Parameters:                
                   Parameter:                   
-                    Name: code                    
-                    Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Name: method                    
+                    Type: AbcQName('Function,AbcNamespace(22,'))                    
                     Optional: false                    
                   Parameter:                   
-                    Name: isKeyCode                    
-                    Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Name: target                    
+                    Type: AbcQName('Object,AbcNamespace(22,'))                    
                     Optional: false                    
                 Method Body:                
-                  Max Stack: 2                  
+                  Max Stack: 3                  
                   Locals: 3                  
                   InitScopeDepth: 4                  
                   MaxScopeDepth: 5                  
                   Bytecode:                  
-                    operandStack: 2                    
+                    operandStack: 3                    
                     scopeStack:   1                    
                     localCount:   3                    
                     0 exception(s):                    
-                    19 operation(s):                    
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/interactive;KeyData.as)                      
-                              +0|-0  DebugLine(10)                      
+                    27 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                      
+                              +0|-0  DebugLine(19)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
-                              +0|-0  Debug(1,'code,0,10)                      
-                              +0|-0  Debug(1,'isKeyCode,1,10)                      
-                              +0|-0  DebugLine(10)                      
+                              +0|-0  Debug(1,'method,0,19)                      
+                              +0|-0  Debug(1,'target,1,19)                      
+                              +0|-0  DebugLine(19)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugLine(11)                      
+                              +0|-0  DebugLine(20)                      
                               +1|-0  GetLocal(0)                      
                               +1|-0  GetLocal(1)                      
-                              +0|-2  InitProperty(AbcQName('code,AbcNamespace(22,')))                      
-                              +0|-0  DebugLine(12)                      
+                              +0|-2  InitProperty(AbcQName('_method,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                      
+                              +0|-0  DebugLine(21)                      
                               +1|-0  GetLocal(0)                      
                               +1|-0  GetLocal(2)                      
-                              +0|-2  InitProperty(AbcQName('isKeyCode,AbcNamespace(22,')))                      
-                              +0|-0  DebugLine(13)                      
+                              +0|-2  InitProperty(AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                      
+                              +0|-0  DebugLine(22)                      
+                              +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('runTrigger,AbcNamespace(22,')))                      
+                              +1|-3  CallProperty(AbcQName('addRhythm,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(23)                      
                               +0|-0  ReturnVoid()                      
               Traits:              
                 Trait Slot:                
-                  Name: AbcQName('code,AbcNamespace(22,'))                  
+                  Name: AbcQName('_method,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger))                  
                   Index: 0                  
-                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='250)]                    
                 Trait Slot:                
-                  Name: AbcQName('isKeyCode,AbcNamespace(22,'))                  
+                  Name: AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger))                  
                   Index: 0                  
-                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='121,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/interactive/KeyData.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='282)]                    
+                Trait Method:                
+                  Name: AbcQName('runTrigger,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1133)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/runTrigger                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        21 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(46)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(47)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  FindPropStrict(AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-1  GetProperty(AbcQName('ITrigger,AbcNamespace(22,'hype.framework.trigger)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                          
+                                  +1|-2  CallProperty(AbcQName('run,AbcNamespace(8,'hype.framework.trigger:ITrigger)),1)                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(48)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                          
+                                  +1|-2  CallProperty(AbcQName('_method,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(50)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('start,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1426)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/start                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'enter_frame                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 1                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 3                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        14 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(60)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'type,0,60)                          
+                                  +0|-0  Debug(1,'interval,1,60)                          
+                                  +0|-0  DebugLine(61)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-4  CallProperty(AbcQName('startRhythm,AbcNamespace(22,')),3)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('stop,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1606)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/stop                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        10 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(67)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(68)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('stopRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('destroy,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1721)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/destroy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        20 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(74)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(75)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                          
+                                  +0|-0  DebugLine(76)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_method,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('removeRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(78)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('isRunning,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='1897)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/isRunning/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(84)                          
+                                  +1|-0  FindPropStrict(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('manager,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-2  CallProperty(AbcQName('getRhythmInfo,AbcNamespace(22,')),1)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('target,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/trigger/AbstractTrigger.as,'pos='2046)]                    
+                  Method:                  
+                    Name: hype.framework.trigger:AbstractTrigger/target/get                    
+                    Return Type: AbcQName('Object,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/trigger;AbstractTrigger.as)                          
+                                  +0|-0  DebugLine(90)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_target,AbcNamespace(5,'hype.framework.trigger:AbstractTrigger)))                          
+                                  +0|-1  ReturnValue()                          

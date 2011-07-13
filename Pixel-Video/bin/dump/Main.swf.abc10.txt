@@ -1,59 +1,350 @@
 Abc:
-  5 method(s), 3 metadata, 1 type(s), 1 script(s)  
+  12 method(s), 36 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    7 integer(s):    
+      0      
+      16777215      
+      100      
+      5      
+      4      
+      30      
       0      
     1 uint(s):    
       0      
-    1 double(s):    
+    4 double(s):    
       NaN      
-    23 string(s):    
+      0.7      
+      0.6      
+      0.8      
+    173 string(s):    
       "null"      
+      "hype.extended.util:ContextSaveImage"      
+      "BAR_WIDTH"      
+      "BAR_HEIGHT"      
+      "BAR_STEP"      
+      "BAR_SEGMENTS"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as"      
-      "sprite"      
-      "hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren"      
-      "void"      
-      "flash.display"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as"      
+      "canvas"      
+      "encoderClass"      
+      "owner"      
+      "max"      
+      "i"      
+      "Vector"      
+      "ContextSaveImage.as$13"      
+      "hype.extended.util"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "Object"      
+      "__AS3__.vec"      
+      "BitmapCanvas"      
+      "hype.framework.display"      
+      "_canvasList"      
+      "length"      
+      "Error"      
+      "The first argument must be a BitmapCanvas or an Array/Vector of BitmapCanvas"      
+      "stage"      
+      "_stage"      
+      "_menuOwner"      
+      "HYPE Error: Either canvas must be attached to stage or stage parameter must be specified"      
       "Sprite"      
-      "hype.framework.color:IColorist/hype.framework.color:IColorist:getColor"      
-      "uint"      
-      "hype.framework.color:IColorist/IColorist"      
-      "hype.framework.color:IColorist"      
-      "colorChildren"      
+      "flash.display"      
+      "_progressDisplay"      
+      "SimpleRhythm"      
+      "hype.framework.rhythm"      
+      "drawBusy"      
+      "_busyRhythm"      
+      "PNGCanvasEncoder"      
+      "hype.framework.canvas.encoder"      
+      "Class"      
+      "AbstractCanvasEncoder"      
+      "_encoder"      
+      "onContextEncodeProgress"      
+      "onEncodeProgress"      
+      "onContextEncodeComplete"      
+      "onEncodeComplete"      
+      "FileReference"      
+      "flash.net"      
+      "_fileReference"      
+      "Event"      
+      "flash.events"      
+      "COMPLETE"      
+      "onContextSaveComplete"      
+      "addEventListener"      
+      "IOErrorEvent"      
+      "IO_ERROR"      
+      "onContextSaveError"      
+      "CANCEL"      
+      "onContextSaveCancel"      
+      "ContextMenu"      
+      "flash.ui"      
+      "_encodeMenu"      
+      "ContextMenuItem"      
+      "Encode "      
+      "fileExtension"      
+      "..."      
+      "_encodeItem"      
+      "hideBuiltInItems"      
+      "customItems"      
+      "push"      
+      "ContextMenuEvent"      
+      "MENU_ITEM_SELECT"      
+      "onContextEncode"      
+      "_waitMenu"      
+      "Please wait, encoding..."      
+      "_waitItem"      
+      "_saveMenu"      
+      "Save "      
+      "_saveItem"      
+      "onContextSave"      
+      "contextMenu"      
+      "hype.extended.util:ContextSaveImage/ContextSaveImage"      
+      "InteractiveObject"      
+      "hype.extended.util:ContextSaveImage/encode"      
+      "void"      
+      "event"      
+      "onEncodeStart"      
+      "BitmapCanvasCompositor"      
+      "encode"      
+      "largeCanvas"      
+      "stopCapture"      
+      "addChild"      
+      "hype.extended.util:ContextSaveImage/protected:onContextEncode"      
+      "percent"      
+      "x"      
+      "y"      
+      "width"      
+      "stageWidth"      
+      "stageHeight"      
+      "graphics"      
+      "clear"      
+      "lineStyle"      
+      "beginFill"      
+      "drawRect"      
+      "hype.extended.util:ContextSaveImage/protected:onContextEncodeProgress"      
+      "Number"      
+      "rhythm"      
+      "segmentSize"      
+      "_busyOffset"      
+      "endFill"      
+      "hype.extended.util:ContextSaveImage/protected:drawBusy"      
+      "data"      
+      "removeChild"      
+      "_data"      
+      "hype.extended.util:ContextSaveImage/protected:onContextEncodeComplete"      
+      "flash.utils"      
+      "ByteArray"      
+      "hype."      
+      "toLowerCase"      
+      "save"      
+      "start"      
+      "hype.extended.util:ContextSaveImage/protected:onContextSave"      
+      "onSaveComplete"      
+      "stop"      
+      "hype.extended.util:ContextSaveImage/protected:onContextSaveComplete"      
+      "onSaveError"      
+      "hype.extended.util:ContextSaveImage/protected:onContextSaveError"      
+      "onSaveCancel"      
+      "hype.extended.util:ContextSaveImage/protected:onContextSaveCancel"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as"      
       "pos"      
-      "261"      
-      "getColor"      
-      "386"      
-      "hype.framework.color"      
-      "IColorist"      
-      "134"      
-    5 namespace(s):    
+      "794"      
+      "841"      
+      "889"      
+      "933"      
+      "Stage"      
+      "974"      
+      "1004"      
+      "1045"      
+      "1093"      
+      "1134"      
+      "1179"      
+      "1218"      
+      "1261"      
+      "1300"      
+      "1344"      
+      "int"      
+      "1377"      
+      "1412"      
+      "1454"      
+      "1500"      
+      "1552"      
+      "Function"      
+      "1650"      
+      "1764"      
+      "1864"      
+      "1960"      
+      "2051"      
+      "2144"      
+      "4689"      
+      "4757"      
+      "5273"      
+      "5931"      
+      "6819"      
+      "7099"      
+      "7312"      
+      "7582"      
+      "7860"      
+      "ContextSaveImage"      
+      "__go_to_ctor_definition_help"      
+      "2438"      
+      "750"      
+    19 namespace(s):    
       AbcNamespace(0,'null)      
+      AbcNamespace(5,'hype.extended.util:ContextSaveImage)      
+      AbcNamespace(26,'hype.extended.util:ContextSaveImage)      
+      AbcNamespace(5,'ContextSaveImage.as$13)      
       AbcNamespace(22,')      
+      AbcNamespace(22,'hype.extended.util)      
+      AbcNamespace(23,'hype.extended.util)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'hype.extended.util:ContextSaveImage)      
+      AbcNamespace(26,'Object)      
+      AbcNamespace(22,'__AS3__.vec)      
+      AbcNamespace(22,'hype.framework.display)      
       AbcNamespace(22,'flash.display)      
-      AbcNamespace(8,'hype.framework.color:IColorist)      
-      AbcNamespace(22,'hype.framework.color)      
-    2 namespaceset(s):    
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(22,'hype.framework.canvas.encoder)      
+      AbcNamespace(22,'flash.net)      
+      AbcNamespace(22,'flash.events)      
+      AbcNamespace(22,'flash.ui)      
+      AbcNamespace(22,'flash.utils)      
+    4 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.color)])      
-    8 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object),AbcNamespace(22,'__AS3__.vec)])      
+      AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.extended.util)])      
+    91 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage))      
+      AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage))      
+      AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage))      
+      AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage))      
+      AbcMultiname('Vector,AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object),AbcNamespace(22,'__AS3__.vec)]))      
+      AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))      
+      AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)]))      
+      AbcQName('Error,AbcNamespace(22,'))      
+      AbcQName('stage,AbcNamespace(22,'))      
+      AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
       AbcQName('Sprite,AbcNamespace(22,'flash.display))      
-      AbcQName('uint,AbcNamespace(22,'))      
-      AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))      
-      AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))      
-      AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))      
-      AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)]))      
+      AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('drawBusy,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('PNGCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))      
+      AbcQName('Class,AbcNamespace(22,'))      
+      AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))      
+      AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('onContextEncodeProgress,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('onEncodeProgress,AbcNamespace(22,'))      
+      AbcQName('onContextEncodeComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('onEncodeComplete,AbcNamespace(22,'))      
+      AbcQName('FileReference,AbcNamespace(22,'flash.net))      
+      AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('COMPLETE,AbcNamespace(22,'))      
+      AbcQName('onContextSaveComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('IOErrorEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('IO_ERROR,AbcNamespace(22,'))      
+      AbcQName('onContextSaveError,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('CANCEL,AbcNamespace(22,'))      
+      AbcQName('onContextSaveCancel,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('ContextMenu,AbcNamespace(22,'flash.ui))      
+      AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui))      
+      AbcQName('fileExtension,AbcNamespace(22,'))      
+      AbcQName('_encodeItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('hideBuiltInItems,AbcNamespace(22,'))      
+      AbcQName('customItems,AbcNamespace(22,'))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events))      
+      AbcQName('MENU_ITEM_SELECT,AbcNamespace(22,'))      
+      AbcQName('onContextEncode,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_waitItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('_saveItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('onContextSave,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('contextMenu,AbcNamespace(22,'))      
+      AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('onEncodeStart,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util))      
+      AbcQName('encode,AbcNamespace(22,'))      
+      AbcQName('largeCanvas,AbcNamespace(22,'))      
+      AbcQName('stopCapture,AbcNamespace(22,'))      
+      AbcQName('addChild,AbcNamespace(22,'))      
+      AbcQName('stageWidth,AbcNamespace(22,'))      
+      AbcQName('stageHeight,AbcNamespace(22,'))      
+      AbcQName('graphics,AbcNamespace(22,'))      
+      AbcQName('clear,AbcNamespace(22,'))      
+      AbcQName('lineStyle,AbcNamespace(22,'))      
+      AbcQName('beginFill,AbcNamespace(22,'))      
+      AbcQName('drawRect,AbcNamespace(22,'))      
+      AbcQName('Number,AbcNamespace(22,'))      
+      AbcQName('_busyOffset,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('endFill,AbcNamespace(22,'))      
+      AbcQName('removeChild,AbcNamespace(22,'))      
+      AbcQName('_data,AbcNamespace(24,'hype.extended.util:ContextSaveImage))      
+      AbcQName('ByteArray,AbcNamespace(22,'flash.utils))      
+      AbcQName('toLowerCase,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('save,AbcNamespace(22,'))      
+      AbcQName('start,AbcNamespace(22,'))      
+      AbcQName('onSaveComplete,AbcNamespace(22,'))      
+      AbcQName('stop,AbcNamespace(22,'))      
+      AbcQName('onSaveError,AbcNamespace(22,'))      
+      AbcQName('onSaveCancel,AbcNamespace(22,'))      
+      AbcQName('Stage,AbcNamespace(22,'flash.display))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('Vector,AbcNamespace(22,'__AS3__.vec))      
+      AbcTypename(AbcQName('Vector,AbcNamespace(22,'__AS3__.vec)), [AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))])      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('ContextSaveImage,AbcNamespace(22,'hype.extended.util))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('ContextSaveImage,AbcNSSet([AbcNamespace(22,'hype.extended.util)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='261,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
-    ['__go_to_definition_help('pos='386,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
-    ['__go_to_definition_help('pos='134,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='794)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='841)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='889)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='933)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='974)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1004)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1045)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1093)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1134)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1179)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1218)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1261)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1300)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1344)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1377)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1412)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1454)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1500)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1552)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1650)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1764)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1864)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1960)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2051)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2144)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='4689)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='4757)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='5273)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='5931)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='6819)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7099)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7312)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7582)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7860)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2438)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='750)]    
   Scripts:  
     Script:    
       Init:      
@@ -73,31 +364,67 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 2            
+            MaxScopeDepth: 3            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   1              
+              scopeStack:   2              
               localCount:   1              
               0 exception(s):              
-              10 operation(s):              
+              16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as)                
-                        +0|-0  DebugLine(7)                
-                        +1|-0  FindPropStrict(AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)])))                
-                        +1|-0  PushNull()                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))]])                
-                        +0|-2  InitProperty(AbcQName('IColorist,AbcNamespace(22,'hype.framework.color)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                
+                        +0|-0  DebugLine(23)                
+                        +1|-0  FindPropStrict(AbcMultiname('ContextSaveImage,AbcNSSet([AbcNamespace(22,'hype.extended.util)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ContextSaveImage,AbcNamespace(22,'hype.extended.util))]])                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('ContextSaveImage,AbcNamespace(22,'hype.extended.util)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))          
+          Name: AbcQName('ContextSaveImage,AbcNamespace(22,'hype.extended.util))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='134,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2438)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='750)]            
           Type:          
             Class:             
+              Traits:              
+                Trait Const:                
+                  Name: AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage))                  
+                  Index: 1                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Value: 100                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='794)]                    
+                Trait Const:                
+                  Name: AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage))                  
+                  Index: 2                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Value: 5                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='841)]                    
+                Trait Const:                
+                  Name: AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage))                  
+                  Index: 3                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Value: 4                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='889)]                    
+                Trait Const:                
+                  Name: AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage))                  
+                  Index: 4                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Value: 30                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='933)]                    
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -111,46 +438,564 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 0                  
+                  Max Stack: 2                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
-                  MaxScopeDepth: 3                  
+                  MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 0                    
-                    scopeStack:   0                    
+                    operandStack: 2                    
+                    scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    1 operation(s):                    
+                    19 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'BAR_WIDTH,0,24)                      
+                              +1|-0  FindProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(100)                      
+                              +0|-2  InitProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  Debug(1,'BAR_HEIGHT,1,25)                      
+                              +1|-0  FindProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(5)                      
+                              +0|-2  InitProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  Debug(1,'BAR_STEP,2,26)                      
+                              +1|-0  FindProperty(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(4)                      
+                              +0|-2  InitProperty(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  Debug(1,'BAR_SEGMENTS,3,27)                      
+                              +1|-0  FindProperty(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(30)                      
+                              +0|-2  InitProperty(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))              
+              Name: AbcQName('ContextSaveImage,AbcNamespace(22,'hype.extended.util))              
+              Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
               Is Final: false              
-              Is Interface true              
+              Is Interface false              
               Nullable: true              
+              Protected Namespace: AbcNamespace(24,'hype.extended.util:ContextSaveImage)              
               Interfaces:               
               Method:              
-                Name: hype.framework.color:IColorist/IColorist                
+                Name: hype.extended.util:ContextSaveImage/ContextSaveImage                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
                 Needs Activation: false                
-                Has Optional Parameters: false                
+                Has Optional Parameters: true                
                 Ignore Rest: false                
                 Is Native: false                
                 DXNS: false                
-                Has Parameter Names: false                
+                Has Parameter Names: true                
                 Parameters:                
+                  Parameter:                   
+                    Name: canvas                    
+                    Type: AbcQName('null,AbcNamespace(0,'null))                    
+                    Optional: false                    
+                  Parameter:                   
+                    Name: encoderClass                    
+                    Type: AbcQName('Class,AbcNamespace(22,'))                    
+                    Optional: true                    
+                    Default: null                    
+                  Parameter:                   
+                    Name: owner                    
+                    Type: AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))                    
+                    Optional: true                    
+                    Default: null                    
+                Method Body:                
+                  Max Stack: 4                  
+                  Locals: 6                  
+                  InitScopeDepth: 4                  
+                  MaxScopeDepth: 5                  
+                  Bytecode:                  
+                    operandStack: 4                    
+                    scopeStack:   1                    
+                    localCount:   6                    
+                    0 exception(s):                    
+                    305 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                      
+                              +0|-0  DebugLine(83)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +1|-0  PushByte(0)                      
+                              +0|-1  SetLocal(4)                      
+                              +1|-0  PushByte(0)                      
+                              +0|-1  SetLocal(5)                      
+                              +0|-0  Debug(1,'canvas,0,83)                      
+                              +0|-0  Debug(1,'encoderClass,1,83)                      
+                              +0|-0  Debug(1,'owner,2,83)                      
+                              +0|-0  DebugLine(83)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  ConstructSuper(0)                      
+                              +0|-0  Debug(1,'max,3,84)                      
+                              +0|-0  Debug(1,'i,4,85)                      
+                              +0|-0  DebugLine(87)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcMultiname('Vector,AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object),AbcNamespace(22,'__AS3__.vec)])))                      
+                              +1|-1  GetProperty(AbcMultiname('Vector,AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object),AbcNamespace(22,'__AS3__.vec)])))                      
+                              +1|-0  FindPropStrict(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                      
+                              +1|-1  GetProperty(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                      
+                              +1|-2  ApplyType(1)                      
+                              +1|-1  Construct(0)                      
+                              +0|-2  InitProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(89)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  FindPropStrict(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                      
+                              +1|-1  GetProperty(AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display)))                      
+                              +1|-2  IsTypeLate()                      
+                              +0|-1  IfFalse(L0)                      
+                              +0|-0  DebugLine(90)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +0|-0  Jump(L1)                      
+                      L0:     +0|-0  DebugLine(92)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  PushString('length)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +1|-0  PushByte(0)                      
+                              +0|-2  IfNotGreaterThan(L2)                      
+                              +0|-0  DebugLine(93)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  PushString('length)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(4)                      
+                              +0|-0  DebugLine(94)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(5)                      
+                              +0|-0  Jump(L3)                      
+                      L4:     +0|-0  Label()                      
+                              +0|-0  DebugLine(95)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  GetLocal(5)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(5)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +0|-0  DebugLine(94)                      
+                              +1|-0  GetLocal(5)                      
+                              +1|-1  IncrementInt()                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(5)                      
+                      L3:     +1|-0  GetLocal(5)                      
+                              +1|-0  GetLocal(4)                      
+                              +0|-2  IfLessThan(L4)                      
+                              +0|-0  Jump(L1)                      
+                      L2:     +0|-0  DebugLine(98)                      
+                              +1|-0  FindPropStrict(AbcQName('Error,AbcNamespace(22,')))                      
+                              +1|-0  PushString('The first argument must be a BitmapCanvas or an Array/Vector of BitmapCanvas)                      
+                              +1|-2  ConstructProp(AbcQName('Error,AbcNamespace(22,')),1)                      
+                              +0|-1  Throw()                      
+                      L1:     +0|-0  DebugLine(103)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-0  PushNull()                      
+                              +0|-2  IfNotEqual(L5)                      
+                              +0|-0  DebugLine(104)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(0)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(105)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushByte(0)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                      
+                              +0|-2  InitProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  Jump(L6)                      
+                      L5:     +0|-0  DebugLine(107)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-1  GetProperty(AbcQName('stage,AbcNamespace(22,')))                      
+                              +0|-2  InitProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(108)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(3)                      
+                              +0|-2  InitProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                      L6:     +0|-0  DebugLine(111)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  PushNull()                      
+                              +0|-2  IfNotEqual(L7)                      
+                              +0|-0  DebugLine(112)                      
+                              +1|-0  FindPropStrict(AbcQName('Error,AbcNamespace(22,')))                      
+                              +1|-0  PushString('HYPE Error: Either canvas must be attached to stage or stage parameter must be specified)                      
+                              +1|-2  ConstructProp(AbcQName('Error,AbcNamespace(22,')),1)                      
+                              +0|-1  Throw()                      
+                      L7:     +0|-0  DebugLine(115)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                      
+                              +1|-1  ConstructProp(AbcQName('Sprite,AbcNamespace(22,'flash.display)),0)                      
+                              +0|-2  InitProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(117)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('drawBusy,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-2  ConstructProp(AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm)),1)                      
+                              +0|-2  InitProperty(AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(119)                      
+                              +1|-0  GetLocal(2)                      
+                              +1|-0  PushNull()                      
+                              +0|-2  IfNotEqual(L8)                      
+                              +0|-0  DebugLine(120)                      
+                              +1|-0  FindPropStrict(AbcQName('PNGCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder)))                      
+                              +1|-1  GetProperty(AbcQName('PNGCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder)))                      
+                              +1|-1  Coerce(AbcQName('Class,AbcNamespace(22,')))                      
+                              +0|-1  SetLocal(2)                      
+                      L8:     +0|-0  DebugLine(123)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(2)                      
+                              +1|-1  Construct(0)                      
+                              +1|-0  FindPropStrict(AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder)))                      
+                              +1|-1  GetProperty(AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder)))                      
+                              +1|-2  AsTypeLate()                      
+                              +0|-2  InitProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(124)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextEncodeProgress,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-2  SetProperty(AbcQName('onEncodeProgress,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(125)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextEncodeComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-2  SetProperty(AbcQName('onEncodeComplete,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(127)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('FileReference,AbcNamespace(22,'flash.net)))                      
+                              +1|-1  ConstructProp(AbcQName('FileReference,AbcNamespace(22,'flash.net)),0)                      
+                              +0|-2  InitProperty(AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(128)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('COMPLETE,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextSaveComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(129)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  FindPropStrict(AbcQName('IOErrorEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('IOErrorEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('IO_ERROR,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextSaveError,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(130)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('CANCEL,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextSaveCancel,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(132)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)))                      
+                              +1|-1  ConstructProp(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)),0)                      
+                              +0|-2  InitProperty(AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(133)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)))                      
+                              +1|-0  PushString('Encode )                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  GetProperty(AbcQName('fileExtension,AbcNamespace(22,')))                      
+                              +1|-2  Add()                      
+                              +1|-0  PushString('...)                      
+                              +1|-2  Add()                      
+                              +1|-2  ConstructProp(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)),1)                      
+                              +0|-2  InitProperty(AbcQName('_encodeItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(134)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  CallProperty(AbcQName('hideBuiltInItems,AbcNamespace(22,')),0)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(135)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  GetProperty(AbcQName('customItems,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encodeItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(136)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encodeItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('MENU_ITEM_SELECT,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextEncode,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(138)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)))                      
+                              +1|-1  ConstructProp(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)),0)                      
+                              +0|-2  InitProperty(AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(139)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)))                      
+                              +1|-0  PushString('Please wait, encoding...)                      
+                              +1|-2  ConstructProp(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)),1)                      
+                              +0|-2  InitProperty(AbcQName('_waitItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(140)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  CallProperty(AbcQName('hideBuiltInItems,AbcNamespace(22,')),0)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(141)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  GetProperty(AbcQName('customItems,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_waitItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(143)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)))                      
+                              +1|-1  ConstructProp(AbcQName('ContextMenu,AbcNamespace(22,'flash.ui)),0)                      
+                              +0|-2  InitProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(144)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)))                      
+                              +1|-0  PushString('Save )                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  GetProperty(AbcQName('fileExtension,AbcNamespace(22,')))                      
+                              +1|-2  Add()                      
+                              +1|-0  PushString('...)                      
+                              +1|-2  Add()                      
+                              +1|-2  ConstructProp(AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui)),1)                      
+                              +0|-2  InitProperty(AbcQName('_saveItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-0  DebugLine(145)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  CallProperty(AbcQName('hideBuiltInItems,AbcNamespace(22,')),0)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(146)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-1  GetProperty(AbcQName('customItems,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_saveItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(147)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_saveItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  FindPropStrict(AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events)))                      
+                              +1|-1  GetProperty(AbcQName('MENU_ITEM_SELECT,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('onContextSave,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(149)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                      
+                              +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(150)                      
+                              +0|-0  ReturnVoid()                      
               Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('Stage,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='974)]                    
+                Trait Slot:                
+                  Name: AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1004)]                    
+                Trait Slot:                
+                  Name: AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('AbstractCanvasEncoder,AbcNamespace(22,'hype.framework.canvas.encoder))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1045)]                    
+                Trait Slot:                
+                  Name: AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenu,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1093)]                    
+                Trait Slot:                
+                  Name: AbcQName('_encodeItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1134)]                    
+                Trait Slot:                
+                  Name: AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenu,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1179)]                    
+                Trait Slot:                
+                  Name: AbcQName('_saveItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1218)]                    
+                Trait Slot:                
+                  Name: AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenu,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1261)]                    
+                Trait Slot:                
+                  Name: AbcQName('_waitItem,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ContextMenuItem,AbcNamespace(22,'flash.ui))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1300)]                    
+                Trait Slot:                
+                  Name: AbcQName('_data,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('ByteArray,AbcNamespace(22,'flash.utils))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1344)]                    
+                Trait Slot:                
+                  Name: AbcQName('_busyOffset,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Value: 0                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1377)]                    
+                Trait Slot:                
+                  Name: AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1412)]                    
+                Trait Slot:                
+                  Name: AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('InteractiveObject,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1454)]                    
+                Trait Slot:                
+                  Name: AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcTypename(AbcQName('Vector,AbcNamespace(22,'__AS3__.vec)), [AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))])                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1500)]                    
+                Trait Slot:                
+                  Name: AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Index: 0                  
+                  Type: AbcQName('FileReference,AbcNamespace(22,'flash.net))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1552)]                    
+                Trait Slot:                
+                  Name: AbcQName('onEncodeStart,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1650)]                    
+                Trait Slot:                
+                  Name: AbcQName('onEncodeProgress,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1764)]                    
+                Trait Slot:                
+                  Name: AbcQName('onEncodeComplete,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1864)]                    
+                Trait Slot:                
+                  Name: AbcQName('onSaveComplete,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='1960)]                    
+                Trait Slot:                
+                  Name: AbcQName('onSaveError,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2051)]                    
+                Trait Slot:                
+                  Name: AbcQName('onSaveCancel,AbcNamespace(22,'))                  
+                  Index: 0                  
+                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='2144)]                    
                 Trait Method:                
-                  Name: AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))                  
+                  Name: AbcQName('encode,AbcNamespace(22,'))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='261,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='4689)]                    
                   Method:                  
-                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren                    
+                    Name: hype.extended.util:ContextSaveImage/encode                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(152)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(153)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-2  CallProperty(AbcQName('onContextEncode,AbcNamespace(24,'hype.extended.util:ContextSaveImage)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(154)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextEncode,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='4757)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextEncode                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
@@ -162,19 +1007,110 @@ Abc:
                     Has Parameter Names: true                    
                     Parameters:                    
                       Parameter:                       
-                        Name: sprite                        
-                        Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                        
+                        Name: event                        
+                        Type: AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events))                        
                         Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        80 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(156)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,156)                          
+                                  +0|-0  DebugLine(157)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onEncodeStart,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(158)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('onEncodeStart,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(161)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_waitMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(163)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(1)                          
+                                  +0|-2  IfNotGreaterThan(L1)                          
+                                  +0|-0  DebugLine(164)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  FindPropStrict(AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  ConstructProp(AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util)),1)                          
+                                  +1|-2  CallProperty(AbcQName('encode,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Jump(L2)                          
+                          L1:     +0|-0  DebugLine(166)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L3)                          
+                                  +0|-0  DebugLine(167)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('encode,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Jump(L4)                          
+                          L3:     +0|-0  DebugLine(169)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                          
+                                  +1|-2  CallProperty(AbcQName('encode,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L4:     +0|-0  DebugLine(171)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'hype.extended.util:ContextSaveImage),AbcNamespace(5,'ContextSaveImage.as$13),AbcNamespace(22,'),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.extended.util:ContextSaveImage),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  CallProperty(AbcQName('stopCapture,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L2:     +0|-0  DebugLine(175)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(176)                          
+                                  +0|-0  ReturnVoid()                          
                 Trait Method:                
-                  Name: AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))                  
+                  Name: AbcQName('onContextEncodeProgress,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='386,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='5273)]                    
                   Method:                  
-                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:getColor                    
-                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextEncodeProgress                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    
@@ -182,5 +1118,671 @@ Abc:
                     Ignore Rest: false                    
                     Is Native: false                    
                     DXNS: false                    
-                    Has Parameter Names: false                    
+                    Has Parameter Names: true                    
                     Parameters:                    
+                      Parameter:                       
+                        Name: percent                        
+                        Type: AbcQName('Number,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 5                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   5                        
+                        0 exception(s):                        
+                        106 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(178)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'percent,0,178)                          
+                                  +0|-0  Debug(1,'x,1,179)                          
+                                  +0|-0  Debug(1,'y,2,180)                          
+                                  +0|-0  Debug(1,'width,3,181)                          
+                                  +0|-0  DebugLine(179)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('stageWidth,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(180)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('stageHeight,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(181)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Multiply()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(183)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(184)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-3  CallProperty(AbcQName('lineStyle,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(185)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushInt(16777215)                          
+                                  +1|-0  PushDouble(0.7)                          
+                                  +1|-3  CallProperty(AbcQName('beginFill,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(187)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-5  CallProperty(AbcQName('drawRect,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(189)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushDouble(0.6)                          
+                                  +1|-3  CallProperty(AbcQName('beginFill,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(190)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-5  CallProperty(AbcQName('drawRect,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(192)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onEncodeProgress,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(193)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('onEncodeProgress,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(195)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('drawBusy,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='5931)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:drawBusy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('SimpleRhythm,AbcNamespace(22,'hype.framework.rhythm))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 6                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        150 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(197)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  Debug(1,'rhythm,0,197)                          
+                                  +0|-0  Debug(1,'segmentSize,1,198)                          
+                                  +0|-0  Debug(1,'x,2,199)                          
+                                  +0|-0  Debug(1,'y,3,200)                          
+                                  +0|-0  Debug(1,'i,4,201)                          
+                                  +0|-0  DebugLine(198)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(199)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('stageWidth,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(200)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('stageHeight,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  PushByte(2)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(205)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyOffset,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushByte(1)                          
+                                  +1|-2  Add()                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Modulo()                          
+                                  +0|-2  InitProperty(AbcQName('_busyOffset,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-0  DebugLine(207)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(209)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  Jump(L0)                          
+                          L3:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(210)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyOffset,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Subtract()                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_STEP,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  Modulo()                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(211)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushInt(16777215)                          
+                                  +1|-0  PushDouble(0.7)                          
+                                  +1|-3  CallProperty(AbcQName('beginFill,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Jump(L2)                          
+                          L1:     +0|-0  DebugLine(213)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushDouble(0.6)                          
+                                  +1|-3  CallProperty(AbcQName('beginFill,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                          L2:     +0|-0  DebugLine(216)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-5  CallProperty(AbcQName('drawRect,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(217)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('endFill,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(209)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-1  IncrementInt()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(5)                          
+                          L0:     +1|-0  GetLocal(5)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_SEGMENTS,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  IfLessThan(L3)                          
+                                  +0|-0  DebugLine(220)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-3  CallProperty(AbcQName('lineStyle,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(221)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_WIDTH,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  FindPropStrict(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('BAR_HEIGHT,AbcNamespace(26,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-5  CallProperty(AbcQName('drawRect,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(223)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  PushDouble(0.8)                          
+                                  +1|-3  CallProperty(AbcQName('beginFill,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(224)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextEncodeComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='6819)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextEncodeComplete                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: data                        
+                        Type: AbcQName('ByteArray,AbcNamespace(22,'flash.utils))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        39 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(226)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'data,0,226)                          
+                                  +0|-0  DebugLine(227)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onEncodeComplete,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(228)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('onEncodeComplete,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(231)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(232)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('removeChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(234)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_data,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-0  DebugLine(235)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(236)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextSave,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7099)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextSave                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('ContextMenuEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        32 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(238)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,238)                          
+                                  +0|-0  DebugLine(239)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_fileReference,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_data,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  PushString('hype.)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_encoder,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('fileExtension,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('toLowerCase,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),0)                          
+                                  +1|-2  Add()                          
+                                  +1|-3  CallProperty(AbcQName('save,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(240)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  CallProperty(AbcQName('start,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(241)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('addChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(242)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextSaveComplete,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7312)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextSaveComplete                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        40 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(244)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,244)                          
+                                  +0|-0  DebugLine(245)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_encodeMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(246)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onSaveComplete,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(247)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('onSaveComplete,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(249)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(250)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(251)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('removeChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(252)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextSaveError,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7582)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextSaveError                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('IOErrorEvent,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        40 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(254)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,254)                          
+                                  +0|-0  DebugLine(255)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(257)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onSaveError,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(258)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('onSaveError,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(261)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(262)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(263)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('removeChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(264)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('onContextSaveCancel,AbcNamespace(24,'hype.extended.util:ContextSaveImage))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/ContextSaveImage.as,'pos='7860)]                    
+                  Method:                  
+                    Name: hype.extended.util:ContextSaveImage/protected:onContextSaveCancel                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        40 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;ContextSaveImage.as)                          
+                                  +0|-0  DebugLine(266)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'event,0,266)                          
+                                  +0|-0  DebugLine(267)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_menuOwner,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_saveMenu,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +0|-2  SetProperty(AbcQName('contextMenu,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(269)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('onSaveCancel,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(270)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('onSaveCancel,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(273)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_busyRhythm,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(274)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-1  GetProperty(AbcQName('graphics,AbcNamespace(22,')))                          
+                                  +1|-1  CallProperty(AbcQName('clear,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(275)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_stage,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_progressDisplay,AbcNamespace(24,'hype.extended.util:ContextSaveImage)))                          
+                                  +1|-2  CallProperty(AbcQName('removeChild,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(276)                          
+                                  +0|-0  ReturnVoid()                          

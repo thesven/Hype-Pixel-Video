@@ -1,5 +1,5 @@
 Abc:
-  9 method(s), 9 metadata, 1 type(s), 1 script(s)  
+  5 method(s), 6 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
     1 integer(s):    
       0      
@@ -7,103 +7,126 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    48 string(s):    
+    62 string(s):    
       "null"      
-      "hype.framework.behavior:BehaviorStore"      
-      "_table"      
-      "Dictionary"      
-      "flash.utils"      
-      "_pauseFlag"      
+      "hype.extended.util:BitmapCanvasCompositor"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as"      
-      "behavior"      
-      "name"      
-      "target"      
-      "BehaviorStore.as$14"      
-      "hype.framework.behavior"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as"      
+      "list"      
+      "max"      
+      "i"      
+      "w"      
+      "h"      
+      "length"      
+      "Array"      
+      "_canvasList"      
+      "Rectangle"      
+      "flash.geom"      
+      "_rect"      
+      "BitmapCanvasCompositor.as$30"      
+      "hype.extended.util"      
       "http://adobe.com/AS3/2006/builtin"      
       "Object"      
-      "hype.framework.behavior:BehaviorStore/store"      
+      "largeCanvas"      
+      "push"      
+      "rect"      
+      "width"      
+      "height"      
+      "Math"      
+      "reverse"      
+      "hype.extended.util:BitmapCanvasCompositor/BitmapCanvasCompositor"      
       "void"      
-      "AbstractBehavior"      
-      "String"      
-      "targetTable"      
-      "hype.framework.behavior:BehaviorStore/retrieve"      
-      "hype.framework.behavior:BehaviorStore/remove"      
-      "Boolean"      
-      "stop"      
-      "hype.framework.behavior:BehaviorStore/pause"      
-      "resume"      
-      "hype.framework.behavior:BehaviorStore/resume"      
-      "hype.framework.behavior:BehaviorStore/isPaused/get"      
-      "hype.framework.behavior:BehaviorStore/BehaviorStore"      
+      "__AS3__.vec"      
+      "Vector"      
+      "hype.framework.display"      
+      "BitmapCanvas"      
+      "x"      
+      "y"      
+      "a0"      
+      "r0"      
+      "g0"      
+      "b0"      
+      "a1"      
+      "r1"      
+      "g1"      
+      "b1"      
+      "c"      
+      "IEncodable"      
+      "hype.framework.canvas"      
+      "getPixel32"      
+      "hype.framework.canvas:IEncodable"      
+      "int"      
+      "hype.extended.util:BitmapCanvasCompositor/getPixel32"      
+      "hype.extended.util:BitmapCanvasCompositor/rect/get"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as"      
       "pos"      
-      "279"      
-      "344"      
-      "store"      
-      "533"      
-      "retrieve"      
-      "953"      
-      "remove"      
-      "1397"      
-      "pause"      
-      "1687"      
-      "1966"      
-      "isPaused"      
-      "2318"      
-      "BehaviorStore"      
-      "237"      
-    11 namespace(s):    
+      "296"      
+      "329"      
+      "1350"      
+      "2326"      
+      "BitmapCanvasCompositor"      
+      "__go_to_ctor_definition_help"      
+      "456"      
+      "233"      
+    15 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.behavior:BehaviorStore)      
-      AbcNamespace(26,'hype.framework.behavior:BehaviorStore)      
-      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor)      
       AbcNamespace(22,')      
-      AbcNamespace(5,'BehaviorStore.as$14)      
-      AbcNamespace(22,'hype.framework.behavior)      
-      AbcNamespace(23,'hype.framework.behavior)      
+      AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)      
+      AbcNamespace(22,'flash.geom)      
+      AbcNamespace(5,'BitmapCanvasCompositor.as$30)      
+      AbcNamespace(22,'hype.extended.util)      
+      AbcNamespace(23,'hype.extended.util)      
       AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
-      AbcNamespace(24,'hype.framework.behavior:BehaviorStore)      
+      AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor)      
       AbcNamespace(26,'Object)      
-    3 namespaceset(s):    
+      AbcNamespace(22,'__AS3__.vec)      
+      AbcNamespace(22,'hype.framework.display)      
+      AbcNamespace(22,'hype.framework.canvas)      
+      AbcNamespace(8,'hype.framework.canvas:IEncodable)      
+    4 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.behavior)])      
-    20 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.canvas)])      
+      AbcNSSet([AbcNamespace(22,'hype.extended.util)])      
+    27 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))      
-      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
-      AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))      
-      AbcQName('target,AbcNamespace(22,'))      
-      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)]))      
-      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor))      
+      AbcQName('Rectangle,AbcNamespace(22,'flash.geom))      
+      AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)]))      
+      AbcQName('largeCanvas,AbcNamespace(22,'))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('rect,AbcNamespace(22,'))      
+      AbcQName('width,AbcNamespace(22,'))      
+      AbcQName('height,AbcNamespace(22,'))      
+      AbcQName('Math,AbcNamespace(22,'))      
+      AbcQName('max,AbcNamespace(22,'))      
+      AbcQName('reverse,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
       AbcQName('void,AbcNamespace(22,'))      
-      AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))      
-      AbcQName('String,AbcNamespace(22,'))      
-      AbcQName('Boolean,AbcNamespace(22,'))      
-      AbcQName('stop,AbcNamespace(22,'))      
-      AbcQName('resume,AbcNamespace(22,'))      
-      AbcQName('store,AbcNamespace(22,'))      
-      AbcQName('retrieve,AbcNamespace(22,'))      
-      AbcQName('remove,AbcNamespace(22,'))      
-      AbcQName('pause,AbcNamespace(22,'))      
-      AbcQName('isPaused,AbcNamespace(22,'))      
-      AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))      
-      AbcMultiname('BehaviorStore,AbcNSSet([AbcNamespace(22,'hype.framework.behavior)]))      
+      AbcQName('Vector,AbcNamespace(22,'__AS3__.vec))      
+      AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))      
+      AbcTypename(AbcQName('Vector,AbcNamespace(22,'__AS3__.vec)), [AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))])      
+      AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas))      
+      AbcQName('getPixel32,AbcNamespace(8,'hype.framework.canvas:IEncodable))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))      
+      AbcQName('getPixel32,AbcNamespace(22,'))      
+      AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcMultiname('BitmapCanvasCompositor,AbcNSSet([AbcNamespace(22,'hype.extended.util)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='279,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='344,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='533,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='953,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='1397,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='1687,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='1966,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='2318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
-    ['__go_to_definition_help('pos='237,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='296)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='329)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='1350)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='2326)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='456)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='233)]    
   Scripts:  
     Script:    
       Init:      
@@ -132,482 +155,29 @@ Abc:
               16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                
-                        +0|-0  DebugLine(9)                
-                        +1|-0  FindPropStrict(AbcMultiname('BehaviorStore,AbcNSSet([AbcNamespace(22,'hype.framework.behavior)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as)                
+                        +0|-0  DebugLine(10)                
+                        +1|-0  FindPropStrict(AbcMultiname('BitmapCanvasCompositor,AbcNSSet([AbcNamespace(22,'hype.extended.util)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))]])                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                
+                        +0|-2  InitProperty(AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))          
+          Name: AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='237,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='456)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='233)]            
           Type:          
             Class:             
-              Traits:              
-                Trait Slot:                
-                  Name: AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))                  
-                  Index: 1                  
-                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='279,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                Trait Slot:                
-                  Name: AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))                  
-                  Index: 2                  
-                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
-                  Value: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='344,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                Trait Method:                
-                  Name: AbcQName('store,AbcNamespace(22,'))                  
-                  Disp Id: 3                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='533,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/store                    
-                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: behavior                        
-                        Type: AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))                        
-                        Optional: false                        
-                      Parameter:                       
-                        Name: name                        
-                        Type: AbcQName('String,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 3                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   3                        
-                        0 exception(s):                        
-                        33 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(20)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'behavior,0,20)                          
-                                  +0|-0  Debug(1,'name,1,20)                          
-                                  +0|-0  DebugLine(21)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +1|-0  PushNull()                          
-                                  +0|-2  IfNotEqual(L0)                          
-                                  +0|-0  DebugLine(22)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
-                                  +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                          L0:     +0|-0  DebugLine(25)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(26)                          
-                                  +0|-0  ReturnVoid()                          
-                Trait Method:                
-                  Name: AbcQName('retrieve,AbcNamespace(22,'))                  
-                  Disp Id: 4                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='953,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/retrieve                    
-                    Return Type: AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: target                        
-                        Type: AbcQName('Object,AbcNamespace(22,'))                        
-                        Optional: false                        
-                      Parameter:                       
-                        Name: name                        
-                        Type: AbcQName('String,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 4                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        26 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(36)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'target,0,36)                          
-                                  +0|-0  Debug(1,'name,1,36)                          
-                                  +0|-0  Debug(1,'targetTable,2,37)                          
-                                  +0|-0  DebugLine(37)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(39)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfFalse(L0)                          
-                                  +0|-0  DebugLine(40)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +0|-1  ReturnValue()                          
-                          L0:     +0|-0  DebugLine(42)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('remove,AbcNamespace(22,'))                  
-                  Disp Id: 5                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='1397,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/remove                    
-                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: target                        
-                        Type: AbcQName('Object,AbcNamespace(22,'))                        
-                        Optional: false                        
-                      Parameter:                       
-                        Name: name                        
-                        Type: AbcQName('String,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 4                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        42 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(54)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'target,0,54)                          
-                                  +0|-0  Debug(1,'name,1,54)                          
-                                  +0|-0  Debug(1,'targetTable,2,55)                          
-                                  +0|-0  DebugLine(55)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(57)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +2|-1  Dup()                          
-                                  +1|-1  ConvertBoolean()                          
-                                  +0|-1  IfFalse(L0)                          
-                                  +0|-1  Pop()                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +1|-1  ConvertBoolean()                          
-                          L0:     +0|-1  IfFalse(L1)                          
-                                  +0|-0  DebugLine(58)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-0  PushNull()                          
-                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +0|-0  DebugLine(59)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
-                                  +0|-1  Pop()                          
-                                  +0|-0  DebugLine(61)                          
-                                  +1|-0  PushTrue()                          
-                                  +0|-1  ReturnValue()                          
-                          L1:     +0|-0  DebugLine(63)                          
-                                  +1|-0  PushFalse()                          
-                                  +0|-1  ReturnValue()                          
-                Trait Method:                
-                  Name: AbcQName('pause,AbcNamespace(22,'))                  
-                  Disp Id: 6                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='1687,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/pause                    
-                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: false                    
-                    Parameters:                    
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 7                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   7                        
-                        0 exception(s):                        
-                        64 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(67)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  Debug(1,'targetTable,0,68)                          
-                                  +0|-0  Debug(1,'behavior,1,69)                          
-                                  +0|-0  DebugLine(71)                          
-                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  Not()                          
-                                  +0|-1  IfFalse(L0)                          
-                                  +0|-0  DebugLine(72)                          
-                                  +1|-0  PushByte(0)                          
-                                  +0|-1  SetLocal(3)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  CoerceAny()                          
-                                  +0|-1  SetLocal(4)                          
-                                  +0|-0  Jump(L1)                          
-                          L4:     +0|-0  Label()                          
-                                  +1|-0  GetLocal(4)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-2  NextValue()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +0|-0  DebugLine(73)                          
-                                  +1|-0  PushByte(0)                          
-                                  +0|-1  SetLocal(5)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  CoerceAny()                          
-                                  +0|-1  SetLocal(6)                          
-                                  +0|-0  Jump(L2)                          
-                          L3:     +0|-0  Label()                          
-                                  +1|-0  GetLocal(6)                          
-                                  +1|-0  GetLocal(5)                          
-                                  +1|-2  NextValue()                          
-                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(74)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
-                                  +0|-1  Pop()                          
-                          L2:     +0|-0  DebugLine(73)                          
-                                  +1|-0  HasNext2(6,5)                          
-                                  +0|-1  IfTrue(L3)                          
-                                  +0|-0  Kill(6)                          
-                                  +0|-0  Kill(5)                          
-                          L1:     +0|-0  DebugLine(72)                          
-                                  +1|-0  HasNext2(4,3)                          
-                                  +0|-1  IfTrue(L4)                          
-                                  +0|-0  Kill(4)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-0  DebugLine(77)                          
-                                  +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  PushTrue()                          
-                                  +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                          L0:     +0|-0  DebugLine(79)                          
-                                  +0|-0  ReturnVoid()                          
-                Trait Method:                
-                  Name: AbcQName('resume,AbcNamespace(22,'))                  
-                  Disp Id: 7                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='1966,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/resume                    
-                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: false                    
-                    Parameters:                    
-                    Method Body:                    
-                      Max Stack: 2                      
-                      Locals: 7                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 2                        
-                        scopeStack:   1                        
-                        localCount:   7                        
-                        0 exception(s):                        
-                        63 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(81)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +1|-0  PushNull()                          
-                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  Debug(1,'targetTable,0,82)                          
-                                  +0|-0  Debug(1,'behavior,1,83)                          
-                                  +0|-0  DebugLine(85)                          
-                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +0|-1  IfFalse(L0)                          
-                                  +0|-0  DebugLine(86)                          
-                                  +1|-0  PushByte(0)                          
-                                  +0|-1  SetLocal(3)                          
-                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  CoerceAny()                          
-                                  +0|-1  SetLocal(4)                          
-                                  +0|-0  Jump(L1)                          
-                          L4:     +0|-0  Label()                          
-                                  +1|-0  GetLocal(4)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-2  NextValue()                          
-                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
-                                  +0|-1  SetLocal(1)                          
-                                  +0|-0  DebugLine(87)                          
-                                  +1|-0  PushByte(0)                          
-                                  +0|-1  SetLocal(5)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  CoerceAny()                          
-                                  +0|-1  SetLocal(6)                          
-                                  +0|-0  Jump(L2)                          
-                          L3:     +0|-0  Label()                          
-                                  +1|-0  GetLocal(6)                          
-                                  +1|-0  GetLocal(5)                          
-                                  +1|-2  NextValue()                          
-                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
-                                  +0|-1  SetLocal(2)                          
-                                  +0|-0  DebugLine(88)                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-1  CallProperty(AbcQName('resume,AbcNamespace(22,')),0)                          
-                                  +0|-1  Pop()                          
-                          L2:     +0|-0  DebugLine(87)                          
-                                  +1|-0  HasNext2(6,5)                          
-                                  +0|-1  IfTrue(L3)                          
-                                  +0|-0  Kill(6)                          
-                                  +0|-0  Kill(5)                          
-                          L1:     +0|-0  DebugLine(86)                          
-                                  +1|-0  HasNext2(4,3)                          
-                                  +0|-1  IfTrue(L4)                          
-                                  +0|-0  Kill(4)                          
-                                  +0|-0  Kill(3)                          
-                                  +0|-0  DebugLine(91)                          
-                                  +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-0  PushFalse()                          
-                                  +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                          L0:     +0|-0  DebugLine(93)                          
-                                  +0|-0  ReturnVoid()                          
-                Trait Getter:                
-                  Name: AbcQName('isPaused,AbcNamespace(22,'))                  
-                  Disp Id: 8                  
-                  Is Final: true                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='2318,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as)]                    
-                  Method:                  
-                    Name: hype.framework.behavior:BehaviorStore/isPaused/get                    
-                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: false                    
-                    Parameters:                    
-                    Method Body:                    
-                      Max Stack: 1                      
-                      Locals: 1                      
-                      InitScopeDepth: 3                      
-                      MaxScopeDepth: 4                      
-                      Bytecode:                      
-                        operandStack: 1                        
-                        scopeStack:   1                        
-                        localCount:   1                        
-                        0 exception(s):                        
-                        8 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
-                                  +0|-0  DebugLine(98)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  DebugLine(99)                          
-                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
-                                  +0|-1  ReturnValue()                          
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -621,41 +191,32 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 3                  
+                  Max Stack: 1                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
                   MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 3                    
+                    operandStack: 1                    
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    13 operation(s):                    
+                    3 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
-                              +0|-0  Debug(1,'_table,0,11)                      
-                              +1|-0  FindProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
-                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
-                              +1|-0  PushTrue()                      
-                              +1|-2  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),1)                      
-                              +0|-2  SetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
-                              +0|-0  Debug(1,'_pauseFlag,1,12)                      
-                              +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
-                              +1|-0  PushFalse()                      
-                              +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))              
+              Name: AbcQName('BitmapCanvasCompositor,AbcNamespace(22,'hype.extended.util))              
               Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
               Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.behavior:BehaviorStore)              
+              Protected Namespace: AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)              
               Interfaces:               
+                AbcMultiname('IEncodable,AbcNSSet([AbcNamespace(22,'hype.framework.canvas)]))                
               Method:              
-                Name: hype.framework.behavior:BehaviorStore/BehaviorStore                
-                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Name: hype.extended.util:BitmapCanvasCompositor/BitmapCanvasCompositor                
+                Return Type: AbcQName('void,AbcNamespace(22,'))                
                 Needs Arguments: false                
                 Needs Rest: false                
                 Needs Activation: false                
@@ -663,23 +224,497 @@ Abc:
                 Ignore Rest: false                
                 Is Native: false                
                 DXNS: false                
-                Has Parameter Names: false                
+                Has Parameter Names: true                
                 Parameters:                
+                  Parameter:                   
+                    Name: list                    
+                    Type: AbcTypename(AbcQName('Vector,AbcNamespace(22,'__AS3__.vec)), [AbcQName('BitmapCanvas,AbcNamespace(22,'hype.framework.display))])                    
+                    Optional: false                    
                 Method Body:                
-                  Max Stack: 1                  
-                  Locals: 1                  
+                  Max Stack: 6                  
+                  Locals: 6                  
                   InitScopeDepth: 4                  
                   MaxScopeDepth: 5                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 6                    
                     scopeStack:   1                    
-                    localCount:   1                    
+                    localCount:   6                    
                     0 exception(s):                    
-                    7 operation(s):                    
+                    140 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as)                      
+                              +0|-0  DebugLine(19)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +1|-0  PushByte(0)                      
+                              +0|-1  SetLocal(3)                      
+                              +1|-0  PushNaN()                      
+                              +0|-1  SetLocal(4)                      
+                              +1|-0  PushNaN()                      
+                              +0|-1  SetLocal(5)                      
+                              +0|-0  Debug(1,'list,0,19)                      
+                              +0|-0  DebugLine(19)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                      
-                              +0|-0  DebugLine(103)                      
+                              +0|-0  Debug(1,'max,1,20)                      
+                              +0|-0  Debug(1,'i,2,21)                      
+                              +0|-0  Debug(1,'w,3,22)                      
+                              +0|-0  Debug(1,'h,4,23)                      
+                              +0|-0  DebugLine(20)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(2)                      
+                              +0|-0  DebugLine(25)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-1  ConstructProp(AbcQName('Array,AbcNamespace(22,')),0)                      
+                              +0|-2  InitProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +0|-0  DebugLine(27)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Rectangle,AbcNamespace(22,'flash.geom)))                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-5  ConstructProp(AbcQName('Rectangle,AbcNamespace(22,'flash.geom)),4)                      
+                              +0|-2  InitProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +0|-0  DebugLine(29)                      
+                              +1|-0  PushByte(0)                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(3)                      
+                              +0|-0  Jump(L0)                      
+                      L3:     +0|-0  Label()                      
+                              +0|-0  DebugLine(30)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                      
+                              +1|-1  ConvertBoolean()                      
+                              +0|-1  IfFalse(L1)                      
+                              +0|-0  DebugLine(31)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                      
+                              +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(32)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('width,AbcNamespace(22,')))                      
+                              +1|-1  ConvertDouble()                      
+                              +0|-1  SetLocal(4)                      
+                              +0|-0  DebugLine(33)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('largeCanvas,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('height,AbcNamespace(22,')))                      
+                              +1|-1  ConvertDouble()                      
+                              +0|-1  SetLocal(5)                      
+                              +0|-0  Jump(L2)                      
+                      L1:     +0|-0  DebugLine(35)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(36)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('width,AbcNamespace(22,')))                      
+                              +1|-1  ConvertDouble()                      
+                              +0|-1  SetLocal(4)                      
+                              +0|-0  DebugLine(37)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('height,AbcNamespace(22,')))                      
+                              +1|-1  ConvertDouble()                      
+                              +0|-1  SetLocal(5)                      
+                      L2:     +0|-0  DebugLine(40)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-1  GetProperty(AbcQName('width,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(4)                      
+                              +1|-3  CallProperty(AbcQName('max,AbcNamespace(22,')),2)                      
+                              +0|-2  SetProperty(AbcQName('width,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(41)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-0  FindPropStrict(AbcQName('Math,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('Math,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-1  GetProperty(AbcQName('height,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(5)                      
+                              +1|-3  CallProperty(AbcQName('max,AbcNamespace(22,')),2)                      
+                              +0|-2  SetProperty(AbcQName('height,AbcNamespace(22,')))                      
+                              +0|-0  DebugLine(29)                      
+                              +1|-0  GetLocal(3)                      
+                              +1|-1  IncrementInt()                      
+                              +1|-1  ConvertInt()                      
+                              +0|-1  SetLocal(3)                      
+                      L0:     +1|-0  GetLocal(3)                      
+                              +1|-0  GetLocal(2)                      
+                              +0|-2  IfLessThan(L3)                      
+                              +0|-0  DebugLine(45)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +1|-1  CallProperty(AbcQName('reverse,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),0)                      
+                              +0|-2  InitProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                      
+                              +0|-0  DebugLine(46)                      
                               +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor))                  
+                  Index: 0                  
+                  Type: AbcQName('Rectangle,AbcNamespace(22,'flash.geom))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='296)]                    
+                Trait Slot:                
+                  Name: AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor))                  
+                  Index: 0                  
+                  Type: AbcQName('Array,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='329)]                    
+                Trait Method:                
+                  Name: AbcQName('getPixel32,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='1350)]                    
+                  Method:                  
+                    Name: hype.extended.util:BitmapCanvasCompositor/getPixel32                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: x                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: y                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 14                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   14                        
+                        0 exception(s):                        
+                        248 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as)                          
+                                  +0|-0  DebugLine(56)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNaN()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(6)                          
+                                  +1|-0  PushNaN()                          
+                                  +0|-1  SetLocal(7)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(8)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(9)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(10)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(11)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(13)                          
+                                  +0|-0  Debug(1,'x,0,56)                          
+                                  +0|-0  Debug(1,'y,1,56)                          
+                                  +0|-0  Debug(1,'a0,2,57)                          
+                                  +0|-0  Debug(1,'r0,3,58)                          
+                                  +0|-0  Debug(1,'g0,4,59)                          
+                                  +0|-0  Debug(1,'b0,5,60)                          
+                                  +0|-0  Debug(1,'a1,6,61)                          
+                                  +0|-0  Debug(1,'r1,7,62)                          
+                                  +0|-0  Debug(1,'g1,8,63)                          
+                                  +0|-0  Debug(1,'b1,9,64)                          
+                                  +0|-0  Debug(1,'c,10,65)                          
+                                  +0|-0  Debug(1,'max,11,66)                          
+                                  +0|-0  Debug(1,'i,12,67)                          
+                                  +0|-0  DebugLine(66)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(12)                          
+                                  +0|-0  DebugLine(69)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas)))                          
+                                  +1|-1  GetProperty(AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-3  CallProperty(AbcQName('getPixel32,AbcNamespace(8,'hype.framework.canvas:IEncodable)),2)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(11)                          
+                                  +0|-0  DebugLine(70)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(24)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(71)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(72)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(73)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  PushByte(1)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(13)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(78)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_canvasList,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                          
+                                  +1|-0  GetLocal(13)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(22,'),AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(5,'BitmapCanvasCompositor.as$30),AbcNamespace(22,'hype.extended.util),AbcNamespace(23,'hype.extended.util),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(26,'hype.extended.util:BitmapCanvasCompositor),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas)))                          
+                                  +1|-1  GetProperty(AbcQName('IEncodable,AbcNamespace(22,'hype.framework.canvas)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-3  CallProperty(AbcQName('getPixel32,AbcNamespace(8,'hype.framework.canvas:IEncodable)),2)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(11)                          
+                                  +0|-0  DebugLine(79)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(24)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(7)                          
+                                  +0|-0  DebugLine(80)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(8)                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftRight()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(9)                          
+                                  +0|-0  DebugLine(82)                          
+                                  +1|-0  GetLocal(11)                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(10)                          
+                                  +0|-0  DebugLine(84)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(8)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(8)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Subtract()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(85)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(9)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(9)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Subtract()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(86)                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(10)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-0  GetLocal(10)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Subtract()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Add()                          
+                                  +1|-0  GetLocal(7)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  Subtract()                          
+                                  +1|-1  ConvertDouble()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(89)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Divide()                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(90)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Divide()                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  Divide()                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  GetLocal(13)                          
+                                  +1|-1  IncrementInt()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(13)                          
+                          L0:     +1|-0  GetLocal(13)                          
+                                  +1|-0  GetLocal(12)                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(94)                          
+                                  +1|-0  FindPropStrict(AbcQName('int,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Multiply()                          
+                                  +1|-2  CallProperty(AbcQName('int,AbcNamespace(22,')),1)                          
+                                  +1|-0  PushByte(24)                          
+                                  +1|-2  ShiftLeft()                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftLeft()                          
+                                  +1|-2  BitOr()                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftLeft()                          
+                                  +1|-2  BitOr()                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-2  BitOr()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Getter:                
+                  Name: AbcQName('rect,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/extended/util/BitmapCanvasCompositor.as,'pos='2326)]                    
+                  Method:                  
+                    Name: hype.extended.util:BitmapCanvasCompositor/rect/get                    
+                    Return Type: AbcQName('Rectangle,AbcNamespace(22,'flash.geom))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/extended/util;BitmapCanvasCompositor.as)                          
+                                  +0|-0  DebugLine(97)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rect,AbcNamespace(24,'hype.extended.util:BitmapCanvasCompositor)))                          
+                                  +0|-1  ReturnValue()                          

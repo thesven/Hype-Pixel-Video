@@ -1,5 +1,5 @@
 Abc:
-  4 method(s), 2 metadata, 1 type(s), 1 script(s)  
+  5 method(s), 3 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
     1 integer(s):    
       0      
@@ -7,41 +7,53 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    16 string(s):    
+    23 string(s):    
       "null"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;IRhythm.as"      
-      "hype.framework.rhythm:IRhythm/hype.framework.rhythm:IRhythm:run"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as"      
+      "sprite"      
+      "hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren"      
       "void"      
-      "hype.framework.rhythm:IRhythm/IRhythm"      
-      "hype.framework.rhythm:IRhythm"      
-      "run"      
+      "flash.display"      
+      "Sprite"      
+      "hype.framework.color:IColorist/hype.framework.color:IColorist:getColor"      
+      "uint"      
+      "hype.framework.color:IColorist/IColorist"      
+      "hype.framework.color:IColorist"      
+      "colorChildren"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/IRhythm.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as"      
       "pos"      
-      "178"      
-      "hype.framework.rhythm"      
-      "IRhythm"      
-      "103"      
-    4 namespace(s):    
+      "261"      
+      "getColor"      
+      "386"      
+      "hype.framework.color"      
+      "IColorist"      
+      "134"      
+    5 namespace(s):    
       AbcNamespace(0,'null)      
       AbcNamespace(22,')      
-      AbcNamespace(8,'hype.framework.rhythm:IRhythm)      
-      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(8,'hype.framework.color:IColorist)      
+      AbcNamespace(22,'hype.framework.color)      
     2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])      
-    5 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'hype.framework.color)])      
+    8 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
       AbcQName('void,AbcNamespace(22,'))      
-      AbcQName('run,AbcNamespace(8,'hype.framework.rhythm:IRhythm))      
-      AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))      
-      AbcMultiname('IRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))      
+      AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))      
+      AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))      
+      AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='178,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/IRhythm.as)]    
-    ['__go_to_definition_help('pos='103,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/IRhythm.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='261)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='386)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='134)]    
   Scripts:  
     Script:    
       Init:      
@@ -70,20 +82,20 @@ Abc:
               10 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;IRhythm.as)                
-                        +0|-0  DebugLine(6)                
-                        +1|-0  FindPropStrict(AbcMultiname('IRhythm,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/color;IColorist.as)                
+                        +0|-0  DebugLine(7)                
+                        +1|-0  FindPropStrict(AbcMultiname('IColorist,AbcNSSet([AbcNamespace(22,'hype.framework.color)])))                
                         +1|-0  PushNull()                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))]])                
-                        +0|-2  InitProperty(AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))]])                
+                        +0|-2  InitProperty(AbcQName('IColorist,AbcNamespace(22,'hype.framework.color)))                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))          
+          Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='103,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/IRhythm.as)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='134)]            
           Type:          
             Class:             
               Method:              
@@ -111,14 +123,14 @@ Abc:
                     1 operation(s):                    
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('IRhythm,AbcNamespace(22,'hype.framework.rhythm))              
+              Name: AbcQName('IColorist,AbcNamespace(22,'hype.framework.color))              
               Is Sealed: true              
               Is Final: false              
               Is Interface true              
               Nullable: true              
               Interfaces:               
               Method:              
-                Name: hype.framework.rhythm:IRhythm/IRhythm                
+                Name: hype.framework.color:IColorist/IColorist                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -131,15 +143,38 @@ Abc:
                 Parameters:                
               Traits:              
                 Trait Method:                
-                  Name: AbcQName('run,AbcNamespace(8,'hype.framework.rhythm:IRhythm))                  
+                  Name: AbcQName('colorChildren,AbcNamespace(8,'hype.framework.color:IColorist))                  
                   Disp Id: 0                  
                   Is Final: false                  
                   Is Override: false                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='178,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/IRhythm.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='261)]                    
                   Method:                  
-                    Name: hype.framework.rhythm:IRhythm/hype.framework.rhythm:IRhythm:run                    
+                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:colorChildren                    
                     Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: sprite                        
+                        Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                Trait Method:                
+                  Name: AbcQName('getColor,AbcNamespace(8,'hype.framework.color:IColorist))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/color/IColorist.as,'pos='386)]                    
+                  Method:                  
+                    Name: hype.framework.color:IColorist/hype.framework.color:IColorist:getColor                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
                     Needs Arguments: false                    
                     Needs Rest: false                    
                     Needs Activation: false                    

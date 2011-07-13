@@ -1,58 +1,251 @@
 Abc:
-  3 method(s), 4 metadata, 1 type(s), 1 script(s)  
+  16 method(s), 24 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    2 integer(s):    
       0      
+      -1      
     1 uint(s):    
       0      
     1 double(s):    
       NaN      
-    21 string(s):    
+    128 string(s):    
       "null"      
-      "hype.framework.core:Accessor"      
+      "hype.framework.rhythm:RhythmManager"      
+      "instanceTable"      
+      "Object"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as"      
-      "getter"      
-      "setter"      
-      "hype.framework.core:Accessor/Accessor"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as"      
+      "name"      
+      "RhythmManager.as$6"      
+      "hype.framework.rhythm"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "hype.framework.rhythm:RhythmManager/getManager"      
+      "RhythmManager"      
+      "String"      
+      "default"      
+      "destroy"      
+      "hype.framework.rhythm:RhythmManager/destroyManager"      
       "void"      
+      "Dictionary"      
+      "flash.utils"      
+      "_rhythmTable"      
+      "Sprite"      
+      "flash.display"      
+      "_helperSprite"      
+      "_processingFlag"      
+      "Array"      
+      "_removeList"      
+      "hype.framework.rhythm:RhythmManager/RhythmManager"      
+      "p"      
+      "removeRhythm"      
+      "Event"      
+      "flash.events"      
+      "ENTER_FRAME"      
+      "processEnterFrame"      
+      "removeEventListener"      
+      "_enterFrameHead"      
+      "_enterFrameTail"      
+      "_exitFrameHead"      
+      "_exitFrameTail"      
+      "hype.framework.rhythm:RhythmManager/destroy"      
+      "str"      
+      "t"      
+      "ENTER_FRAME
+"      
+      "RhythmInfo"      
+      "toString"      
+      "
+"      
+      "next"      
+      "
+
+"      
+      "EXIT_FRAME
+"      
+      "hype.framework.rhythm:RhythmManager/toString"      
+      "rhythm"      
+      "method"      
+      "run"      
       "Function"      
+      "hype.framework.rhythm:RhythmManager/addRhythm"      
+      "Boolean"      
+      "push"      
+      "stopRhythm"      
+      "hype.framework.rhythm:RhythmManager/removeRhythm"      
+      "hype.framework.rhythm:RhythmManager/getRhythmInfo"      
+      "classType"      
+      "result"      
+      "hype.framework.rhythm:RhythmManager/getRhythmsOfType"      
+      "Class"      
+      "type"      
+      "interval"      
+      "rhythmInfo"      
+      "Error"      
+      "HYPE Error: You must either reuse a RhythmInfo object or specify a type and interval for the rhythm"      
+      "isRunning"      
+      "prev"      
+      "addEventListener"      
+      "EXIT_FRAME"      
+      "processExitFrame"      
+      "setInterval"      
+      "timerId"      
+      "TimeType"      
+      "hype.framework.core"      
+      "TIME"      
+      "hype.framework.rhythm:RhythmManager/startRhythm"      
+      "int"      
+      "clearInterval"      
+      "hype.framework.rhythm:RhythmManager/stopRhythm"      
+      "event"      
+      "nextRhythmInfo"      
+      "counter"      
+      "processRemovalQueue"      
+      "hype.framework.rhythm:RhythmManager/protected:processEnterFrame"      
+      "hype.framework.rhythm:RhythmManager/protected:processExitFrame"      
+      "max"      
+      "i"      
+      "length"      
+      "pop"      
+      "hype.framework.rhythm:RhythmManager/protected:processRemovalQueue"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as"      
       "pos"      
-      "98"      
-      "128"      
-      "hype.framework.core"      
-      "Accessor"      
-      "Object"      
+      "437"      
+      "getManager"      
+      "1122"      
+      "destroyManager"      
+      "1448"      
+      "491"      
+      "530"      
+      "572"      
+      "614"      
+      "655"      
+      "699"      
+      "738"      
+      "774"      
+      "1658"      
+      "2003"      
+      "addRhythm"      
+      "2435"      
+      "2739"      
+      "getRhythmInfo"      
+      "3068"      
+      "getRhythmsOfType"      
+      "3167"      
+      "startRhythm"      
+      "3388"      
+      "5477"      
+      "7782"      
+      "8274"      
+      "8767"      
       "__go_to_ctor_definition_help"      
-      "166"      
-      "74"      
-    5 namespace(s):    
+      "817"      
+      "400"      
+    14 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.core:Accessor)      
+      AbcNamespace(5,'hype.framework.rhythm:RhythmManager)      
       AbcNamespace(22,')      
+      AbcNamespace(5,'RhythmManager.as$6)      
+      AbcNamespace(22,'hype.framework.rhythm)      
+      AbcNamespace(23,'hype.framework.rhythm)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'hype.framework.rhythm:RhythmManager)      
+      AbcNamespace(26,'hype.framework.rhythm:RhythmManager)      
+      AbcNamespace(26,'Object)      
+      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'flash.events)      
       AbcNamespace(22,'hype.framework.core)      
-      AbcNamespace(24,'hype.framework.core:Accessor)      
-    2 namespaceset(s):    
+    3 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.core)])      
-    8 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])      
+    58 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('getter,AbcNamespace(22,'))      
-      AbcQName('setter,AbcNamespace(22,'))      
-      AbcQName('void,AbcNamespace(22,'))      
-      AbcQName('Function,AbcNamespace(22,'))      
-      AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
       AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('Accessor,AbcNSSet([AbcNamespace(22,'hype.framework.core)]))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)]))      
+      AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('destroy,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
+      AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('Sprite,AbcNamespace(22,'flash.display))      
+      AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('Array,AbcNamespace(22,'))      
+      AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('removeRhythm,AbcNamespace(22,'))      
+      AbcQName('Event,AbcNamespace(22,'flash.events))      
+      AbcQName('ENTER_FRAME,AbcNamespace(22,'))      
+      AbcQName('processEnterFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('removeEventListener,AbcNamespace(22,'))      
+      AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))      
+      AbcQName('toString,AbcNamespace(22,'))      
+      AbcQName('next,AbcNamespace(22,'))      
+      AbcQName('Function,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('stopRhythm,AbcNamespace(22,'))      
+      AbcQName('Class,AbcNamespace(22,'))      
+      AbcQName('type,AbcNamespace(22,'))      
+      AbcQName('interval,AbcNamespace(22,'))      
+      AbcQName('Error,AbcNamespace(22,'))      
+      AbcQName('isRunning,AbcNamespace(22,'))      
+      AbcQName('prev,AbcNamespace(22,'))      
+      AbcQName('addEventListener,AbcNamespace(22,'))      
+      AbcQName('EXIT_FRAME,AbcNamespace(22,'))      
+      AbcQName('processExitFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('setInterval,AbcNamespace(22,'flash.utils))      
+      AbcQName('method,AbcNamespace(22,'))      
+      AbcQName('timerId,AbcNamespace(22,'))      
+      AbcQName('TimeType,AbcNamespace(22,'hype.framework.core))      
+      AbcQName('TIME,AbcNamespace(22,'))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('clearInterval,AbcNamespace(22,'flash.utils))      
+      AbcQName('counter,AbcNamespace(22,'))      
+      AbcQName('processRemovalQueue,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))      
+      AbcQName('length,AbcNamespace(22,'))      
+      AbcQName('pop,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin))      
+      AbcQName('getManager,AbcNamespace(22,'))      
+      AbcQName('destroyManager,AbcNamespace(22,'))      
+      AbcQName('addRhythm,AbcNamespace(22,'))      
+      AbcQName('getRhythmInfo,AbcNamespace(22,'))      
+      AbcQName('getRhythmsOfType,AbcNamespace(22,'))      
+      AbcQName('startRhythm,AbcNamespace(22,'))      
+      AbcMultiname('RhythmManager,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
-    ['__go_to_definition_help('pos='128,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
-    ['__go_to_ctor_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
-    ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='437)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1122)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1448)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='491)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='530)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='572)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='614)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='655)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='699)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='738)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='774)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1658)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2003)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2435)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2739)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3068)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3167)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3388)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='5477)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='7782)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='8274)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='8767)]    
+    ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='817)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='400)]    
   Scripts:  
     Script:    
       Init:      
@@ -81,29 +274,148 @@ Abc:
               16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                
-                        +0|-0  DebugLine(6)                
-                        +1|-0  FindPropStrict(AbcMultiname('Accessor,AbcNSSet([AbcNamespace(22,'hype.framework.core)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                
+                        +0|-0  DebugLine(14)                
+                        +1|-0  FindPropStrict(AbcMultiname('RhythmManager,AbcNSSet([AbcNamespace(22,'hype.framework.rhythm)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))]])                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('Accessor,AbcNamespace(22,'hype.framework.core)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                
+                        +0|-2  InitProperty(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))          
+          Name: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))          
           Index: 0          
           Metadata:          
-            ['__go_to_ctor_definition_help('pos='166,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]            
-            ['__go_to_definition_help('pos='74,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]            
+            ['__go_to_ctor_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='817)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='400)]            
           Type:          
             Class:             
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 1                  
+                  Type: AbcQName('Object,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='437)]                    
+                Trait Method:                
+                  Name: AbcQName('getManager,AbcNamespace(22,'))                  
+                  Disp Id: 3                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1122)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/getManager                    
+                    Return Type: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: name                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'default                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        25 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(42)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'name,0,42)                          
+                                  +0|-0  DebugLine(43)                          
+                                  +1|-0  FindPropStrict(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  GetProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(44)                          
+                                  +1|-0  FindPropStrict(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  GetProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  Construct(0)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                          L0:     +0|-0  DebugLine(47)                          
+                                  +1|-0  FindPropStrict(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  GetProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('destroyManager,AbcNamespace(22,'))                  
+                  Disp Id: 4                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1448)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/destroyManager                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: name                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: 'default                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        17 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(55)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'name,0,55)                          
+                                  +0|-0  DebugLine(56)                          
+                                  +1|-0  FindPropStrict(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  GetProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  FindPropStrict(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-1  GetProperty(AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-2  AsTypeLate()                          
+                                  +1|-1  CallProperty(AbcQName('destroy,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(57)                          
+                                  +0|-0  ReturnVoid()                          
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -117,31 +429,36 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 1                  
+                  Max Stack: 2                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
                   MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 2                    
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    3 operation(s):                    
+                    8 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'instanceTable,0,15)                      
+                              +1|-0  FindProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
+                              +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                      
+                              +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                      
+                              +0|-2  SetProperty(AbcQName('instanceTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('Accessor,AbcNamespace(22,'hype.framework.core))              
+              Name: AbcQName('RhythmManager,AbcNamespace(22,'hype.framework.rhythm))              
               Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
-              Is Final: true              
+              Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.core:Accessor)              
+              Protected Namespace: AbcNamespace(24,'hype.framework.rhythm:RhythmManager)              
               Interfaces:               
               Method:              
-                Name: hype.framework.core:Accessor/Accessor                
-                Return Type: AbcQName('void,AbcNamespace(22,'))                
+                Name: hype.framework.rhythm:RhythmManager/RhythmManager                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
                 Needs Activation: false                
@@ -149,56 +466,1544 @@ Abc:
                 Ignore Rest: false                
                 Is Native: false                
                 DXNS: false                
-                Has Parameter Names: true                
+                Has Parameter Names: false                
                 Parameters:                
-                  Parameter:                   
-                    Name: getter                    
-                    Type: AbcQName('Function,AbcNamespace(22,'))                    
-                    Optional: false                    
-                  Parameter:                   
-                    Name: setter                    
-                    Type: AbcQName('Function,AbcNamespace(22,'))                    
-                    Optional: false                    
                 Method Body:                
-                  Max Stack: 2                  
-                  Locals: 3                  
+                  Max Stack: 3                  
+                  Locals: 1                  
                   InitScopeDepth: 4                  
                   MaxScopeDepth: 5                  
                   Bytecode:                  
-                    operandStack: 2                    
+                    operandStack: 3                    
                     scopeStack:   1                    
-                    localCount:   3                    
+                    localCount:   1                    
                     0 exception(s):                    
-                    19 operation(s):                    
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/core;Accessor.as)                      
-                              +0|-0  DebugLine(10)                      
+                    29 operation(s):                    
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                      
+                              +0|-0  DebugLine(28)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
-                              +0|-0  Debug(1,'getter,0,10)                      
-                              +0|-0  Debug(1,'setter,1,10)                      
-                              +0|-0  DebugLine(10)                      
+                              +0|-0  DebugLine(28)                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugLine(11)                      
+                              +0|-0  DebugLine(29)                      
                               +1|-0  GetLocal(0)                      
-                              +1|-0  GetLocal(1)                      
-                              +0|-2  InitProperty(AbcQName('getter,AbcNamespace(22,')))                      
-                              +0|-0  DebugLine(12)                      
+                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
+                              +1|-0  PushFalse()                      
+                              +1|-2  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),1)                      
+                              +0|-2  InitProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
+                              +0|-0  DebugLine(31)                      
                               +1|-0  GetLocal(0)                      
-                              +1|-0  GetLocal(2)                      
-                              +0|-2  InitProperty(AbcQName('setter,AbcNamespace(22,')))                      
-                              +0|-0  DebugLine(13)                      
+                              +1|-0  FindPropStrict(AbcQName('Sprite,AbcNamespace(22,'flash.display)))                      
+                              +1|-1  ConstructProp(AbcQName('Sprite,AbcNamespace(22,'flash.display)),0)                      
+                              +0|-2  InitProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
+                              +0|-0  DebugLine(33)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  PushFalse()                      
+                              +0|-2  InitProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
+                              +0|-0  DebugLine(34)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                      
+                              +1|-1  ConstructProp(AbcQName('Array,AbcNamespace(22,')),0)                      
+                              +0|-2  InitProperty(AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                      
+                              +0|-0  DebugLine(35)                      
                               +0|-0  ReturnVoid()                      
               Traits:              
                 Trait Slot:                
-                  Name: AbcQName('getter,AbcNamespace(22,'))                  
+                  Name: AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
                   Index: 0                  
-                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='98,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='491)]                    
                 Trait Slot:                
-                  Name: AbcQName('setter,AbcNamespace(22,'))                  
+                  Name: AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
                   Index: 0                  
-                  Type: AbcQName('Function,AbcNamespace(22,'))                  
+                  Type: AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))                  
                   Metadata:                  
-                    ['__go_to_definition_help('pos='128,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/core/Accessor.as)]                    
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='530)]                    
+                Trait Slot:                
+                  Name: AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='572)]                    
+                Trait Slot:                
+                  Name: AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='614)]                    
+                Trait Slot:                
+                  Name: AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='655)]                    
+                Trait Slot:                
+                  Name: AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='699)]                    
+                Trait Slot:                
+                  Name: AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('Array,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='738)]                    
+                Trait Slot:                
+                  Name: AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager))                  
+                  Index: 0                  
+                  Type: AbcQName('Sprite,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='774)]                    
+                Trait Method:                
+                  Name: AbcQName('destroy,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='1658)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/destroy                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        64 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(63)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushUndefined()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  Debug(1,'p,0,64)                          
+                                  +0|-0  DebugLine(66)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  NextName()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(67)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('removeRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(66)                          
+                                  +1|-0  HasNext2(3,2)                          
+                                  +0|-1  IfTrue(L1)                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-0  Kill(2)                          
+                                  +0|-0  DebugLine(70)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('processEnterFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(71)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(72)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(73)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(74)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(75)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(76)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('toString,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2003)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/toString                    
+                    Return Type: AbcQName('String,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        89 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(78)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'str,0,79)                          
+                                  +0|-0  Debug(1,'t,1,80)                          
+                                  +1|-0  PushString('ENTER_FRAME
+)                          
+                                  +0|-0  DebugLine(79)                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(80)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(82)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('toString,AbcNamespace(22,')),0)                          
+                                  +1|-0  PushString('
+)                          
+                                  +1|-2  Add()                          
+                                  +1|-2  Add()                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                          L0:     +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(85)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('toString,AbcNamespace(22,')),0)                          
+                                  +1|-0  PushString('
+
+)                          
+                                  +1|-2  Add()                          
+                                  +1|-2  Add()                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(87)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushString('EXIT_FRAME
+)                          
+                                  +1|-2  Add()                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  Jump(L2)                          
+                          L3:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(90)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('toString,AbcNamespace(22,')),0)                          
+                                  +1|-0  PushString('
+)                          
+                                  +1|-2  Add()                          
+                                  +1|-2  Add()                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                          L2:     +0|-0  DebugLine(89)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L3)                          
+                                  +0|-0  DebugLine(93)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('toString,AbcNamespace(22,')),0)                          
+                                  +1|-0  PushString('
+
+)                          
+                                  +1|-2  Add()                          
+                                  +1|-2  Add()                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(95)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('addRhythm,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2435)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/addRhythm                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: method                        
+                        Type: AbcQName('Function,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: null                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 3                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        40 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'rhythm,0,98)                          
+                                  +0|-0  Debug(1,'method,1,98)                          
+                                  +0|-0  DebugLine(99)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(100)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(101)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushString('run)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('Function,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                          L1:     +0|-0  DebugLine(104)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  FindPropStrict(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-4  ConstructProp(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)),3)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(105)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L2)                          
+                          L0:     +0|-0  DebugLine(107)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('removeRhythm,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='2739)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/removeRhythm                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        47 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(111)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'rhythm,0,111)                          
+                                  +0|-0  DebugLine(112)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +0|-0  DebugLine(113)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(114)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  Jump(L2)                          
+                          L1:     +0|-0  DebugLine(116)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  CallProperty(AbcQName('stopRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(117)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(118)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  Pop()                          
+                          L2:     +0|-0  DebugLine(120)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L3)                          
+                          L0:     +0|-0  DebugLine(123)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('getRhythmInfo,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3068)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/getRhythmInfo                    
+                    Return Type: AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 2                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        11 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(127)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'rhythm,0,127)                          
+                                  +0|-0  DebugLine(128)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('getRhythmsOfType,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3167)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/getRhythmsOfType                    
+                    Return Type: AbcQName('Array,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: classType                        
+                        Type: AbcQName('Class,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 6                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        47 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(131)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushUndefined()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'classType,0,131)                          
+                                  +0|-0  Debug(1,'result,1,132)                          
+                                  +0|-0  Debug(1,'p,2,134)                          
+                                  +0|-0  DebugLine(132)                          
+                                  +1|-0  FindPropStrict(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +1|-1  ConstructProp(AbcQName('Array,AbcNamespace(22,')),0)                          
+                                  +1|-1  Coerce(AbcQName('Array,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(134)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-2  NextName()                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(135)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  IsTypeLate()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(136)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  CallProperty(AbcQName('push,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),1)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(134)                          
+                                  +1|-0  HasNext2(5,4)                          
+                                  +0|-1  IfTrue(L1)                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  DebugLine(140)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('startRhythm,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='3388)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/startRhythm                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: true                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: type                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: null                        
+                      Parameter:                       
+                        Name: interval                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: true                        
+                        Default: -1                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 6                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        280 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(143)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Debug(1,'rhythm,0,143)                          
+                                  +0|-0  Debug(1,'type,1,143)                          
+                                  +0|-0  Debug(1,'interval,2,143)                          
+                                  +0|-0  Debug(1,'rhythmInfo,3,144)                          
+                                  +0|-0  DebugLine(146)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  DebugLine(148)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(149)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +1|-1  CoerceString()                          
+                                  +0|-1  SetLocal(2)                          
+                          L0:     +0|-0  DebugLine(152)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushByte(-1)                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(153)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L1:     +0|-0  DebugLine(156)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-2  Equals()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +2|-1  Dup()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfTrue(L2)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushByte(-1)                          
+                                  +1|-2  Equals()                          
+                                  +1|-1  ConvertBoolean()                          
+                          L2:     +0|-1  IfFalse(L3)                          
+                                  +0|-0  DebugLine(157)                          
+                                  +1|-0  FindPropStrict(AbcQName('Error,AbcNamespace(22,')))                          
+                                  +1|-0  PushString('HYPE Error: You must either reuse a RhythmInfo object or specify a type and interval for the rhythm)                          
+                                  +1|-2  ConstructProp(AbcQName('Error,AbcNamespace(22,')),1)                          
+                                  +0|-1  Throw()                          
+                          L3:     +0|-0  DebugLine(161)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-2  Equals()                          
+                                  +1|-1  Not()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +2|-1  Dup()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L4)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +1|-1  Not()                          
+                                  +1|-1  ConvertBoolean()                          
+                          L4:     +2|-1  Dup()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L5)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-2  GreaterThan()                          
+                                  +1|-1  ConvertBoolean()                          
+                          L5:     +0|-1  IfFalse(L6)                          
+                                  +0|-0  Jump(L7)                          
+                          L21:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(165)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L8)                          
+                                  +0|-0  DebugLine(166)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-0  DebugLine(167)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L9)                          
+                          L8:     +0|-0  DebugLine(169)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(170)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(171)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                          L9:     +0|-0  DebugLine(174)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L10)                          
+                                  +0|-0  DebugLine(175)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('processEnterFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                          L10:    +0|-0  DebugLine(178)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  SetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(179)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  SetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(180)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(182)                          
+                                  +0|-0  Jump(L11)                          
+                          L22:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(185)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L12)                          
+                                  +0|-0  DebugLine(186)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-0  DebugLine(187)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L13)                          
+                          L12:    +0|-0  DebugLine(189)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(190)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(191)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                          L13:    +0|-0  DebugLine(194)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L14)                          
+                                  +0|-0  DebugLine(195)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('processExitFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-3  CallProperty(AbcQName('addEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                          L14:    +0|-0  DebugLine(198)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  SetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(199)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  SetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(200)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(202)                          
+                                  +0|-0  Jump(L11)                          
+                          L23:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(205)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  SetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(206)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  SetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(207)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(208)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  FindPropStrict(AbcQName('setInterval,AbcNamespace(22,'flash.utils)))                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('method,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-3  CallProperty(AbcQName('setInterval,AbcNamespace(22,'flash.utils)),2)                          
+                                  +0|-2  SetProperty(AbcQName('timerId,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(210)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  SetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(211)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  SetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(213)                          
+                                  +0|-0  Jump(L11)                          
+                          L20:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(216)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L11)                          
+                          L7:     +0|-0  DebugLine(163)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-1  SetLocal(5)                          
+                                  +0|-0  DebugLine(164)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  IfStrictNotEqual(L15)                          
+                                  +1|-0  PushShort(0)                          
+                                  +0|-0  Jump(L16)                          
+                          L15:    +0|-0  DebugLine(184)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  IfStrictNotEqual(L17)                          
+                                  +1|-0  PushShort(1)                          
+                                  +0|-0  Jump(L16)                          
+                          L17:    +0|-0  DebugLine(204)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TIME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  IfStrictNotEqual(L18)                          
+                                  +1|-0  PushShort(2)                          
+                                  +0|-0  Jump(L16)                          
+                          L18:    +1|-0  PushFalse()                          
+                                  +0|-1  IfFalse(L19)                          
+                                  +1|-0  PushShort(3)                          
+                                  +0|-0  Jump(L16)                          
+                          L19:    +1|-0  PushShort(3)                          
+                          L16:    +0|-0  Kill(5)                          
+                                  +0|-1  LookupSwitch(L20,[L21,L22,L23,L20])                          
+                          L11:    +0|-0  DebugLine(220)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L24)                          
+                          L6:     +0|-0  DebugLine(222)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('stopRhythm,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='5477)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/stopRhythm                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: rhythm                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        290 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(226)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  Debug(1,'rhythm,0,226)                          
+                                  +0|-0  Debug(1,'rhythmInfo,1,227)                          
+                                  +0|-0  DebugLine(229)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(231)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-2  Equals()                          
+                                  +1|-1  Not()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +2|-1  Dup()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertBoolean()                          
+                          L0:     +0|-1  IfFalse(L1)                          
+                                  +0|-0  Jump(L2)                          
+                          L20:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(235)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L3)                          
+                                  +0|-0  DebugLine(236)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('processEnterFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(237)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-0  DebugLine(238)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L4)                          
+                          L3:     +0|-0  DebugLine(241)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L5)                          
+                                  +0|-0  DebugLine(242)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(244)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfNotEqual(L6)                          
+                                  +0|-0  DebugLine(245)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(246)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  Jump(L5)                          
+                          L6:     +0|-0  DebugLine(248)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                          L5:     +0|-0  DebugLine(252)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L4)                          
+                                  +0|-0  DebugLine(253)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(255)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfNotEqual(L7)                          
+                                  +0|-0  DebugLine(256)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  InitProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(257)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  Jump(L4)                          
+                          L7:     +0|-0  DebugLine(259)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                          L4:     +0|-0  DebugLine(264)                          
+                                  +0|-0  Jump(L8)                          
+                          L21:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(267)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-2  IfNotEqual(L9)                          
+                                  +0|-0  DebugLine(268)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_helperSprite,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  FindPropStrict(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('Event,AbcNamespace(22,'flash.events)))                          
+                                  +1|-1  GetProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('processExitFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-3  CallProperty(AbcQName('removeEventListener,AbcNamespace(22,')),2)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(269)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-0  DebugLine(270)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushNull()                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L10)                          
+                          L9:     +0|-0  DebugLine(272)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L11)                          
+                                  +0|-0  DebugLine(273)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(275)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfNotEqual(L12)                          
+                                  +0|-0  DebugLine(276)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(277)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameTail,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  Jump(L11)                          
+                          L12:    +0|-0  DebugLine(279)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                          L11:    +0|-0  DebugLine(283)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L10)                          
+                                  +0|-0  DebugLine(284)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(286)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-2  IfNotEqual(L13)                          
+                                  +0|-0  DebugLine(287)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  InitProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(288)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  Jump(L10)                          
+                          L13:    +0|-0  DebugLine(290)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                          L10:    +0|-0  DebugLine(294)                          
+                                  +0|-0  Jump(L8)                          
+                          L22:    +0|-0  Label()                          
+                                  +0|-0  DebugLine(297)                          
+                                  +1|-0  FindPropStrict(AbcQName('clearInterval,AbcNamespace(22,'flash.utils)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('timerId,AbcNamespace(22,')))                          
+                                  +1|-2  CallProperty(AbcQName('clearInterval,AbcNamespace(22,'flash.utils)),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(298)                          
+                                  +0|-0  Jump(L8)                          
+                          L19:    +0|-0  Label()                          
+                                  +0|-0  Jump(L8)                          
+                          L2:     +0|-0  DebugLine(233)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('type,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(234)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('ENTER_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  IfStrictNotEqual(L14)                          
+                                  +1|-0  PushShort(0)                          
+                                  +0|-0  Jump(L15)                          
+                          L14:    +0|-0  DebugLine(266)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('EXIT_FRAME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  IfStrictNotEqual(L16)                          
+                                  +1|-0  PushShort(1)                          
+                                  +0|-0  Jump(L15)                          
+                          L16:    +0|-0  DebugLine(296)                          
+                                  +1|-0  FindPropStrict(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TimeType,AbcNamespace(22,'hype.framework.core)))                          
+                                  +1|-1  GetProperty(AbcQName('TIME,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(3)                          
+                                  +0|-2  IfStrictNotEqual(L17)                          
+                                  +1|-0  PushShort(2)                          
+                                  +0|-0  Jump(L15)                          
+                          L17:    +1|-0  PushFalse()                          
+                                  +0|-1  IfFalse(L18)                          
+                                  +1|-0  PushShort(3)                          
+                                  +0|-0  Jump(L15)                          
+                          L18:    +1|-0  PushShort(3)                          
+                          L15:    +0|-0  Kill(3)                          
+                                  +0|-1  LookupSwitch(L19,[L20,L21,L22,L19])                          
+                          L8:     +0|-0  DebugLine(301)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  SetProperty(AbcQName('isRunning,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(302)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(303)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  SetProperty(AbcQName('prev,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(305)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                                  +0|-0  Jump(L23)                          
+                          L1:     +0|-0  DebugLine(308)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('processEnterFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='7782)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/protected:processEnterFrame                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 6                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        70 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(312)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'event,0,312)                          
+                                  +0|-0  Debug(1,'rhythmInfo,1,313)                          
+                                  +0|-0  Debug(1,'nextRhythmInfo,2,314)                          
+                                  +0|-0  DebugLine(313)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_enterFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(316)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  InitProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L0)                          
+                          L2:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(318)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(320)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +1|-1  Increment()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  SetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  DebugLine(321)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(322)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  SetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(323)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('method,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(325)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                          L0:     +0|-0  DebugLine(317)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L2)                          
+                                  +0|-0  DebugLine(328)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  InitProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(329)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('processRemovalQueue,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(330)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('processExitFrame,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='8274)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/protected:processExitFrame                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: event                        
+                        Type: AbcQName('Event,AbcNamespace(22,'flash.events))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 6                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   6                        
+                        0 exception(s):                        
+                        70 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(332)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'event,0,332)                          
+                                  +0|-0  Debug(1,'rhythmInfo,1,333)                          
+                                  +0|-0  Debug(1,'nextRhythmInfo,2,334)                          
+                                  +0|-0  DebugLine(333)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_exitFrameHead,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(336)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  InitProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  Jump(L0)                          
+                          L2:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(338)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('next,AbcNamespace(22,')))                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(340)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +1|-1  GetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +1|-1  Increment()                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +0|-2  SetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +0|-0  Kill(5)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  DebugLine(341)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  GetProperty(AbcQName('interval,AbcNamespace(22,')))                          
+                                  +0|-2  IfNotEqual(L1)                          
+                                  +0|-0  DebugLine(342)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-2  SetProperty(AbcQName('counter,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(343)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('method,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L1:     +0|-0  DebugLine(345)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  Coerce(AbcQName('RhythmInfo,AbcNamespace(22,'hype.framework.rhythm)))                          
+                                  +0|-1  SetLocal(2)                          
+                          L0:     +0|-0  DebugLine(337)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L2)                          
+                                  +0|-0  DebugLine(348)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  InitProperty(AbcQName('_processingFlag,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +0|-0  DebugLine(349)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  CallProperty(AbcQName('processRemovalQueue,AbcNamespace(24,'hype.framework.rhythm:RhythmManager)),0)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(350)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('processRemovalQueue,AbcNamespace(24,'hype.framework.rhythm:RhythmManager))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/rhythm/RhythmManager.as,'pos='8767)]                    
+                  Method:                  
+                    Name: hype.framework.rhythm:RhythmManager/protected:processRemovalQueue                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 4                      
+                      InitScopeDepth: 4                      
+                      MaxScopeDepth: 5                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        57 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/rhythm;RhythmManager.as)                          
+                                  +0|-0  DebugLine(352)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Debug(1,'max,0,353)                          
+                                  +0|-0  Debug(1,'rhythm,1,354)                          
+                                  +0|-0  Debug(1,'i,2,355)                          
+                                  +0|-0  DebugLine(353)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  GetProperty(AbcQName('length,AbcNamespace(22,')))                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(357)                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  Jump(L0)                          
+                          L1:     +0|-0  Label()                          
+                                  +0|-0  DebugLine(358)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_removeList,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-1  CallProperty(AbcQName('pop,AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)),0)                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(359)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  CallProperty(AbcQName('stopRhythm,AbcNamespace(22,')),1)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(360)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(361)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_rhythmTable,AbcNamespace(5,'hype.framework.rhythm:RhythmManager)))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.rhythm:RhythmManager),AbcNamespace(22,'),AbcNamespace(5,'RhythmManager.as$6),AbcNamespace(22,'hype.framework.rhythm),AbcNamespace(23,'hype.framework.rhythm),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'hype.framework.rhythm:RhythmManager),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(357)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  IncrementInt()                          
+                                  +1|-1  ConvertInt()                          
+                                  +0|-1  SetLocal(3)                          
+                          L0:     +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  IfLessThan(L1)                          
+                                  +0|-0  DebugLine(363)                          
+                                  +0|-0  ReturnVoid()                          

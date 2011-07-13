@@ -1,5 +1,5 @@
 Abc:
-  4 method(s), 2 metadata, 1 type(s), 1 script(s)  
+  9 method(s), 9 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
     1 integer(s):    
       0      
@@ -7,60 +7,103 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    26 string(s):    
+    48 string(s):    
       "null"      
-      "hype.framework.canvas.filter:BlurFilterScaler"      
+      "hype.framework.behavior:BehaviorStore"      
+      "_table"      
+      "Dictionary"      
+      "flash.utils"      
+      "_pauseFlag"      
       ""      
-      "/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;BlurFilterScaler.as"      
-      "filter"      
-      "scale"      
-      "blurFilter"      
-      "clone"      
-      "BlurFilter"      
-      "flash.filters"      
-      "blurX"      
-      "blurY"      
-      "hype.framework.canvas.filter:BlurFilterScaler/scale"      
-      "BitmapFilter"      
-      "Number"      
-      "hype.framework.canvas.filter:BlurFilterScaler/BlurFilterScaler"      
-      "IFilterScaler"      
-      "hype.framework.canvas.filter"      
+      "/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as"      
+      "behavior"      
+      "name"      
+      "target"      
+      "BehaviorStore.as$14"      
+      "hype.framework.behavior"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "Object"      
+      "hype.framework.behavior:BehaviorStore/store"      
+      "void"      
+      "AbstractBehavior"      
+      "String"      
+      "targetTable"      
+      "hype.framework.behavior:BehaviorStore/retrieve"      
+      "hype.framework.behavior:BehaviorStore/remove"      
+      "Boolean"      
+      "stop"      
+      "hype.framework.behavior:BehaviorStore/pause"      
+      "resume"      
+      "hype.framework.behavior:BehaviorStore/resume"      
+      "hype.framework.behavior:BehaviorStore/isPaused/get"      
+      "hype.framework.behavior:BehaviorStore/BehaviorStore"      
       "__go_to_definition_help"      
       "file"      
-      "/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/BlurFilterScaler.as"      
+      "/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as"      
       "pos"      
-      "217"      
-      "BlurFilterScaler"      
-      "Object"      
-      "155"      
-    6 namespace(s):    
+      "279"      
+      "344"      
+      "store"      
+      "533"      
+      "retrieve"      
+      "953"      
+      "remove"      
+      "1397"      
+      "pause"      
+      "1687"      
+      "1966"      
+      "isPaused"      
+      "2318"      
+      "BehaviorStore"      
+      "237"      
+    11 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'hype.framework.canvas.filter:BlurFilterScaler)      
+      AbcNamespace(5,'hype.framework.behavior:BehaviorStore)      
+      AbcNamespace(26,'hype.framework.behavior:BehaviorStore)      
+      AbcNamespace(22,'flash.utils)      
       AbcNamespace(22,')      
-      AbcNamespace(22,'flash.filters)      
-      AbcNamespace(22,'hype.framework.canvas.filter)      
-      AbcNamespace(24,'hype.framework.canvas.filter:BlurFilterScaler)      
-    2 namespaceset(s):    
+      AbcNamespace(5,'BehaviorStore.as$14)      
+      AbcNamespace(22,'hype.framework.behavior)      
+      AbcNamespace(23,'hype.framework.behavior)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'hype.framework.behavior:BehaviorStore)      
+      AbcNamespace(26,'Object)      
+    3 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])      
-    12 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])      
+      AbcNSSet([AbcNamespace(22,'hype.framework.behavior)])      
+    20 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('clone,AbcNamespace(22,'))      
-      AbcQName('BlurFilter,AbcNamespace(22,'flash.filters))      
-      AbcQName('blurX,AbcNamespace(22,'))      
-      AbcQName('blurY,AbcNamespace(22,'))      
-      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
-      AbcQName('Number,AbcNamespace(22,'))      
-      AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))      
-      AbcQName('scale,AbcNamespace(22,'))      
-      AbcQName('BlurFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))      
+      AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))      
+      AbcQName('Dictionary,AbcNamespace(22,'flash.utils))      
+      AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))      
+      AbcQName('target,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)]))      
       AbcQName('Object,AbcNamespace(22,'))      
-      AbcMultiname('BlurFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))      
+      AbcQName('String,AbcNamespace(22,'))      
+      AbcQName('Boolean,AbcNamespace(22,'))      
+      AbcQName('stop,AbcNamespace(22,'))      
+      AbcQName('resume,AbcNamespace(22,'))      
+      AbcQName('store,AbcNamespace(22,'))      
+      AbcQName('retrieve,AbcNamespace(22,'))      
+      AbcQName('remove,AbcNamespace(22,'))      
+      AbcQName('pause,AbcNamespace(22,'))      
+      AbcQName('isPaused,AbcNamespace(22,'))      
+      AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))      
+      AbcMultiname('BehaviorStore,AbcNSSet([AbcNamespace(22,'hype.framework.behavior)]))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='217,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/BlurFilterScaler.as)]    
-    ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/BlurFilterScaler.as)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='279)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='344)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='533)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='953)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1397)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1687)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1966)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='2318)]    
+    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='237)]    
   Scripts:  
     Script:    
       Init:      
@@ -89,28 +132,482 @@ Abc:
               16 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;BlurFilterScaler.as)                
-                        +0|-0  DebugLine(8)                
-                        +1|-0  FindPropStrict(AbcMultiname('BlurFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)])))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                
+                        +0|-0  DebugLine(9)                
+                        +1|-0  FindPropStrict(AbcMultiname('BehaviorStore,AbcNSSet([AbcNamespace(22,'hype.framework.behavior)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('BlurFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))]])                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))]])                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('BlurFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter)))                
-                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;BlurFilterScaler.as)                
+                        +0|-2  InitProperty(AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior)))                
+                        +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                
                         +0|-0  DebugLine(1)                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('BlurFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))          
+          Name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))          
           Index: 0          
           Metadata:          
-            ['__go_to_definition_help('pos='155,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/BlurFilterScaler.as)]            
+            ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='237)]            
           Type:          
             Class:             
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))                  
+                  Index: 1                  
+                  Type: AbcQName('Dictionary,AbcNamespace(22,'flash.utils))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='279)]                    
+                Trait Slot:                
+                  Name: AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore))                  
+                  Index: 2                  
+                  Type: AbcQName('Boolean,AbcNamespace(22,'))                  
+                  Value: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='344)]                    
+                Trait Method:                
+                  Name: AbcQName('store,AbcNamespace(22,'))                  
+                  Disp Id: 3                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='533)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/store                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: behavior                        
+                        Type: AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: name                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 3                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        33 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(20)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'behavior,0,20)                          
+                                  +0|-0  Debug(1,'name,1,20)                          
+                                  +0|-0  DebugLine(21)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfNotEqual(L0)                          
+                                  +0|-0  DebugLine(22)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +1|-1  ConstructProp(AbcQName('Object,AbcNamespace(22,')),0)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                          L0:     +0|-0  DebugLine(25)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  GetProperty(AbcQName('target,AbcNamespace(22,')))                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(26)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('retrieve,AbcNamespace(22,'))                  
+                  Disp Id: 4                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='953)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/retrieve                    
+                    Return Type: AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: target                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: name                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 4                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        26 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(36)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'target,0,36)                          
+                                  +0|-0  Debug(1,'name,1,36)                          
+                                  +0|-0  Debug(1,'targetTable,2,37)                          
+                                  +0|-0  DebugLine(37)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(39)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(40)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  ReturnValue()                          
+                          L0:     +0|-0  DebugLine(42)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('remove,AbcNamespace(22,'))                  
+                  Disp Id: 5                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1397)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/remove                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: target                        
+                        Type: AbcQName('Object,AbcNamespace(22,'))                        
+                        Optional: false                        
+                      Parameter:                       
+                        Name: name                        
+                        Type: AbcQName('String,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 3                      
+                      Locals: 4                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 3                        
+                        scopeStack:   1                        
+                        localCount:   4                        
+                        0 exception(s):                        
+                        42 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(54)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'target,0,54)                          
+                                  +0|-0  Debug(1,'name,1,54)                          
+                                  +0|-0  Debug(1,'targetTable,2,55)                          
+                                  +0|-0  DebugLine(55)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(3)                          
+                                  +0|-0  DebugLine(57)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +2|-1  Dup()                          
+                                  +1|-1  ConvertBoolean()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-1  Pop()                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  GetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +1|-1  ConvertBoolean()                          
+                          L0:     +0|-1  IfFalse(L1)                          
+                                  +0|-0  DebugLine(58)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-0  PushNull()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +0|-0  DebugLine(59)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-2  DeleteProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'hype.framework.behavior:BehaviorStore),AbcNamespace(22,'),AbcNamespace(5,'BehaviorStore.as$14),AbcNamespace(22,'hype.framework.behavior),AbcNamespace(23,'hype.framework.behavior),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'hype.framework.behavior:BehaviorStore),AbcNamespace(26,'Object)])))                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(61)                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-1  ReturnValue()                          
+                          L1:     +0|-0  DebugLine(63)                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('pause,AbcNamespace(22,'))                  
+                  Disp Id: 6                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1687)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/pause                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 7                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   7                        
+                        0 exception(s):                        
+                        64 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(67)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  Debug(1,'targetTable,0,68)                          
+                                  +0|-0  Debug(1,'behavior,1,69)                          
+                                  +0|-0  DebugLine(71)                          
+                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  Not()                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(72)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Jump(L1)                          
+                          L4:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  NextValue()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(73)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  Jump(L2)                          
+                          L3:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-2  NextValue()                          
+                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(74)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('stop,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L2:     +0|-0  DebugLine(73)                          
+                                  +1|-0  HasNext2(6,5)                          
+                                  +0|-1  IfTrue(L3)                          
+                                  +0|-0  Kill(6)                          
+                                  +0|-0  Kill(5)                          
+                          L1:     +0|-0  DebugLine(72)                          
+                                  +1|-0  HasNext2(4,3)                          
+                                  +0|-1  IfTrue(L4)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-0  DebugLine(77)                          
+                                  +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  PushTrue()                          
+                                  +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                          L0:     +0|-0  DebugLine(79)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Method:                
+                  Name: AbcQName('resume,AbcNamespace(22,'))                  
+                  Disp Id: 7                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='1966)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/resume                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 2                      
+                      Locals: 7                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 2                        
+                        scopeStack:   1                        
+                        localCount:   7                        
+                        0 exception(s):                        
+                        63 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +1|-0  PushNull()                          
+                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  Debug(1,'targetTable,0,82)                          
+                                  +0|-0  Debug(1,'behavior,1,83)                          
+                                  +0|-0  DebugLine(85)                          
+                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +0|-1  IfFalse(L0)                          
+                                  +0|-0  DebugLine(86)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(3)                          
+                                  +1|-0  FindPropStrict(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(4)                          
+                                  +0|-0  Jump(L1)                          
+                          L4:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(4)                          
+                                  +1|-0  GetLocal(3)                          
+                                  +1|-2  NextValue()                          
+                                  +1|-1  Coerce(AbcQName('Object,AbcNamespace(22,')))                          
+                                  +0|-1  SetLocal(1)                          
+                                  +0|-0  DebugLine(87)                          
+                                  +1|-0  PushByte(0)                          
+                                  +0|-1  SetLocal(5)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  CoerceAny()                          
+                                  +0|-1  SetLocal(6)                          
+                                  +0|-0  Jump(L2)                          
+                          L3:     +0|-0  Label()                          
+                                  +1|-0  GetLocal(6)                          
+                                  +1|-0  GetLocal(5)                          
+                                  +1|-2  NextValue()                          
+                                  +1|-1  Coerce(AbcQName('AbstractBehavior,AbcNamespace(22,'hype.framework.behavior)))                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(2)                          
+                                  +1|-1  CallProperty(AbcQName('resume,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L2:     +0|-0  DebugLine(87)                          
+                                  +1|-0  HasNext2(6,5)                          
+                                  +0|-1  IfTrue(L3)                          
+                                  +0|-0  Kill(6)                          
+                                  +0|-0  Kill(5)                          
+                          L1:     +0|-0  DebugLine(86)                          
+                                  +1|-0  HasNext2(4,3)                          
+                                  +0|-1  IfTrue(L4)                          
+                                  +0|-0  Kill(4)                          
+                                  +0|-0  Kill(3)                          
+                                  +0|-0  DebugLine(91)                          
+                                  +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-0  PushFalse()                          
+                                  +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                          L0:     +0|-0  DebugLine(93)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('isPaused,AbcNamespace(22,'))                  
+                  Disp Id: 8                  
+                  Is Final: true                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('file='/Users/bhall/Documents/Lab/hype/src/hype/framework/behavior/BehaviorStore.as,'pos='2318)]                    
+                  Method:                  
+                    Name: hype.framework.behavior:BehaviorStore/isPaused/get                    
+                    Return Type: AbcQName('Boolean,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 3                      
+                      MaxScopeDepth: 4                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                          
+                                  +0|-0  DebugLine(98)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(99)                          
+                                  +1|-0  FindPropStrict(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +1|-1  GetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                          
+                                  +0|-1  ReturnValue()                          
               Method:              
                 Name:                 
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
@@ -124,31 +621,40 @@ Abc:
                 Has Parameter Names: false                
                 Parameters:                
                 Method Body:                
-                  Max Stack: 1                  
+                  Max Stack: 3                  
                   Locals: 1                  
                   InitScopeDepth: 3                  
                   MaxScopeDepth: 4                  
                   Bytecode:                  
-                    operandStack: 1                    
+                    operandStack: 3                    
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    3 operation(s):                    
+                    13 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'_table,0,11)                      
+                              +1|-0  FindProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
+                              +1|-0  FindPropStrict(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)))                      
+                              +1|-0  PushTrue()                      
+                              +1|-2  ConstructProp(AbcQName('Dictionary,AbcNamespace(22,'flash.utils)),1)                      
+                              +0|-2  SetProperty(AbcQName('_table,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
+                              +0|-0  Debug(1,'_pauseFlag,1,12)                      
+                              +1|-0  FindProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
+                              +1|-0  PushFalse()                      
+                              +0|-2  SetProperty(AbcQName('_pauseFlag,AbcNamespace(26,'hype.framework.behavior:BehaviorStore)))                      
                               +0|-0  ReturnVoid()                      
             Instance:            
-              Name: AbcQName('BlurFilterScaler,AbcNamespace(22,'hype.framework.canvas.filter))              
+              Name: AbcQName('BehaviorStore,AbcNamespace(22,'hype.framework.behavior))              
               Base: AbcQName('Object,AbcNamespace(22,'))              
               Is Sealed: true              
               Is Final: false              
               Is Interface false              
               Nullable: true              
-              Protected Namespace: AbcNamespace(24,'hype.framework.canvas.filter:BlurFilterScaler)              
+              Protected Namespace: AbcNamespace(24,'hype.framework.behavior:BehaviorStore)              
               Interfaces:               
-                AbcMultiname('IFilterScaler,AbcNSSet([AbcNamespace(22,'hype.framework.canvas.filter)]))                
               Method:              
-                Name: hype.framework.canvas.filter:BlurFilterScaler/BlurFilterScaler                
+                Name: hype.framework.behavior:BehaviorStore/BehaviorStore                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -174,77 +680,6 @@ Abc:
                               +0|-1  PushScope()                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;BlurFilterScaler.as)                      
-                              +0|-0  DebugLine(19)                      
+                              +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/behavior;BehaviorStore.as)                      
+                              +0|-0  DebugLine(103)                      
                               +0|-0  ReturnVoid()                      
-              Traits:              
-                Trait Method:                
-                  Name: AbcQName('scale,AbcNamespace(22,'))                  
-                  Disp Id: 0                  
-                  Is Final: false                  
-                  Is Override: false                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='217,'file='/Users/bhall/Documents/Lab/hype/src/hype/framework/canvas/filter/BlurFilterScaler.as)]                    
-                  Method:                  
-                    Name: hype.framework.canvas.filter:BlurFilterScaler/scale                    
-                    Return Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                    
-                    Needs Arguments: false                    
-                    Needs Rest: false                    
-                    Needs Activation: false                    
-                    Has Optional Parameters: false                    
-                    Ignore Rest: false                    
-                    Is Native: false                    
-                    DXNS: false                    
-                    Has Parameter Names: true                    
-                    Parameters:                    
-                      Parameter:                       
-                        Name: filter                        
-                        Type: AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))                        
-                        Optional: false                        
-                      Parameter:                       
-                        Name: scale                        
-                        Type: AbcQName('Number,AbcNamespace(22,'))                        
-                        Optional: false                        
-                    Method Body:                    
-                      Max Stack: 3                      
-                      Locals: 4                      
-                      InitScopeDepth: 4                      
-                      MaxScopeDepth: 5                      
-                      Bytecode:                      
-                        operandStack: 3                        
-                        scopeStack:   1                        
-                        localCount:   4                        
-                        0 exception(s):                        
-                        32 operation(s):                        
-                                  +0|-0  DebugFile('/Users/bhall/Documents/Lab/hype/src;hype/framework/canvas/filter;BlurFilterScaler.as)                          
-                                  +0|-0  DebugLine(9)                          
-                                  +1|-0  GetLocal(0)                          
-                                  +0|-1  PushScope()                          
-                                  +0|-0  Debug(1,'filter,0,9)                          
-                                  +0|-0  Debug(1,'scale,1,9)                          
-                                  +0|-0  Debug(1,'blurFilter,2,10)                          
-                                  +0|-0  DebugLine(10)                          
-                                  +1|-0  GetLocal(1)                          
-                                  +1|-1  CallProperty(AbcQName('clone,AbcNamespace(22,')),0)                          
-                                  +1|-0  FindPropStrict(AbcQName('BlurFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +1|-1  GetProperty(AbcQName('BlurFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +1|-2  AsTypeLate()                          
-                                  +1|-1  Coerce(AbcQName('BlurFilter,AbcNamespace(22,'flash.filters)))                          
-                                  +0|-1  SetLocal(3)                          
-                                  +0|-0  DebugLine(12)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  Multiply()                          
-                                  +0|-2  SetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(13)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +1|-1  GetProperty(AbcQName('blurY,AbcNamespace(22,')))                          
-                                  +1|-0  GetLocal(2)                          
-                                  +1|-2  Multiply()                          
-                                  +0|-2  SetProperty(AbcQName('blurY,AbcNamespace(22,')))                          
-                                  +0|-0  DebugLine(15)                          
-                                  +1|-0  GetLocal(3)                          
-                                  +0|-1  ReturnValue()                          

@@ -1,30 +1,210 @@
 Abc:
-  1 method(s), 0 metadata, 0 type(s), 1 script(s)  
+  15 method(s), 24 metadata, 1 type(s), 1 script(s)  
   ConstantPool:  
-    1 integer(s):    
+    4 integer(s):    
       0      
+      32      
+      10      
+      128      
     1 uint(s):    
       0      
-    1 double(s):    
+    3 double(s):    
       NaN      
-    6 string(s):    
+      4.27819008E9      
+      4.294967295E9      
+    98 string(s):    
       "null"      
-      "E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;mx_internal.as"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter"      
       ""      
-      "mx.core"      
-      "mx_internal"      
-      "http://www.adobe.com/2006/flex/mx/internal"      
-    3 namespace(s):    
+      "/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as"      
+      "bitmap"      
+      "AdaptiveThresholdFilter_AdaptiveThreshold"      
+      "com.quasimondo.filters"      
+      "AdaptiveThreshold"      
+      "_referenceMap"      
+      "clone"      
+      "_blurredMap"      
+      "BlurFilter"      
+      "flash.filters"      
+      "_radius"      
+      "_blur"      
+      "rect"      
+      "topLeft"      
+      "applyFilter"      
+      "Shader"      
+      "flash.display"      
+      "ByteArray"      
+      "flash.utils"      
+      "_shader"      
+      "data"      
+      "tolerance"      
+      "AdaptiveThresholdFilter.as$161"      
+      "http://adobe.com/AS3/2006/builtin"      
+      "flash.filters:ShaderFilter"      
+      "flash.filters:BitmapFilter"      
+      "_tolerance"      
+      "_threshold"      
+      "value"      
+      "color1"      
+      "_foreground"      
+      "color2"      
+      "_background"      
+      "src2"      
+      "input"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/AdaptiveThresholdFilter"      
+      "BitmapData"      
+      "map"      
+      "dispose"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/bitmap/set"      
+      "void"      
+      "blurY"      
+      "blurX"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/radius/set"      
+      "Number"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/radius/get"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/threshold/set"      
+      "int"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/threshold/get"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/tolerance/set"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/tolerance/get"      
+      "color"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/foreground/set"      
+      "uint"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/foreground/get"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/background/set"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/background/get"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter/updateBlurMap"      
+      "Class"      
+      "__go_to_definition_help"      
+      "pos"      
+      "1619"      
+      "1669"      
+      "1704"      
+      "1740"      
+      "1776"      
+      "1813"      
+      "1859"      
+      "1905"      
+      "1946"      
+      "1985"      
+      "3021"      
+      "radius"      
+      "3298"      
+      "3503"      
+      "threshold"      
+      "3580"      
+      "3726"      
+      "3802"      
+      "3949"      
+      "foreground"      
+      "4025"      
+      "4342"      
+      "background"      
+      "4420"      
+      "4738"      
+      "updateBlurMap"      
+      "4812"      
+      "AdaptiveThresholdFilter"      
+      "ShaderFilter"      
+      "Object"      
+      "BitmapFilter"      
+      "__go_to_ctor_definition_help"      
+      "2026"      
+      "1469"      
+    14 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(22,'mx.core)      
-      AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)      
-    1 namespaceset(s):    
+      AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)      
+      AbcNamespace(22,'com.quasimondo.filters)      
+      AbcNamespace(22,')      
+      AbcNamespace(22,'flash.filters)      
+      AbcNamespace(22,'flash.display)      
+      AbcNamespace(22,'flash.utils)      
+      AbcNamespace(5,'AdaptiveThresholdFilter.as$161)      
+      AbcNamespace(23,'com.quasimondo.filters)      
+      AbcNamespace(8,'http://adobe.com/AS3/2006/builtin)      
+      AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter)      
+      AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter)      
+      AbcNamespace(26,'flash.filters:ShaderFilter)      
+      AbcNamespace(26,'flash.filters:BitmapFilter)      
+    3 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-    2 multiname(s):    
+      AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])      
+      AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)])      
+    48 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('mx_internal,AbcNamespace(22,'mx.core))      
+      AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters))      
+      AbcQName('AdaptiveThreshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('clone,AbcNamespace(22,'))      
+      AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('BlurFilter,AbcNamespace(22,'flash.filters))      
+      AbcQName('_radius,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('rect,AbcNamespace(22,'))      
+      AbcQName('topLeft,AbcNamespace(22,'))      
+      AbcQName('applyFilter,AbcNamespace(22,'))      
+      AbcQName('Shader,AbcNamespace(22,'flash.display))      
+      AbcQName('ByteArray,AbcNamespace(22,'flash.utils))      
+      AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('data,AbcNamespace(22,'))      
+      AbcMultiname('tolerance,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcMultiname('color1,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcMultiname('color2,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))      
+      AbcMultiname('src2,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcMultiname('input,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcQName('BitmapData,AbcNamespace(22,'flash.display))      
+      AbcQName('dispose,AbcNamespace(22,'))      
+      AbcQName('void,AbcNamespace(22,'))      
+      AbcQName('blurY,AbcNamespace(22,'))      
+      AbcQName('blurX,AbcNamespace(22,'))      
+      AbcQName('Number,AbcNamespace(22,'))      
+      AbcMultinameL(AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)]))      
+      AbcQName('int,AbcNamespace(22,'))      
+      AbcQName('uint,AbcNamespace(22,'))      
+      AbcQName('Class,AbcNamespace(22,'))      
+      AbcQName('bitmap,AbcNamespace(22,'))      
+      AbcQName('radius,AbcNamespace(22,'))      
+      AbcQName('threshold,AbcNamespace(22,'))      
+      AbcQName('tolerance,AbcNamespace(22,'))      
+      AbcQName('foreground,AbcNamespace(22,'))      
+      AbcQName('background,AbcNamespace(22,'))      
+      AbcQName('updateBlurMap,AbcNamespace(22,'))      
+      AbcQName('AdaptiveThresholdFilter,AbcNamespace(22,'com.quasimondo.filters))      
+      AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters))      
+      AbcMultiname('AdaptiveThresholdFilter,AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)]))      
+      AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters))      
   Functions:  
   Metadata:  
+    ['__go_to_definition_help('pos='1619)]    
+    ['__go_to_definition_help('pos='1669)]    
+    ['__go_to_definition_help('pos='1704)]    
+    ['__go_to_definition_help('pos='1740)]    
+    ['__go_to_definition_help('pos='1776)]    
+    ['__go_to_definition_help('pos='1813)]    
+    ['__go_to_definition_help('pos='1859)]    
+    ['__go_to_definition_help('pos='1905)]    
+    ['__go_to_definition_help('pos='1946)]    
+    ['__go_to_definition_help('pos='1985)]    
+    ['__go_to_definition_help('pos='3021)]    
+    ['__go_to_definition_help('pos='3298)]    
+    ['__go_to_definition_help('pos='3503)]    
+    ['__go_to_definition_help('pos='3580)]    
+    ['__go_to_definition_help('pos='3726)]    
+    ['__go_to_definition_help('pos='3802)]    
+    ['__go_to_definition_help('pos='3949)]    
+    ['__go_to_definition_help('pos='4025)]    
+    ['__go_to_definition_help('pos='4342)]    
+    ['__go_to_definition_help('pos='4420)]    
+    ['__go_to_definition_help('pos='4738)]    
+    ['__go_to_definition_help('pos='4812)]    
+    ['__go_to_ctor_definition_help('pos='2026)]    
+    ['__go_to_definition_help('pos='1469)]    
   Scripts:  
     Script:    
       Init:      
@@ -41,24 +221,1014 @@ Abc:
           Has Parameter Names: false          
           Parameters:          
           Method Body:          
-            Max Stack: 1            
+            Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 2            
+            MaxScopeDepth: 5            
             Bytecode:            
-              operandStack: 1              
-              scopeStack:   1              
+              operandStack: 2              
+              scopeStack:   4              
               localCount:   1              
               0 exception(s):              
-              5 operation(s):              
+              24 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;mx_internal.as)                
-                        +0|-0  DebugLine(12)                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                
+                        +0|-0  DebugLine(37)                
+                        +1|-0  FindPropStrict(AbcMultiname('AdaptiveThresholdFilter,AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)])))                
+                        +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
+                        +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters)))                
+                        +1|-1  GetProperty(AbcQName('BitmapFilter,AbcNamespace(22,'flash.filters)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters)))                
+                        +1|-1  GetProperty(AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters)))                
+                        +1|-1  GetProperty(AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AdaptiveThresholdFilter,AbcNamespace(22,'com.quasimondo.filters))]])                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('AdaptiveThresholdFilter,AbcNamespace(22,'com.quasimondo.filters)))                
+                        +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                
+                        +0|-0  DebugLine(30)                
                         +0|-0  ReturnVoid()                
       Traits:      
-        Trait Const:        
-          Name: AbcQName('mx_internal,AbcNamespace(22,'mx.core))          
+        Trait Class:        
+          Name: AbcQName('AdaptiveThresholdFilter,AbcNamespace(22,'com.quasimondo.filters))          
           Index: 0          
-          Type: AbcQName('null,AbcNamespace(0,'null))          
-          Value: AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)          
+          Metadata:          
+            ['__go_to_ctor_definition_help('pos='2026)]            
+            ['__go_to_definition_help('pos='1469)]            
+          Type:          
+            Class:             
+              Method:              
+                Name:                 
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 5                  
+                  MaxScopeDepth: 6                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    3 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('AdaptiveThresholdFilter,AbcNamespace(22,'com.quasimondo.filters))              
+              Base: AbcQName('ShaderFilter,AbcNamespace(22,'flash.filters))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter)              
+              Interfaces:               
+              Method:              
+                Name: com.quasimondo.filters:AdaptiveThresholdFilter/AdaptiveThresholdFilter                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: true                
+                Parameters:                
+                  Parameter:                   
+                    Name: bitmap                    
+                    Type: AbcQName('BitmapData,AbcNamespace(22,'flash.display))                    
+                    Optional: false                    
+                Method Body:                
+                  Max Stack: 6                  
+                  Locals: 2                  
+                  InitScopeDepth: 6                  
+                  MaxScopeDepth: 7                  
+                  Bytecode:                  
+                    operandStack: 6                    
+                    scopeStack:   1                    
+                    localCount:   2                    
+                    0 exception(s):                    
+                    167 operation(s):                    
+                              +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                      
+                              +0|-0  DebugLine(53)                      
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
+                              +0|-0  Debug(1,'bitmap,0,53)                      
+                              +0|-0  DebugLine(40)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters)))                      
+                              +1|-1  GetProperty(AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters)))                      
+                              +0|-2  InitProperty(AbcQName('AdaptiveThreshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-0  DebugLine(55)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +0|-2  InitProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-0  DebugLine(56)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(1)                      
+                              +1|-1  CallProperty(AbcQName('clone,AbcNamespace(22,')),0)                      
+                              +0|-2  InitProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-0  DebugLine(57)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('BlurFilter,AbcNamespace(22,'flash.filters)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_radius,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_radius,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(1)                      
+                              +1|-4  ConstructProp(AbcQName('BlurFilter,AbcNamespace(22,'flash.filters)),3)                      
+                              +0|-2  InitProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-0  DebugLine(58)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcQName('topLeft,AbcNamespace(22,')))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-5  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),4)                      
+                              +0|-1  Pop()                      
+                              +0|-0  DebugLine(60)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  FindPropStrict(AbcQName('Shader,AbcNamespace(22,'flash.display)))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  ConstructProp(AbcQName('AdaptiveThreshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)),0)                      
+                              +1|-0  FindPropStrict(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                      
+                              +1|-1  GetProperty(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                      
+                              +1|-2  AsTypeLate()                      
+                              +1|-2  ConstructProp(AbcQName('Shader,AbcNamespace(22,'flash.display)),1)                      
+                              +0|-2  InitProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-0  DebugLine(62)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcMultiname('tolerance,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushShort(765)                      
+                              +1|-2  Divide()                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +1|-2  NewArray(2)                      
+                              +0|-2  SetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(63)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcMultiname('color1,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(63)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(16)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(64)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(8)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(65)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(66)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(24)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +1|-4  NewArray(4)                      
+                              +0|-2  SetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(68)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcMultiname('color2,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(68)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(16)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(69)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(8)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(70)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +0|-0  DebugLine(71)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-0  PushByte(24)                      
+                              +1|-2  ShiftRightUnsigned()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  BitAnd()                      
+                              +1|-0  PushShort(255)                      
+                              +1|-2  Divide()                      
+                              +1|-4  NewArray(4)                      
+                              +0|-2  SetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(73)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                      
+                              +1|-1  GetProperty(AbcMultiname('src2,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-2  SetProperty(AbcMultiname('input,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                      
+                              +0|-0  DebugLine(75)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-0  GetLocal(0)                      
+                              +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                      
+                              +0|-2  ConstructSuper(1)                      
+                              +0|-0  DebugLine(76)                      
+                              +0|-0  ReturnVoid()                      
+              Traits:              
+                Trait Slot:                
+                  Name: AbcQName('AdaptiveThreshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('Class,AbcNamespace(22,'))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1619)]                    
+                Trait Slot:                
+                  Name: AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('Shader,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1669)]                    
+                Trait Slot:                
+                  Name: AbcQName('_radius,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('Number,AbcNamespace(22,'))                  
+                  Value: 32                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1704)]                    
+                Trait Slot:                
+                  Name: AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Value: 10                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1740)]                    
+                Trait Slot:                
+                  Name: AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('int,AbcNamespace(22,'))                  
+                  Value: 128                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1776)]                    
+                Trait Slot:                
+                  Name: AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Value: 4.27819008E9                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1813)]                    
+                Trait Slot:                
+                  Name: AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('uint,AbcNamespace(22,'))                  
+                  Value: 4.294967295E9                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1859)]                    
+                Trait Slot:                
+                  Name: AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('BitmapData,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1905)]                    
+                Trait Slot:                
+                  Name: AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('BitmapData,AbcNamespace(22,'flash.display))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1946)]                    
+                Trait Slot:                
+                  Name: AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter))                  
+                  Index: 0                  
+                  Type: AbcQName('BlurFilter,AbcNamespace(22,'flash.filters))                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='1985)]                    
+                Trait Setter:                
+                  Name: AbcQName('bitmap,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3021)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/bitmap/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: map                        
+                        Type: AbcQName('BitmapData,AbcNamespace(22,'flash.display))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        41 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(78)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'map,0,78)                          
+                                  +0|-0  DebugLine(80)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(81)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushNull()                          
+                                  +0|-2  IfEqual(L0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  CallProperty(AbcQName('dispose,AbcNamespace(22,')),0)                          
+                                  +0|-1  Pop()                          
+                          L0:     +0|-0  DebugLine(82)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +1|-1  CallProperty(AbcQName('clone,AbcNamespace(22,')),0)                          
+                                  +0|-2  InitProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(83)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('topLeft,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-5  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(84)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Setter:                
+                  Name: AbcQName('radius,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3298)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/radius/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: value                        
+                        Type: AbcQName('Number,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 3                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   3                        
+                        0 exception(s):                        
+                        35 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(86)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'value,0,86)                          
+                                  +0|-0  DebugLine(88)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(1)                          
+                                  +2|-1  Dup()                          
+                                  +0|-1  SetLocal(2)                          
+                                  +0|-2  SetProperty(AbcQName('blurY,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(2)                          
+                                  +0|-0  Kill(2)                          
+                                  +0|-2  SetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
+                                  +0|-0  DebugLine(89)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('topLeft,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-5  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(90)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('radius,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3503)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/radius/get                    
+                    Return Type: AbcQName('Number,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        9 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(92)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(94)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('blurX,AbcNamespace(22,')))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('threshold,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3580)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/threshold/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: value                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        23 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(97)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'value,0,97)                          
+                                  +0|-0  DebugLine(99)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(100)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcMultiname('tolerance,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +1|-1  GetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +1|-0  PushByte(1)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(101)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('threshold,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3726)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/threshold/get                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(103)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(105)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_threshold,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('tolerance,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3802)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/tolerance/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: value                        
+                        Type: AbcQName('int,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 4                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 4                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        23 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(108)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'value,0,108)                          
+                                  +0|-0  DebugLine(110)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(111)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcMultiname('tolerance,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +1|-1  GetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +1|-0  PushByte(0)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushShort(765)                          
+                                  +1|-2  Divide()                          
+                                  +0|-3  SetProperty(AbcMultinameL(AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(112)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('tolerance,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='3949)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/tolerance/get                    
+                    Return Type: AbcQName('int,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(114)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(116)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_tolerance,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('foreground,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='4025)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/foreground/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: color                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        52 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(119)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'color,0,119)                          
+                                  +0|-0  DebugLine(121)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(122)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcMultiname('color1,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(122)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(123)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(124)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(125)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(24)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +1|-4  NewArray(4)                          
+                                  +0|-2  SetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(126)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('foreground,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='4342)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/foreground/get                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(128)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(130)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_foreground,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Setter:                
+                  Name: AbcQName('background,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='4420)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/background/set                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: true                    
+                    Parameters:                    
+                      Parameter:                       
+                        Name: color                        
+                        Type: AbcQName('uint,AbcNamespace(22,'))                        
+                        Optional: false                        
+                    Method Body:                    
+                      Max Stack: 6                      
+                      Locals: 2                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 6                        
+                        scopeStack:   1                        
+                        localCount:   2                        
+                        0 exception(s):                        
+                        52 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(133)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  Debug(1,'color,0,133)                          
+                                  +0|-0  DebugLine(135)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-0  GetLocal(1)                          
+                                  +0|-2  InitProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-0  DebugLine(136)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_shader,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('data,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcMultiname('color2,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(136)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(16)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(137)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(8)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(138)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +0|-0  DebugLine(139)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  PushByte(24)                          
+                                  +1|-2  ShiftRightUnsigned()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  BitAnd()                          
+                                  +1|-0  PushShort(255)                          
+                                  +1|-2  Divide()                          
+                                  +1|-4  NewArray(4)                          
+                                  +0|-2  SetProperty(AbcMultiname('value,AbcNSSet([AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(22,'com.quasimondo.filters),AbcNamespace(22,'),AbcNamespace(22,'flash.display),AbcNamespace(5,'AdaptiveThresholdFilter.as$161),AbcNamespace(23,'com.quasimondo.filters),AbcNamespace(8,'http://adobe.com/AS3/2006/builtin),AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'com.quasimondo.filters:AdaptiveThresholdFilter),AbcNamespace(26,'flash.filters:ShaderFilter),AbcNamespace(26,'flash.filters:BitmapFilter)])))                          
+                                  +0|-0  DebugLine(140)                          
+                                  +0|-0  ReturnVoid()                          
+                Trait Getter:                
+                  Name: AbcQName('background,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='4738)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/background/get                    
+                    Return Type: AbcQName('uint,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 1                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 1                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        8 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(142)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(144)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_background,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +0|-1  ReturnValue()                          
+                Trait Method:                
+                  Name: AbcQName('updateBlurMap,AbcNamespace(22,'))                  
+                  Disp Id: 0                  
+                  Is Final: false                  
+                  Is Override: false                  
+                  Metadata:                  
+                    ['__go_to_definition_help('pos='4812)]                    
+                  Method:                  
+                    Name: com.quasimondo.filters:AdaptiveThresholdFilter/updateBlurMap                    
+                    Return Type: AbcQName('void,AbcNamespace(22,'))                    
+                    Needs Arguments: false                    
+                    Needs Rest: false                    
+                    Needs Activation: false                    
+                    Has Optional Parameters: false                    
+                    Ignore Rest: false                    
+                    Is Native: false                    
+                    DXNS: false                    
+                    Has Parameter Names: false                    
+                    Parameters:                    
+                    Method Body:                    
+                      Max Stack: 5                      
+                      Locals: 1                      
+                      InitScopeDepth: 6                      
+                      MaxScopeDepth: 7                      
+                      Bytecode:                      
+                        operandStack: 5                        
+                        scopeStack:   1                        
+                        localCount:   1                        
+                        0 exception(s):                        
+                        22 operation(s):                        
+                                  +0|-0  DebugFile('/workspaces/fdt_workspace/Hype-Pixel-Video/Pixel-Video/ext-src;com/quasimondo/filters;AdaptiveThresholdFilter.as)                          
+                                  +0|-0  DebugLine(147)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +0|-1  PushScope()                          
+                                  +0|-0  DebugLine(149)                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blurredMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_referenceMap,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-1  GetProperty(AbcQName('rect,AbcNamespace(22,')))                          
+                                  +1|-1  GetProperty(AbcQName('topLeft,AbcNamespace(22,')))                          
+                                  +1|-0  GetLocal(0)                          
+                                  +1|-1  GetProperty(AbcQName('_blur,AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter)))                          
+                                  +1|-5  CallProperty(AbcQName('applyFilter,AbcNamespace(22,')),4)                          
+                                  +0|-1  Pop()                          
+                                  +0|-0  DebugLine(150)                          
+                                  +0|-0  ReturnVoid()                          

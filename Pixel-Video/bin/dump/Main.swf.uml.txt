@@ -19,98 +19,110 @@ digraph G {
     arrowhead="empty"    
   ];  
   subgraph clusterP0{  
-    10 [label="{\<\<interface\>\>\nIColorist|colorChildren(: Sprite): void\lgetColor(): uint\l}"];    
-    label="hype.framework.color";    
+    31 [label="{\<\<interface\>\>\nITrigger|run(: Object): Boolean\l}"];    
+    22 [label="{AbstractTrigger|$ + manager: RhythmManager\l+ isRunning: Boolean \{read-only\}\l+ target: Object \{read-only\}\l- _method: Function\l- _target: Object\l|$ + removeTriggersFromObject(: Object): void \{final\}\l+ destroy(): void\l+ runTrigger(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l}"];    
+    label="hype.framework.trigger";    
   }  
   subgraph clusterP1{  
-    23 [label="{ThresholdBitmap|$ + ADAPTIVE: String = \"ADAPTIVE\" \{read-only\}\l$ + DISCRIMINANT: String = \"DISCRIMINANT\" \{read-only\}\l$ + ENTROPY: String = \"ENTROPY\" \{read-only\}\l$ + FIXED: String = \"FIXED\" \{read-only\}\l$ + MOMENT: String = \"MOMENT\" \{read-only\}\l$ + OTSU: String = \"OTSU\" \{read-only\}\l+ adaptiveRadius: Number\l+ adaptiveTolerance: int\l+ applyDespeckle: Boolean = false\l+ applyEdges: Boolean = false\l+ convertToGray: Boolean = true\l+ invert: Boolean = false\l+ mode: void\l+ smooth: void\l+ thresholdValue: void\l- _bitmap: BitmapData\l- _cnv2: ConvolutionFilter\l- _cnv: ConvolutionFilter\l- _ct: ColorTransform\l- _dsp: Array\l- _edg: Array\l- _histogram: Vector.\<Vector.\<Number\>\>\l- _inv: ConvolutionFilter\l- _mode: String\l- _probabilities: Vector.\<Number\>\l- _rgb2blue: ColorMatrixFilter\l- _th: Array\l- _threshold: int = 127\l- adaptiveThresholdFilter: AdaptiveThresholdFilter\l- origin: Point \{read-only\}\l- smoothFilter: BlurFilter \{read-only\}\l|+ render(): void\l- despeckle(): void\l- showEdges(): void\l}"];    
-    label="com.quasimondo.bitmapdata";    
+    25 [label="{SimpleCanvas|# _bitmapData: BitmapData\l# _canvasBlendMode: String = null\l# _canvasColorTransform: ColorTransform = null\l# _captureFlag: Boolean\l# _captureMethod: Function\l# _fillColor: uint\l# _matrix: Matrix\l# _rect: Rectangle\l# _rhythm: SimpleRhythm\l# _targetList: Array\l# _transparent: Boolean\l# _zeroPoint: Point\l+ bitmapData: BitmapData \{read-only\}\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
+    24 [label="{GridCanvas|# _border: int\l# _canvasBlendMode: String = null\l# _canvasColorTransform: ColorTransform = null\l# _captureFlag: Boolean\l# _captureMethod: Function\l# _fillColor: uint\l# _filterScalerTable: Object\l# _gridHeight: int\l# _gridList: Vector.\<BitmapData\>\l# _gridRect: Rectangle\l# _gridSize: int\l# _gridWidth: int\l# _matrix: Matrix\l# _rect: Rectangle\l# _rhythm: SimpleRhythm\l# _scaleFactor: Number = 1\l# _targetList: Array\l# _transparent: Boolean\l# _zeroPoint: Point\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ scaleFactor: Number\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ registerFilterScaler(: String, : IFilterScaler): void\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
+    7 [label="{\<\<interface\>\>\nICanvas|applyFilter(: BitmapFilter): void\lcapture(: Boolean = true): void\lclear(): void\lcolorTransform(: ColorTransform): void\lstartCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\lstopCapture(): Boolean\l}"];    
+    6 [label="{\<\<interface\>\>\nIEncodable|getPixel32(: int, : int): int\l}"];    
+    label="hype.framework.canvas";    
   }  
   subgraph clusterP2{  
-    22 [label="{KeyData|+ code: int\l+ isKeyCode: Boolean\l|}"];    
-    6 [label="{HotKey|# _charCodeTable: Object\l# _comboTable: Dictionary\l# _keyCodeTable: Object\l# _owner: InteractiveObject\l|# onKeyDown(: KeyboardEvent): void\l# onKeyUp(: KeyboardEvent): void\l# parseKey(: null): KeyData\l+ addHotKey(: Function, : null): void\l+ destroy(): void\l+ isCharDown(: String): Boolean\l+ isKeyDown(: uint): Boolean\l+ removeHotKey(: Function): Boolean\l}"];    
-    label="hype.framework.interactive";    
+    16 [label="{WebCamFeed|- _height: int\l- _width: int\l- bitmap: Bitmap\l- bmd: BitmapData\l- cam: Camera\l- thresholdData: ThresholdBitmap\l- video: Video\l|+ getColorAtPoint(: int, : int): uint\l+ takeSnapshot(): void\l- init(): void\l}"];    
+    label="com.andersonranch.project.webcam";    
   }  
   subgraph clusterP3{  
-    32 [label="{BlurFilterScaler||+ scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
-    31 [label="{GlowFilterScaler||+ scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
-    30 [label="{\<\<interface\>\>\nIFilterScaler|scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
-    label="hype.framework.canvas.filter";    
+    8 [label="{BitmapCanvas|# _bitmap: Bitmap\l# _canvas: SimpleCanvas\l# _canvasBlendMode: String\l# _canvasColorTransform: ColorTransform\l# _height: Number\l# _largeCanvas: GridCanvas\l# _matrix: Matrix\l# _width: Number\l+ bitmap: Bitmap \{read-only\}\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ largeCanvas: GridCanvas \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ setupLargeCanvas(: Number, : Matrix = null, : int = 1024, : int = 128): void\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
+    label="hype.framework.display";    
   }  
   subgraph clusterP4{  
-    29 [label="{Accessor\n\{final\}|+ getter: Function\l+ setter: Function\l|}"];    
-    25 [label="{ObjectNode\n\{final\}|+ next: ObjectNode\l+ obj: Object\l+ prev: ObjectNode\l|}"];    
-    17 [label="{ObjectSet\n\{final\}|+ length: int \{read-only\}\l- _head: ObjectNode\l- _length: int\l- _table: Dictionary\l- _tail: ObjectNode\l|+ clone(): ObjectSet\l+ complement(: ObjectSet): ObjectSet\l+ contains(: Object): Boolean\l+ destroy(): void\l+ filter(: Function): ObjectSet\l+ forEach(: Function): void\l+ insert(: Object): Boolean\l+ intersection(: ObjectSet): ObjectSet\l+ isSubset(: ObjectSet): Boolean\l+ pull(): Object\l+ remove(: Object): Boolean\l+ union(: ObjectSet): ObjectSet\l}"];    
-    16 [label="{TimeType|$ + ENTER_FRAME: String = \"enter_frame\" \{read-only\}\l$ + EXIT_FRAME: String = \"exit_frame\" \{read-only\}\l$ + TIME: String = \"time\" \{read-only\}\l|}"];    
+    4 [label="{PNGCanvasEncoder|# _IDAT: ByteArray\l# _crcTable: Array\l# _crop: Rectangle\l# _encodeRhythm: SimpleRhythm\l# _height: int\l# _img: IEncodable\l# _mode: int = 0\l# _png: ByteArray\l# _row: int\l# _width: int\l$ + FRAME_TIME: int = 35\l$ COMPRESS_MODE: int = 2 \{read-only\}\l$ ROW_MODE: int = 0 \{read-only\}\l$ WRITE_MODE: int = 3 \{read-only\}\l+ fileExtension: String \{redefines fileExtension\} \{read-only\}\l|# encodeOverTime(: SimpleRhythm): void\l# writeChunk(: ByteArray, : uint, : ByteArray): void\l+ encode(: IEncodable, : Rectangle = null): void \{redefines encode\}\l}"];    
+    3 [label="{AbstractCanvasEncoder|+ fileExtension: String \{read-only\}\l+ onEncodeComplete: Function\l+ onEncodeProgress: Function\l|+ encode(: IEncodable, : Rectangle = null): void\l}"];    
+    2 [label="{\<\<interface\>\>\nICanvasEncoder|encode(: IEncodable, : Rectangle = null): void\l}"];    
+    label="hype.framework.canvas.encoder";    
+  }  
+  subgraph clusterP5{  
+    41 [label="{ByteArrayAsset|$ VERSION: String = \"4.5.1.21328\" \{read-only\}\l|}"];    
+    40 [label="{\<\<interface\>\>\nIFlexAsset|}"];    
+    label="mx.core";    
+  }  
+  subgraph clusterP6{  
+    14 [label="{\<\<interface\>\>\nIColorist|colorChildren(: Sprite): void\lgetColor(): uint\l}"];    
+    label="hype.framework.color";    
+  }  
+  subgraph clusterP7{  
+    42 [label="{AdaptiveThresholdFilter_AdaptiveThreshold||}"];    
+    38 [label="{AdaptiveThresholdFilter|+ background: void\l+ bitmap: void \{write-only\}\l+ foreground: void\l+ radius: void\l+ threshold: void\l+ tolerance: void\l- AdaptiveThreshold: Class\l- _background: uint = 4.294967295E9\l- _blur: BlurFilter\l- _blurredMap: BitmapData\l- _foreground: uint = 4.27819008E9\l- _radius: Number = 32\l- _referenceMap: BitmapData\l- _shader: Shader\l- _threshold: int = 128\l- _tolerance: int = 10\l|+ updateBlurMap(): void\l}"];    
+    label="com.quasimondo.filters";    
+  }  
+  subgraph clusterP8{  
+    33 [label="{\<\<interface\>\>\nIBehavior|run(: Object): void\l}"];    
+    32 [label="{BehaviorStore|$ + isPaused: Boolean \{final\} \{read-only\}\l$ _pauseFlag: Boolean = false\l$ _table: Dictionary\l|$ + pause(): void \{final\}\l$ + remove(: Object, : String): Boolean \{final\}\l$ + resume(): void \{final\}\l$ + retrieve(: Object, : String): AbstractBehavior \{final\}\l$ + store(: AbstractBehavior, : String): void \{final\}\l}"];    
+    23 [label="{AbstractBehavior|# _target: Object\l$ + manager: RhythmManager\l$ _metaPropertyTable: Object\l+ isRunning: Boolean \{read-only\}\l+ target: Object \{read-only\}\l|# getProperty(: String): Number\l# setProperty(: String, : Number): void\l$ + addMetaProperty(: String, : Function, : Function): void \{final\}\l$ + getScale(: Object): Number \{final\}\l$ + removeBehaviorsFromObject(: Object): void \{final\}\l$ + setScale(: Object, : Number): void \{final\}\l+ destroy(): void\l+ resume(): Boolean\l+ runBehavior(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l+ store(: String): void\l}"];    
+    label="hype.framework.behavior";    
+  }  
+  subgraph clusterP9{  
+    28 [label="{ThresholdBitmap|$ + ADAPTIVE: String = \"ADAPTIVE\" \{read-only\}\l$ + DISCRIMINANT: String = \"DISCRIMINANT\" \{read-only\}\l$ + ENTROPY: String = \"ENTROPY\" \{read-only\}\l$ + FIXED: String = \"FIXED\" \{read-only\}\l$ + MOMENT: String = \"MOMENT\" \{read-only\}\l$ + OTSU: String = \"OTSU\" \{read-only\}\l+ adaptiveRadius: Number\l+ adaptiveTolerance: int\l+ applyDespeckle: Boolean = false\l+ applyEdges: Boolean = false\l+ convertToGray: Boolean = true\l+ invert: Boolean = false\l+ mode: void\l+ smooth: void\l+ thresholdValue: void\l- _bitmap: BitmapData\l- _cnv2: ConvolutionFilter\l- _cnv: ConvolutionFilter\l- _ct: ColorTransform\l- _dsp: Array\l- _edg: Array\l- _histogram: Vector.\<Vector.\<Number\>\>\l- _inv: ConvolutionFilter\l- _mode: String\l- _probabilities: Vector.\<Number\>\l- _rgb2blue: ColorMatrixFilter\l- _th: Array\l- _threshold: int = 127\l- adaptiveThresholdFilter: AdaptiveThresholdFilter\l- origin: Point \{read-only\}\l- smoothFilter: BlurFilter \{read-only\}\l|+ render(): void\l- despeckle(): void\l- showEdges(): void\l}"];    
+    label="com.quasimondo.bitmapdata";    
+  }  
+  subgraph clusterP10{  
+    34 [label="{Accessor\n\{final\}|+ getter: Function\l+ setter: Function\l|}"];    
+    30 [label="{ObjectNode\n\{final\}|+ next: ObjectNode\l+ obj: Object\l+ prev: ObjectNode\l|}"];    
+    21 [label="{ObjectSet\n\{final\}|+ length: int \{read-only\}\l- _head: ObjectNode\l- _length: int\l- _table: Dictionary\l- _tail: ObjectNode\l|+ clone(): ObjectSet\l+ complement(: ObjectSet): ObjectSet\l+ contains(: Object): Boolean\l+ destroy(): void\l+ filter(: Function): ObjectSet\l+ forEach(: Function): void\l+ insert(: Object): Boolean\l+ intersection(: ObjectSet): ObjectSet\l+ isSubset(: ObjectSet): Boolean\l+ pull(): Object\l+ remove(: Object): Boolean\l+ union(: ObjectSet): ObjectSet\l}"];    
+    20 [label="{TimeType|$ + ENTER_FRAME: String = \"enter_frame\" \{read-only\}\l$ + EXIT_FRAME: String = \"exit_frame\" \{read-only\}\l$ + TIME: String = \"time\" \{read-only\}\l|}"];    
     1 [label="{ObjectPool|# _activeSet: ObjectSet\l# _classList: Array\l# _count: uint\l# _inactiveSet: ObjectSet\l# _max: uint\l+ activeSet: ObjectSet \{read-only\}\l+ autoClean: Boolean = true\l+ isFull: Boolean \{read-only\}\l+ onCreateObject: Function\l+ onReleaseObject: Function\l+ onRequestObject: Function\l|# makeRandomObject(): Object\l+ addClass(: Class, : uint = 1): void\l+ destroy(): void\l+ release(: Object): Boolean\l+ request(): Object\l+ requestAll(): void\l}"];    
     label="hype.framework.core";    
   }  
-  subgraph clusterP5{  
-    2 [label="{CircleAsset||}"];    
-    0 [label="{Main|- bmc: BitmapCanvas\l- cam: WebCamFeed\l- checkRhythm: SimpleRhythm\l- colorPool: ColorPool\l- colorTransform: ColorTransform\l- hotKey: HotKey\l- isRunning: Boolean = false\l- objContainer: Sprite\l- objLayout: GridLayout\l- objPool: ObjectPool\l|- checkPointOnBitmap(: MovieClip): void\l- init(: Event): void\l- onPoolRequest(: MovieClip): void\l- startPixelCheck(: SimpleRhythm): void\l- swapState(): void\l}"];    
-    label="TopLevel";    
-  }  
-  subgraph clusterP6{  
-    11 [label="{ColorPool|# _colorList: Array\l# _colorTable: Object\l|+ addColor(: uint, : uint = 1): void\l+ colorChildren(: Sprite): void\l+ getColor(): uint\l+ hasColor(: uint): Boolean\l+ reset(): void\l}"];    
-    label="hype.extended.color";    
-  }  
-  subgraph clusterP7{  
-    26 [label="{\<\<interface\>\>\nITrigger|run(: Object): Boolean\l}"];    
-    18 [label="{AbstractTrigger|$ + manager: RhythmManager\l+ isRunning: Boolean \{read-only\}\l+ target: Object \{read-only\}\l- _method: Function\l- _target: Object\l|$ + removeTriggersFromObject(: Object): void \{final\}\l+ destroy(): void\l+ runTrigger(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l}"];    
-    label="hype.framework.trigger";    
-  }  
-  subgraph clusterP8{  
-    34 [label="{RhythmInfo|+ counter: uint\l+ interval: uint\l+ isRunning: Boolean\l+ method: Function\l+ next: RhythmInfo\l+ prev: RhythmInfo\l+ rhythm: Object\l+ timerId: int\l+ type: String\l- _manager: RhythmManager\l|+ destroy(): void\l+ toString(): String\l}"];    
-    24 [label="{RhythmManager|$ - instanceTable: Object\l- _enterFrameHead: RhythmInfo\l- _enterFrameTail: RhythmInfo\l- _exitFrameHead: RhythmInfo\l- _exitFrameTail: RhythmInfo\l- _helperSprite: Sprite\l- _processingFlag: Boolean\l- _removeList: Array\l- _rhythmTable: Dictionary\l|# processEnterFrame(: Event): void\l# processExitFrame(: Event): void\l# processRemovalQueue(): void\l$ + destroyManager(: String = \"default\"): void \{final\}\l$ + getManager(: String = \"default\"): RhythmManager \{final\}\l+ addRhythm(: Object, : Function = null): Boolean\l+ destroy(): void\l+ getRhythmInfo(: Object): RhythmInfo\l+ getRhythmsOfType(: Class): Array\l+ removeRhythm(: Object): Boolean\l+ startRhythm(: Object, : String = null, : int = -1): Boolean\l+ stopRhythm(: Object): Boolean\l+ toString(): String\l}"];    
-    15 [label="{SimpleRhythm|+ callback: void\l- _callback: Function\l|+ run(): void\l}"];    
-    14 [label="{\<\<interface\>\>\nIRhythm|run(): void\l}"];    
-    13 [label="{AbstractRhythm|$ + manager: RhythmManager\l+ isRunning: Boolean \{read-only\}\l|+ destroy(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l}"];    
-    label="hype.framework.rhythm";    
-  }  
-  subgraph clusterP9{  
-    28 [label="{\<\<interface\>\>\nIBehavior|run(: Object): void\l}"];    
-    27 [label="{BehaviorStore|$ + isPaused: Boolean \{final\} \{read-only\}\l$ _pauseFlag: Boolean = false\l$ _table: Dictionary\l|$ + pause(): void \{final\}\l$ + remove(: Object, : String): Boolean \{final\}\l$ + resume(): void \{final\}\l$ + retrieve(: Object, : String): AbstractBehavior \{final\}\l$ + store(: AbstractBehavior, : String): void \{final\}\l}"];    
-    19 [label="{AbstractBehavior|# _target: Object\l$ + manager: RhythmManager\l$ _metaPropertyTable: Object\l+ isRunning: Boolean \{read-only\}\l+ target: Object \{read-only\}\l|# getProperty(: String): Number\l# setProperty(: String, : Number): void\l$ + addMetaProperty(: String, : Function, : Function): void \{final\}\l$ + getScale(: Object): Number \{final\}\l$ + removeBehaviorsFromObject(: Object): void \{final\}\l$ + setScale(: Object, : Number): void \{final\}\l+ destroy(): void\l+ resume(): Boolean\l+ runBehavior(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l+ store(: String): void\l}"];    
-    label="hype.framework.behavior";    
-  }  
-  subgraph clusterP10{  
-    9 [label="{GridLayout|# _columns: uint\l# _index: uint\l# _x: Number\l# _xSpace: Number\l# _y: Number\l# _ySpace: Number\l|+ getNextPoint(): Point\l}"];    
-    label="hype.extended.layout";    
-  }  
   subgraph clusterP11{  
-    21 [label="{SimpleCanvas|# _bitmapData: BitmapData\l# _canvasBlendMode: String = null\l# _canvasColorTransform: ColorTransform = null\l# _captureFlag: Boolean\l# _captureMethod: Function\l# _fillColor: uint\l# _matrix: Matrix\l# _rect: Rectangle\l# _rhythm: SimpleRhythm\l# _targetList: Array\l# _transparent: Boolean\l# _zeroPoint: Point\l+ bitmapData: BitmapData \{read-only\}\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
-    20 [label="{GridCanvas|# _border: int\l# _canvasBlendMode: String = null\l# _canvasColorTransform: ColorTransform = null\l# _captureFlag: Boolean\l# _captureMethod: Function\l# _fillColor: uint\l# _filterScalerTable: Object\l# _gridHeight: int\l# _gridList: Vector.\<BitmapData\>\l# _gridRect: Rectangle\l# _gridSize: int\l# _gridWidth: int\l# _matrix: Matrix\l# _rect: Rectangle\l# _rhythm: SimpleRhythm\l# _scaleFactor: Number = 1\l# _targetList: Array\l# _transparent: Boolean\l# _zeroPoint: Point\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ scaleFactor: Number\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ registerFilterScaler(: String, : IFilterScaler): void\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
-    4 [label="{\<\<interface\>\>\nICanvas|applyFilter(: BitmapFilter): void\lcapture(: Boolean = true): void\lclear(): void\lcolorTransform(: ColorTransform): void\lstartCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\lstopCapture(): Boolean\l}"];    
-    3 [label="{\<\<interface\>\>\nIEncodable|getPixel32(: int, : int): int\l}"];    
-    label="hype.framework.canvas";    
+    26 [label="{KeyData|+ code: int\l+ isKeyCode: Boolean\l|}"];    
+    9 [label="{HotKey|# _charCodeTable: Object\l# _comboTable: Dictionary\l# _keyCodeTable: Object\l# _owner: InteractiveObject\l|# onKeyDown(: KeyboardEvent): void\l# onKeyUp(: KeyboardEvent): void\l# parseKey(: null): KeyData\l+ addHotKey(: Function, : null): void\l+ destroy(): void\l+ isCharDown(: String): Boolean\l+ isKeyDown(: uint): Boolean\l+ removeHotKey(: Function): Boolean\l}"];    
+    label="hype.framework.interactive";    
   }  
   subgraph clusterP12{  
-    5 [label="{BitmapCanvas|# _bitmap: Bitmap\l# _canvas: SimpleCanvas\l# _canvasBlendMode: String\l# _canvasColorTransform: ColorTransform\l# _height: Number\l# _largeCanvas: GridCanvas\l# _matrix: Matrix\l# _width: Number\l+ bitmap: Bitmap \{read-only\}\l+ canvasBlendMode: String\l+ canvasColorTransform: ColorTransform\l+ fillColor: int \{read-only\}\l+ isCapturing: Boolean \{read-only\}\l+ largeCanvas: GridCanvas \{read-only\}\l+ rect: Rectangle \{read-only\}\l+ transparent: Boolean \{read-only\}\l|+ applyFilter(: BitmapFilter): void\l+ capture(: Boolean = true): void\l+ clear(): void\l+ colorTransform(: ColorTransform): void\l+ getPixel32(: int, : int): int\l+ setupLargeCanvas(: Number, : Matrix = null, : int = 1024, : int = 128): void\l+ startCapture(: null, : Boolean = false, : String = \"enter_frame\", : int = 1): Boolean\l+ stopCapture(): Boolean\l}"];    
-    label="hype.framework.display";    
+    15 [label="{ColorPool|# _colorList: Array\l# _colorTable: Object\l|+ addColor(: uint, : uint = 1): void\l+ colorChildren(: Sprite): void\l+ getColor(): uint\l+ hasColor(: uint): Boolean\l+ reset(): void\l}"];    
+    label="hype.extended.color";    
   }  
   subgraph clusterP13{  
-    8 [label="{AbstractLayout||+ applyLayout(: DisplayObject): void\l}"];    
-    7 [label="{\<\<interface\>\>\nILayout|applyLayout(: DisplayObject): void\lgetNextPoint(): Point\l}"];    
-    label="hype.framework.layout";    
+    13 [label="{GridLayout|# _columns: uint\l# _index: uint\l# _x: Number\l# _xSpace: Number\l# _y: Number\l# _ySpace: Number\l|+ getNextPoint(): Point\l}"];    
+    label="hype.extended.layout";    
   }  
   subgraph clusterP14{  
-    12 [label="{WebCamFeed|- _height: int\l- _width: int\l- bitmap: Bitmap\l- bmd: BitmapData\l- cam: Camera\l- thresholdData: ThresholdBitmap\l- video: Video\l|+ getColorAtPoint(: int, : int): uint\l+ takeSnapshot(): void\l- init(): void\l}"];    
-    label="com.andersonranch.project.webcam";    
+    12 [label="{AbstractLayout||+ applyLayout(: DisplayObject): void\l}"];    
+    11 [label="{\<\<interface\>\>\nILayout|applyLayout(: DisplayObject): void\lgetNextPoint(): Point\l}"];    
+    label="hype.framework.layout";    
   }  
   subgraph clusterP15{  
-    36 [label="{ByteArrayAsset|$ VERSION: String = \"4.5.1.21328\" \{read-only\}\l|}"];    
-    35 [label="{\<\<interface\>\>\nIFlexAsset|}"];    
-    label="mx.core";    
+    5 [label="{CircleAsset||}"];    
+    0 [label="{Main|- bmc: BitmapCanvas\l- cam: WebCamFeed\l- capture: ContextSaveImage\l- checkRhythm: SimpleRhythm\l- colorPool: ColorPool\l- colorTransform: ColorTransform\l- hotKey: HotKey\l- isRunning: Boolean = false\l- objContainer: Sprite\l- objLayout: GridLayout\l- objPool: ObjectPool\l|- checkPointOnBitmap(: MovieClip): void\l- init(: Event): void\l- onPoolRequest(: MovieClip): void\l- startPixelCheck(: SimpleRhythm): void\l- swapState(): void\l}"];    
+    label="TopLevel";    
   }  
   subgraph clusterP16{  
-    37 [label="{AdaptiveThresholdFilter_AdaptiveThreshold||}"];    
-    33 [label="{AdaptiveThresholdFilter|+ background: void\l+ bitmap: void \{write-only\}\l+ foreground: void\l+ radius: void\l+ threshold: void\l+ tolerance: void\l- AdaptiveThreshold: Class\l- _background: uint = 4.294967295E9\l- _blur: BlurFilter\l- _blurredMap: BitmapData\l- _foreground: uint = 4.27819008E9\l- _radius: Number = 32\l- _referenceMap: BitmapData\l- _shader: Shader\l- _threshold: int = 128\l- _tolerance: int = 10\l|+ updateBlurMap(): void\l}"];    
-    label="com.quasimondo.filters";    
+    27 [label="{BitmapCanvasCompositor|# _canvasList: Array\l# _rect: Rectangle\l+ rect: Rectangle \{read-only\}\l|+ getPixel32(: int, : int): int\l}"];    
+    10 [label="{ContextSaveImage|# _busyOffset: int = 0\l# _busyRhythm: SimpleRhythm\l# _canvasList: Vector.\<BitmapCanvas\>\l# _data: ByteArray\l# _encodeItem: ContextMenuItem\l# _encodeMenu: ContextMenu\l# _encoder: AbstractCanvasEncoder\l# _fileReference: FileReference\l# _menuOwner: InteractiveObject\l# _progressDisplay: Sprite\l# _saveItem: ContextMenuItem\l# _saveMenu: ContextMenu\l# _stage: Stage\l# _waitItem: ContextMenuItem\l# _waitMenu: ContextMenu\l$ BAR_HEIGHT: Number = 5 \{read-only\}\l$ BAR_SEGMENTS: Number = 30 \{read-only\}\l$ BAR_STEP: Number = 4 \{read-only\}\l$ BAR_WIDTH: Number = 100 \{read-only\}\l+ onEncodeComplete: Function\l+ onEncodeProgress: Function\l+ onEncodeStart: Function\l+ onSaveCancel: Function\l+ onSaveComplete: Function\l+ onSaveError: Function\l|# drawBusy(: SimpleRhythm): void\l# onContextEncode(: ContextMenuEvent): void\l# onContextEncodeComplete(: ByteArray): void\l# onContextEncodeProgress(: Number): void\l# onContextSave(: ContextMenuEvent): void\l# onContextSaveCancel(: Event): void\l# onContextSaveComplete(: Event): void\l# onContextSaveError(: IOErrorEvent): void\l+ encode(): void\l}"];    
+    label="hype.extended.util";    
+  }  
+  subgraph clusterP17{  
+    37 [label="{BlurFilterScaler||+ scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
+    36 [label="{GlowFilterScaler||+ scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
+    35 [label="{\<\<interface\>\>\nIFilterScaler|scale(: BitmapFilter, : Number): BitmapFilter\l}"];    
+    label="hype.framework.canvas.filter";    
+  }  
+  subgraph clusterP18{  
+    39 [label="{RhythmInfo|+ counter: uint\l+ interval: uint\l+ isRunning: Boolean\l+ method: Function\l+ next: RhythmInfo\l+ prev: RhythmInfo\l+ rhythm: Object\l+ timerId: int\l+ type: String\l- _manager: RhythmManager\l|+ destroy(): void\l+ toString(): String\l}"];    
+    29 [label="{RhythmManager|$ - instanceTable: Object\l- _enterFrameHead: RhythmInfo\l- _enterFrameTail: RhythmInfo\l- _exitFrameHead: RhythmInfo\l- _exitFrameTail: RhythmInfo\l- _helperSprite: Sprite\l- _processingFlag: Boolean\l- _removeList: Array\l- _rhythmTable: Dictionary\l|# processEnterFrame(: Event): void\l# processExitFrame(: Event): void\l# processRemovalQueue(): void\l$ + destroyManager(: String = \"default\"): void \{final\}\l$ + getManager(: String = \"default\"): RhythmManager \{final\}\l+ addRhythm(: Object, : Function = null): Boolean\l+ destroy(): void\l+ getRhythmInfo(: Object): RhythmInfo\l+ getRhythmsOfType(: Class): Array\l+ removeRhythm(: Object): Boolean\l+ startRhythm(: Object, : String = null, : int = -1): Boolean\l+ stopRhythm(: Object): Boolean\l+ toString(): String\l}"];    
+    19 [label="{SimpleRhythm|+ callback: void\l- _callback: Function\l|+ run(): void\l}"];    
+    18 [label="{\<\<interface\>\>\nIRhythm|run(): void\l}"];    
+    17 [label="{AbstractRhythm|$ + manager: RhythmManager\l+ isRunning: Boolean \{read-only\}\l|+ destroy(): void\l+ start(: String = \"enter_frame\", : uint = 1): Boolean\l+ stop(): Boolean\l}"];    
+    label="hype.framework.rhythm";    
   }  
   edge[style="solid"];  
-  9 -> 8;  
-  15 -> 13;  
-  37 -> 36;  
+  4 -> 3;  
+  13 -> 12;  
+  19 -> 17;  
+  42 -> 41;  
   edge[style="dashed"];  
   label="Powered by Apparat - http://apparat.googlecode.com/";  
 }

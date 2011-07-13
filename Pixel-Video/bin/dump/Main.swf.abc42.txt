@@ -7,53 +7,47 @@ Abc:
       0      
     1 double(s):    
       NaN      
-    21 string(s):    
+    17 string(s):    
       "null"      
-      "mx.core:ByteArrayAsset"      
-      "VERSION"      
-      "http://www.adobe.com/2006/flex/mx/internal"      
-      "4.5.1.21328"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold"      
       ""      
-      "E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;ByteArrayAsset.as"      
-      "mx.core:ByteArrayAsset/ByteArrayAsset"      
-      "String"      
-      "__go_to_definition_help"      
-      "pos"      
-      "535"      
-      "IFlexAsset"      
+      "com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold/AdaptiveThresholdFilter_AdaptiveThreshold"      
+      "com.quasimondo.filters"      
+      "AdaptiveThresholdFilter_AdaptiveThreshold"      
       "mx.core"      
       "ByteArrayAsset"      
-      "flash.utils"      
-      "ByteArray"      
       "Object"      
+      "ByteArray"      
+      "flash.utils"      
+      "ExcludeClass"      
       "__go_to_ctor_definition_help"      
-      "3390"      
-      "2899"      
+      "pos"      
+      "635"      
+      "__go_to_definition_help"      
+      "537"      
     7 namespace(s):    
       AbcNamespace(0,'null)      
-      AbcNamespace(5,'mx.core:ByteArrayAsset)      
-      AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)      
-      AbcNamespace(22,')      
+      AbcNamespace(5,'com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold)      
+      AbcNamespace(22,'com.quasimondo.filters)      
       AbcNamespace(22,'mx.core)      
+      AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold)      
+      AbcNamespace(22,')      
       AbcNamespace(22,'flash.utils)      
-      AbcNamespace(24,'mx.core:ByteArrayAsset)      
     2 namespaceset(s):    
       AbcNSSet([AbcNamespace(0,'null)])      
-      AbcNSSet([AbcNamespace(22,'mx.core)])      
-    8 multiname(s):    
+      AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)])      
+    6 multiname(s):    
       AbcQName('null,AbcNamespace(0,'null))      
-      AbcQName('VERSION,AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal))      
-      AbcQName('String,AbcNamespace(22,'))      
-      AbcMultiname('IFlexAsset,AbcNSSet([AbcNamespace(22,'mx.core)]))      
+      AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters))      
       AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core))      
-      AbcQName('ByteArray,AbcNamespace(22,'flash.utils))      
-      AbcMultiname('ByteArrayAsset,AbcNSSet([AbcNamespace(22,'mx.core)]))      
+      AbcMultiname('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)]))      
       AbcQName('Object,AbcNamespace(22,'))      
+      AbcQName('ByteArray,AbcNamespace(22,'flash.utils))      
   Functions:  
   Metadata:  
-    ['__go_to_definition_help('pos='535)]    
-    ['__go_to_ctor_definition_help('pos='3390)]    
-    ['__go_to_definition_help('pos='2899)]    
+    ['ExcludeClass()]    
+    ['__go_to_ctor_definition_help('pos='635)]    
+    ['__go_to_definition_help('pos='537)]    
   Scripts:  
     Script:    
       Init:      
@@ -73,92 +67,45 @@ Abc:
             Max Stack: 2            
             Locals: 1            
             InitScopeDepth: 1            
-            MaxScopeDepth: 4            
+            MaxScopeDepth: 5            
             Bytecode:            
               operandStack: 2              
-              scopeStack:   3              
+              scopeStack:   4              
               localCount:   1              
               0 exception(s):              
               20 operation(s):              
                         +1|-0  GetLocal(0)                
                         +0|-1  PushScope()                
-                        +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;ByteArrayAsset.as)                
-                        +0|-0  DebugLine(71)                
-                        +1|-0  FindPropStrict(AbcMultiname('ByteArrayAsset,AbcNSSet([AbcNamespace(22,'mx.core)])))                
+                        +1|-0  FindPropStrict(AbcMultiname('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNSSet([AbcNamespace(22,'com.quasimondo.filters)])))                
                         +1|-0  FindPropStrict(AbcQName('Object,AbcNamespace(22,')))                
                         +1|-1  GetProperty(AbcQName('Object,AbcNamespace(22,')))                
                         +0|-1  PushScope()                
                         +1|-0  FindPropStrict(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                
                         +1|-1  GetProperty(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                
                         +0|-1  PushScope()                
-                        +1|-0  FindPropStrict(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                
-                        +1|-1  GetProperty(AbcQName('ByteArray,AbcNamespace(22,'flash.utils)))                
-                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core))]])                
+                        +1|-0  FindPropStrict(AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core)))                
+                        +1|-1  GetProperty(AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core)))                
+                        +0|-1  PushScope()                
+                        +1|-0  FindPropStrict(AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core)))                
+                        +1|-1  GetProperty(AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core)))                
+                        +1|-1  NewClass([AbcNominalType inst: [AbcInstance name: AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters))]])                
                         +0|-0  PopScope()                
                         +0|-0  PopScope()                
-                        +0|-2  InitProperty(AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core)))                
-                        +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;ByteArrayAsset.as)                
-                        +0|-0  DebugLine(12)                
+                        +0|-0  PopScope()                
+                        +0|-2  InitProperty(AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters)))                
                         +0|-0  ReturnVoid()                
       Traits:      
         Trait Class:        
-          Name: AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core))          
+          Name: AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters))          
           Index: 0          
           Metadata:          
-            ['__go_to_ctor_definition_help('pos='3390)]            
-            ['__go_to_definition_help('pos='2899)]            
+            ['ExcludeClass()]            
+            ['__go_to_ctor_definition_help('pos='635)]            
+            ['__go_to_definition_help('pos='537)]            
           Type:          
             Class:             
-              Traits:              
-                Trait Const:                
-                  Name: AbcQName('VERSION,AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal))                  
-                  Index: 1                  
-                  Type: AbcQName('String,AbcNamespace(22,'))                  
-                  Value: '4.5.1.21328                  
-                  Metadata:                  
-                    ['__go_to_definition_help('pos='535)]                    
               Method:              
                 Name:                 
-                Return Type: AbcQName('null,AbcNamespace(0,'null))                
-                Needs Arguments: false                
-                Needs Rest: false                
-                Needs Activation: false                
-                Has Optional Parameters: false                
-                Ignore Rest: false                
-                Is Native: false                
-                DXNS: false                
-                Has Parameter Names: false                
-                Parameters:                
-                Method Body:                
-                  Max Stack: 2                  
-                  Locals: 1                  
-                  InitScopeDepth: 4                  
-                  MaxScopeDepth: 5                  
-                  Bytecode:                  
-                    operandStack: 2                    
-                    scopeStack:   1                    
-                    localCount:   1                    
-                    0 exception(s):                    
-                    7 operation(s):                    
-                              +1|-0  GetLocal(0)                      
-                              +0|-1  PushScope()                      
-                              +0|-0  Debug(1,'VERSION,0,18)                      
-                              +1|-0  FindProperty(AbcQName('VERSION,AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)))                      
-                              +1|-0  PushString('4.5.1.21328)                      
-                              +0|-2  InitProperty(AbcQName('VERSION,AbcNamespace(8,'http://www.adobe.com/2006/flex/mx/internal)))                      
-                              +0|-0  ReturnVoid()                      
-            Instance:            
-              Name: AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core))              
-              Base: AbcQName('ByteArray,AbcNamespace(22,'flash.utils))              
-              Is Sealed: true              
-              Is Final: false              
-              Is Interface false              
-              Nullable: true              
-              Protected Namespace: AbcNamespace(24,'mx.core:ByteArrayAsset)              
-              Interfaces:               
-                AbcMultiname('IFlexAsset,AbcNSSet([AbcNamespace(22,'mx.core)]))                
-              Method:              
-                Name: mx.core:ByteArrayAsset/ByteArrayAsset                
                 Return Type: AbcQName('null,AbcNamespace(0,'null))                
                 Needs Arguments: false                
                 Needs Rest: false                
@@ -179,14 +126,44 @@ Abc:
                     scopeStack:   1                    
                     localCount:   1                    
                     0 exception(s):                    
-                    10 operation(s):                    
-                              +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;ByteArrayAsset.as)                      
-                              +0|-0  DebugLine(89)                      
+                    3 operation(s):                    
                               +1|-0  GetLocal(0)                      
                               +0|-1  PushScope()                      
-                              +0|-0  DebugFile('E:\dev\4.5.1\frameworks\projects\framework\src;mx\core;ByteArrayAsset.as)                      
-                              +0|-0  DebugLine(91)                      
+                              +0|-0  ReturnVoid()                      
+            Instance:            
+              Name: AbcQName('AdaptiveThresholdFilter_AdaptiveThreshold,AbcNamespace(22,'com.quasimondo.filters))              
+              Base: AbcQName('ByteArrayAsset,AbcNamespace(22,'mx.core))              
+              Is Sealed: true              
+              Is Final: false              
+              Is Interface false              
+              Nullable: true              
+              Protected Namespace: AbcNamespace(24,'com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold)              
+              Interfaces:               
+              Method:              
+                Name: com.quasimondo.filters:AdaptiveThresholdFilter_AdaptiveThreshold/AdaptiveThresholdFilter_AdaptiveThreshold                
+                Return Type: AbcQName('null,AbcNamespace(0,'null))                
+                Needs Arguments: false                
+                Needs Rest: false                
+                Needs Activation: false                
+                Has Optional Parameters: false                
+                Ignore Rest: false                
+                Is Native: false                
+                DXNS: false                
+                Has Parameter Names: false                
+                Parameters:                
+                Method Body:                
+                  Max Stack: 1                  
+                  Locals: 1                  
+                  InitScopeDepth: 6                  
+                  MaxScopeDepth: 7                  
+                  Bytecode:                  
+                    operandStack: 1                    
+                    scopeStack:   1                    
+                    localCount:   1                    
+                    0 exception(s):                    
+                    5 operation(s):                    
+                              +1|-0  GetLocal(0)                      
+                              +0|-1  PushScope()                      
                               +1|-0  GetLocal(0)                      
                               +0|-1  ConstructSuper(0)                      
-                              +0|-0  DebugLine(92)                      
                               +0|-0  ReturnVoid()                      
